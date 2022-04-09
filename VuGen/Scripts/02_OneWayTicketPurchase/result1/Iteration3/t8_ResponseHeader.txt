@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Thu, 07 Apr 2022 11:17:25 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: Wed, 06 Apr 2022 11:17:25 GMT
+Set-Cookie: MTUserInfo=firstName&Mark&username&strain&address2&Tucson&hash&78&address1&3866%20Farm%20Meadow%20Drive&lastName&Moore%0A; path=/
+Keep-Alive: timeout=5, max=88
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+

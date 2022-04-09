@@ -1,0 +1,17 @@
+POST /web-api/models/liza1?_m=messages HTTP/1.1
+Host: mail.yandex.ru
+Connection: keep-alive
+Content-Length: 752
+Accept: application/json, text/javascript, */*; q=0.01
+DNT: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36
+Content-Type: application/json; charset=utf-8
+Origin: https://mail.yandex.ru
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://mail.yandex.ru/service-worker?clid=2256450&from=dist_bookmark&uid=201121439&win=225
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: yandexuid=4879413561632641113; yuidss=4879413561632641113; ymex=1948001183.yrts.1632641183#1948001183.yrtsi.1632641183; is_gdpr=0; gdpr=0; _ym_uid=1632642798647894685; is_gdpr_b=CMm0CBDaRygC; L=e15kd0VKWloGR3NCUlcLe1RmAlQKfG1OJSMVCAUrfAUmGn9ZcQ==.1632651956.14740.327684.f8a5d21b1b9d2a6b8171964bcaf27d8f; yandex_login=ageeff.ser220; i=Ku0C5QfMa56RMxB/A3H3zsTTL+Tw7n55+dp9m0Qj79/r5IjWF/oF6wRuF1O9zo0K41oww4poQaGEeRAFghbV9X2nzY8=; my=YwA=; yp=1948011956.udn.cDrQodC10YDQs9C10Lk%3D#1649564641.szm.1_25:1536x864:1536x722#1641752816.ygu.1#1639420016.clh.2327486; _ym_d=1640945026; skid=7795696381641037791; yabs-frequency=/5/0000000000000000/iY-PFDtI_ssRHFp____QagJCGnBgSfX48000/; instruction=1; ys=udn.cDrQodC10YDQs9C10Lk%3D#c_chck.1275550386; stngs=stngs.1%3Anewspaper%3A0%3Atrue%3Atrue; _skin=lite; y360w.xpnd.201121439=0; ymai_iale=1; Session_id=3:1648349659.5.0.1632651956568:IAb4sg:1a.1.2:1|201121439.0.2|3:250027.334964.3l8zUmge3D2bsHmTCSloqJUQJFg; sessionid2=3:1648349659.5.0.1632651956568:IAb4sg:1a.1.2:1|201121439.0.2|3:250027.334964.3l8zUmge3D2bsHmTCSloqJUQJFg; _yasc=ErAjLpig8OVi0OQrTUlzzxmuYzdLZg8QLVwrj5l9+bKRz4skwK0UQNeTHbRb2h2Z
+

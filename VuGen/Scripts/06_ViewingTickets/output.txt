@@ -1,0 +1,2119 @@
+Virtual User Script started at: 06.04.2022 20:27:39
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2020.0.0 for Windows 10; build 793 (ноя 27 2019 19:51:20)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\ageef\Documents\VuGen\Scripts\06_ViewingTickets\\default.cfg"  	[MsgId: MMSG-27141]
+Vuser directory: "C:\Users\ageef\Documents\VuGen\Scripts\06_ViewingTickets"  	[MsgId: MMSG-27052]
+Vuser output directory: "C:\Users\ageef\Documents\VuGen\Scripts\06_ViewingTickets"  	[MsgId: MMSG-27050]
+Operating system's current working directory: "c:\users\ageef\documents\vugen\scripts\06_viewingtickets"  	[MsgId: MMSG-27048]
+UTC (GMT) start date/time   : 2022-04-06 15:27:39  	[MsgId: MMSG-26992]
+LOCAL start date/time       : 2022-04-06 20:27:39  	[MsgId: MMSG-26991]
+Local daylight-Savings-Time : No  	[MsgId: MMSG-26990]
+Some of the Runtime Settings:  	[MsgId: MMSG-27142]
+    Download non-HTML resources: Yes  	[MsgId: MMSG-27018]
+    Verification checks: No  	[MsgId: MMSG-27017]
+    Convert from/to UTF-8: No  	[MsgId: MMSG-27016]
+    Simulate a new user each iteration: Yes  	[MsgId: MMSG-27009]
+    Non-critical item errors as warnings: Yes  	[MsgId: MMSG-27008]
+    HTTP errors as warnings: No  	[MsgId: MMSG-27007]
+    WinInet replay instead of Sockets: No  	[MsgId: MMSG-27006]
+    HTTP version: 1.1  	[MsgId: MMSG-27005]
+    Keep-Alive HTTP connections: Yes  	[MsgId: MMSG-27004]
+    Max self Meta refresh updates: 2  	[MsgId: MMSG-27003]
+    No proxy is used (direct connection to the Internet)  	[MsgId: MMSG-27171]
+    DNS caching: Yes  	[MsgId: MMSG-27035]
+    Simulate browser cache: Yes  	[MsgId: MMSG-27034]
+        Cache URLs requiring content (e.g., HTMLs): Yes  	[MsgId: MMSG-27033]
+            Additional URLs requiring content: None  	[MsgId: MMSG-27032]
+        Check for newer versions every visit to the page: No  	[MsgId: MMSG-27031]
+    Page download timeout (sec): 120  	[MsgId: MMSG-27030]
+    Resource Page Timeout is a Warning: No  	[MsgId: MMSG-27029]
+    ContentCheck enabled: Yes  	[MsgId: MMSG-27028]
+    ContentCheck script-level file: "C:\Users\ageef\Documents\VuGen\Scripts\06_ViewingTickets\LrwiAedScript.xml"  	[MsgId: MMSG-27027]
+    Enable Web Page Breakdown: Yes  	[MsgId: MMSG-27026]
+    Enable connection data points: Yes  	[MsgId: MMSG-27023]
+    Process socket after reschedule: Yes  	[MsgId: MMSG-27022]
+    Snapshot on error: No  	[MsgId: MMSG-27021]
+    Define each step as a transaction: No  	[MsgId: MMSG-27020]
+    Read beyond Content-Length: No  	[MsgId: MMSG-26994]
+    Parse HTML Content-Type: TEXT  	[MsgId: MMSG-26999]
+    Graph hits per second and HTTP status codes: Yes  	[MsgId: MMSG-26998]
+    Graph response bytes per second: Yes  	[MsgId: MMSG-26997]
+    Graph pages per second: No  	[MsgId: MMSG-26996]
+    Web recorder version ID: 10  	[MsgId: MMSG-26995]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(4): Notify: Transaction "06_ViewingTickets" started.
+..\\..\\Library\\common_lib.h(3): Notify: Transaction "HomePage" started.
+..\\..\\Library\\common_lib.h(5): web_reg_find started  	[MsgId: MMSG-26355]
+..\\..\\Library\\common_lib.h(5): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+..\\..\\Library\\common_lib.h(8): web_set_sockets_option started  	[MsgId: MMSG-26355]
+..\\..\\Library\\common_lib.h(8): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+..\\..\\Library\\common_lib.h(10): web_add_cookie started  	[MsgId: MMSG-26355]
+..\\..\\Library\\common_lib.h(10): web_add_cookie was successful  	[MsgId: MMSG-26392]
+..\\..\\Library\\common_lib.h(12): web_add_auto_header("DNT") started  	[MsgId: MMSG-26355]
+..\\..\\Library\\common_lib.h(12): An unrecognized header ("DNT") is being added  	[MsgId: MMSG-26595]
+..\\..\\Library\\common_lib.h(12): "DNT: 1" header registered for adding to requests from all following Action functions  	[MsgId: MMSG-26505]
+..\\..\\Library\\common_lib.h(12): web_add_auto_header("DNT") was successful  	[MsgId: MMSG-26392]
+..\\..\\Library\\common_lib.h(15): web_add_auto_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
+..\\..\\Library\\common_lib.h(15): An unrecognized header ("Sec-Fetch-Dest") is being added  	[MsgId: MMSG-26595]
+..\\..\\Library\\common_lib.h(15): "Sec-Fetch-Dest: frame" header registered for adding to requests from all following Action functions  	[MsgId: MMSG-26505]
+..\\..\\Library\\common_lib.h(15): web_add_auto_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26392]
+..\\..\\Library\\common_lib.h(18): web_add_auto_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
+..\\..\\Library\\common_lib.h(18): An unrecognized header ("Sec-Fetch-Mode") is being added  	[MsgId: MMSG-26595]
+..\\..\\Library\\common_lib.h(18): "Sec-Fetch-Mode: navigate" header registered for adding to requests from all following Action functions  	[MsgId: MMSG-26505]
+..\\..\\Library\\common_lib.h(18): web_add_auto_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
+..\\..\\Library\\common_lib.h(21): web_add_auto_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
+..\\..\\Library\\common_lib.h(21): An unrecognized header ("Sec-Fetch-Site") is being added  	[MsgId: MMSG-26595]
+..\\..\\Library\\common_lib.h(21): "Sec-Fetch-Site: same-origin" header registered for adding to requests from all following Action functions  	[MsgId: MMSG-26505]
+..\\..\\Library\\common_lib.h(21): web_add_auto_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
+..\\..\\Library\\common_lib.h(24): web_add_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+..\\..\\Library\\common_lib.h(24): An unrecognized header ("Upgrade-Insecure-Requests") is being added  	[MsgId: MMSG-26595]
+..\\..\\Library\\common_lib.h(24): "Upgrade-Insecure-Requests: 1" header registered for adding to requests from all following Action functions  	[MsgId: MMSG-26505]
+..\\..\\Library\\common_lib.h(24): web_add_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+..\\..\\Library\\common_lib.h(27): web_add_auto_header("sec-ch-ua") started  	[MsgId: MMSG-26355]
+..\\..\\Library\\common_lib.h(27): An unrecognized header ("sec-ch-ua") is being added  	[MsgId: MMSG-26595]
+..\\..\\Library\\common_lib.h(27): "sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"" header registered for adding to requests from all following Action functions  	[MsgId: MMSG-26505]
+..\\..\\Library\\common_lib.h(27): web_add_auto_header("sec-ch-ua") was successful  	[MsgId: MMSG-26392]
+..\\..\\Library\\common_lib.h(30): web_add_auto_header("sec-ch-ua-mobile") started  	[MsgId: MMSG-26355]
+..\\..\\Library\\common_lib.h(30): An unrecognized header ("sec-ch-ua-mobile") is being added  	[MsgId: MMSG-26595]
+..\\..\\Library\\common_lib.h(30): "sec-ch-ua-mobile: ?0" header registered for adding to requests from all following Action functions  	[MsgId: MMSG-26505]
+..\\..\\Library\\common_lib.h(30): web_add_auto_header("sec-ch-ua-mobile") was successful  	[MsgId: MMSG-26392]
+..\\..\\Library\\common_lib.h(33): web_add_auto_header("sec-ch-ua-platform") started  	[MsgId: MMSG-26355]
+..\\..\\Library\\common_lib.h(33): An unrecognized header ("sec-ch-ua-platform") is being added  	[MsgId: MMSG-26595]
+..\\..\\Library\\common_lib.h(33): "sec-ch-ua-platform: "Windows"" header registered for adding to requests from all following Action functions  	[MsgId: MMSG-26505]
+..\\..\\Library\\common_lib.h(33): web_add_auto_header("sec-ch-ua-platform") was successful  	[MsgId: MMSG-26392]
+..\\..\\Library\\common_lib.h(37): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+..\\..\\Library\\common_lib.h(37): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+..\\..\\Library\\common_lib.h(48): web_url("welcome.pl") started  	[MsgId: MMSG-26355]
+..\\..\\Library\\common_lib.h(48): t=288ms: Connecting [0] to host 127.0.0.1:1080  	[MsgId: MMSG-26000]
+..\\..\\Library\\common_lib.h(48): t=289ms: Connected socket [0] from 127.0.0.1:20858 to 127.0.0.1:1080 in 1 ms  	[MsgId: MMSG-26000]
+..\\..\\Library\\common_lib.h(48): t=289ms: 642-byte request headers for "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true" (RelFrameId=1, Internal ID=1)
+..\\..\\Library\\common_lib.h(48):     GET /cgi-bin/welcome.pl?signOff=true HTTP/1.1\r\n
+..\\..\\Library\\common_lib.h(48):     Referer: http://127.0.0.1:1080/WebTours/\r\n
+..\\..\\Library\\common_lib.h(48):     DNT: 1\r\n
+..\\..\\Library\\common_lib.h(48):     Sec-Fetch-Dest: frame\r\n
+..\\..\\Library\\common_lib.h(48):     Sec-Fetch-Mode: navigate\r\n
+..\\..\\Library\\common_lib.h(48):     Sec-Fetch-Site: same-origin\r\n
+..\\..\\Library\\common_lib.h(48):     Upgrade-Insecure-Requests: 1\r\n
+..\\..\\Library\\common_lib.h(48):     sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"\r\n
+..\\..\\Library\\common_lib.h(48):     sec-ch-ua-mobile: ?0\r\n
+..\\..\\Library\\common_lib.h(48):     sec-ch-ua-platform: "Windows"\r\n
+..\\..\\Library\\common_lib.h(48):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+..\\..\\Library\\common_lib.h(48):     o) Chrome/99.0.4844.82 Safari/537.36\r\n
+..\\..\\Library\\common_lib.h(48):     Accept-Encoding: gzip, deflate, br\r\n
+..\\..\\Library\\common_lib.h(48):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+..\\..\\Library\\common_lib.h(48):     Accept: */*\r\n
+..\\..\\Library\\common_lib.h(48):     Connection: Keep-Alive\r\n
+..\\..\\Library\\common_lib.h(48):     Host: 127.0.0.1:1080\r\n
+..\\..\\Library\\common_lib.h(48):     Cookie: MSO=SID&1648654384\r\n
+..\\..\\Library\\common_lib.h(48):     \r\n
+..\\..\\Library\\common_lib.h(48): t=349ms: 328-byte response headers for "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true" (RelFrameId=1, Internal ID=1)
+..\\..\\Library\\common_lib.h(48):     HTTP/1.1 200 OK\r\n
+..\\..\\Library\\common_lib.h(48):     Date: Wed, 06 Apr 2022 15:27:39 GMT\r\n
+..\\..\\Library\\common_lib.h(48):     Server: Apache/2.2.21 (Win32)\r\n
+..\\..\\Library\\common_lib.h(48):     Set-Cookie: MSO=SID&1649258860; path=/\r\n
+..\\..\\Library\\common_lib.h(48):     Set-Cookie: MTUserInfo=; path=/; expires=Tue, 05-Apr-2022 15:27:40 GMT\r\n
+..\\..\\Library\\common_lib.h(48):     Keep-Alive: timeout=5, max=100\r\n
+..\\..\\Library\\common_lib.h(48):     Connection: Keep-Alive\r\n
+..\\..\\Library\\common_lib.h(48):     Transfer-Encoding: chunked\r\n
+..\\..\\Library\\common_lib.h(48):     Content-Type: text/html; charset=ISO-8859-1\r\n
+..\\..\\Library\\common_lib.h(48):     \r\n
+..\\..\\Library\\common_lib.h(48): t=353ms: 5-byte chunked response overhead for "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true" (RelFrameId=1, Internal ID=1)
+..\\..\\Library\\common_lib.h(48):     2ae\r\n
+..\\..\\Library\\common_lib.h(48): t=353ms: 7-byte chunked response overhead for "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true" (RelFrameId=1, Internal ID=1)
+..\\..\\Library\\common_lib.h(48):     \r\n
+..\\..\\Library\\common_lib.h(48):     0\r\n
+..\\..\\Library\\common_lib.h(48):     \r\n
+..\\..\\Library\\common_lib.h(48): t=357ms: 686-byte chunked response body for "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true" (RelFrameId=1, Internal ID=1)
+..\\..\\Library\\common_lib.h(48):     <!-- \n
+..\\..\\Library\\common_lib.h(48):      A Session ID has been created and loaded into a cookie called MSO.\n
+..\\..\\Library\\common_lib.h(48):      Also, the server options have been loaded into the cookie called\n
+..\\..\\Library\\common_lib.h(48):      MSO as well.  The server options can be set via the Admin page.\n
+..\\..\\Library\\common_lib.h(48):      --->\n
+..\\..\\Library\\common_lib.h(48):     \n
+..\\..\\Library\\common_lib.h(48):     <html>\n
+..\\..\\Library\\common_lib.h(48):     <title>Web Tours</title>\n
+..\\..\\Library\\common_lib.h(48):        <!-- Frame Set -->\n
+..\\..\\Library\\common_lib.h(48):        <frameset cols="160,*" border="1" frameborder="1">\n
+..\\..\\Library\\common_lib.h(48):           <!-- Navigation Frame -->\n
+..\\..\\Library\\common_lib.h(48):           <frame src="nav.pl?in=home" name="navbar" marginheight="2" marginwidth="2" \n
+..\\..\\Library\\common_lib.h(48):                 noresize="noresize" scrolling="auto"/>\n
+..\\..\\Library\\common_lib.h(48):           <!-- Home Frame -->\n
+..\\..\\Library\\common_lib.h(48):           <frame src="/WebTours/home.html" name="info" marginheight="2" marginwidth="2" \n
+..\\..\\Library\\common_lib.h(48):                 noresize="noresize" scrolling="auto"/>\n
+..\\..\\Library\\common_lib.h(48):        </frameset>\n
+..\\..\\Library\\common_lib.h(48):     </html>\n
+..\\..\\Library\\common_lib.h(48):     \n
+..\\..\\Library\\common_lib.h(48):     </body>\n
+..\\..\\Library\\common_lib.h(48):     </html>
+..\\..\\Library\\common_lib.h(48): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+..\\..\\Library\\common_lib.h(48): Detected non-resource "http://127.0.0.1:1080/WebTours/home.html" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+..\\..\\Library\\common_lib.h(48): t=361ms: Request done "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26000]
+..\\..\\Library\\common_lib.h(48): Search registration for "userSession" parameter is filtered by "Request URL"  	[MsgId: MMSG-26000]
+..\\..\\Library\\common_lib.h(48): t=373ms: Connecting [1] to host 127.0.0.1:1080  	[MsgId: MMSG-26000]
+..\\..\\Library\\common_lib.h(48): t=373ms: Connecting [2] to host 127.0.0.1:1080  	[MsgId: MMSG-26000]
+..\\..\\Library\\common_lib.h(48): t=373ms: Connected socket [1] from 127.0.0.1:20859 to 127.0.0.1:1080 in 0 ms  	[MsgId: MMSG-26000]
+..\\..\\Library\\common_lib.h(48): t=374ms: 655-byte request headers for "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=2)
+..\\..\\Library\\common_lib.h(48):     GET /cgi-bin/nav.pl?in=home HTTP/1.1\r\n
+..\\..\\Library\\common_lib.h(48):     Referer: http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true\r\n
+..\\..\\Library\\common_lib.h(48):     DNT: 1\r\n
+..\\..\\Library\\common_lib.h(48):     Sec-Fetch-Dest: frame\r\n
+..\\..\\Library\\common_lib.h(48):     Sec-Fetch-Mode: navigate\r\n
+..\\..\\Library\\common_lib.h(48):     Sec-Fetch-Site: same-origin\r\n
+..\\..\\Library\\common_lib.h(48):     Upgrade-Insecure-Requests: 1\r\n
+..\\..\\Library\\common_lib.h(48):     sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"\r\n
+..\\..\\Library\\common_lib.h(48):     sec-ch-ua-mobile: ?0\r\n
+..\\..\\Library\\common_lib.h(48):     sec-ch-ua-platform: "Windows"\r\n
+..\\..\\Library\\common_lib.h(48):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+..\\..\\Library\\common_lib.h(48):     o) Chrome/99.0.4844.82 Safari/537.36\r\n
+..\\..\\Library\\common_lib.h(48):     Accept-Encoding: gzip, deflate, br\r\n
+..\\..\\Library\\common_lib.h(48):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+..\\..\\Library\\common_lib.h(48):     Accept: */*\r\n
+..\\..\\Library\\common_lib.h(48):     Connection: Keep-Alive\r\n
+..\\..\\Library\\common_lib.h(48):     Host: 127.0.0.1:1080\r\n
+..\\..\\Library\\common_lib.h(48):     Cookie: MSO=SID&1649258860\r\n
+..\\..\\Library\\common_lib.h(48):     \r\n
+..\\..\\Library\\common_lib.h(48): t=374ms: Connected socket [2] from 127.0.0.1:20860 to 127.0.0.1:1080 in 1 ms  	[MsgId: MMSG-26000]
+..\\..\\Library\\common_lib.h(48): t=374ms: 651-byte request headers for "http://127.0.0.1:1080/WebTours/home.html" (RelFrameId=1.2, Internal ID=3)
+..\\..\\Library\\common_lib.h(48):     GET /WebTours/home.html HTTP/1.1\r\n
+..\\..\\Library\\common_lib.h(48):     Referer: http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true\r\n
+..\\..\\Library\\common_lib.h(48):     DNT: 1\r\n
+..\\..\\Library\\common_lib.h(48):     Sec-Fetch-Dest: frame\r\n
+..\\..\\Library\\common_lib.h(48):     Sec-Fetch-Mode: navigate\r\n
+..\\..\\Library\\common_lib.h(48):     Sec-Fetch-Site: same-origin\r\n
+..\\..\\Library\\common_lib.h(48):     Upgrade-Insecure-Requests: 1\r\n
+..\\..\\Library\\common_lib.h(48):     sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"\r\n
+..\\..\\Library\\common_lib.h(48):     sec-ch-ua-mobile: ?0\r\n
+..\\..\\Library\\common_lib.h(48):     sec-ch-ua-platform: "Windows"\r\n
+..\\..\\Library\\common_lib.h(48):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+..\\..\\Library\\common_lib.h(48):     o) Chrome/99.0.4844.82 Safari/537.36\r\n
+..\\..\\Library\\common_lib.h(48):     Accept-Encoding: gzip, deflate, br\r\n
+..\\..\\Library\\common_lib.h(48):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+..\\..\\Library\\common_lib.h(48):     Accept: */*\r\n
+..\\..\\Library\\common_lib.h(48):     Connection: Keep-Alive\r\n
+..\\..\\Library\\common_lib.h(48):     Host: 127.0.0.1:1080\r\n
+..\\..\\Library\\common_lib.h(48):     Cookie: MSO=SID&1649258860\r\n
+..\\..\\Library\\common_lib.h(48):     \r\n
+..\\..\\Library\\common_lib.h(48): t=377ms: 299-byte response headers for "http://127.0.0.1:1080/WebTours/home.html" (RelFrameId=1.2, Internal ID=3)
+..\\..\\Library\\common_lib.h(48):     HTTP/1.1 200 OK\r\n
+..\\..\\Library\\common_lib.h(48):     Date: Wed, 06 Apr 2022 15:27:40 GMT\r\n
+..\\..\\Library\\common_lib.h(48):     Server: Apache/2.2.21 (Win32)\r\n
+..\\..\\Library\\common_lib.h(48):     Last-Modified: Sat, 26 Mar 2022 07:29:11 GMT\r\n
+..\\..\\Library\\common_lib.h(48):     ETag: "600000001c664-551-5db1a0912e433"\r\n
+..\\..\\Library\\common_lib.h(48):     Accept-Ranges: bytes\r\n
+..\\..\\Library\\common_lib.h(48):     Content-Length: 1361\r\n
+..\\..\\Library\\common_lib.h(48):     Keep-Alive: timeout=5, max=100\r\n
+..\\..\\Library\\common_lib.h(48):     Connection: Keep-Alive\r\n
+..\\..\\Library\\common_lib.h(48):     Content-Type: text/html\r\n
+..\\..\\Library\\common_lib.h(48):     \r\n
+..\\..\\Library\\common_lib.h(48): t=378ms: 1361-byte response body for "http://127.0.0.1:1080/WebTours/home.html" (RelFrameId=1.2, Internal ID=3)
+..\\..\\Library\\common_lib.h(48):     <HTML>\n
+..\\..\\Library\\common_lib.h(48):     <HEAD>\n
+..\\..\\Library\\common_lib.h(48):     \t<title>Web Tours</title>\n
+..\\..\\Library\\common_lib.h(48):     </HEAD>\n
+..\\..\\Library\\common_lib.h(48):     <style>\n
+..\\..\\Library\\common_lib.h(48):     \tblockquote {font-family: tahoma; font-size : 10pt}\n
+..\\..\\Library\\common_lib.h(48):     \tH1 {font-family: tahoma; font-size : 22pt; color: #003366}\n
+..\\..\\Library\\common_lib.h(48):     \tsmall {font-family: tahoma; font-size : 8pt}\n
+..\\..\\Library\\common_lib.h(48):     \tH3{font-family: tahoma; font-size : 10pt; color: black}\n
+..\\..\\Library\\common_lib.h(48):     \tA {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATIO
+..\\..\\Library\\common_lib.h(48):     N: none}\n
+..\\..\\Library\\common_lib.h(48):     \tA:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DE
+..\\..\\Library\\common_lib.h(48):     CORATION: underline}\n
+..\\..\\Library\\common_lib.h(48):     \tTD {font-family: tahoma; font-size : 10pt; color: black}\n
+..\\..\\Library\\common_lib.h(48):     </style>\n
+..\\..\\Library\\common_lib.h(48):     <body bgcolor="#e0e7f1">\n
+..\\..\\Library\\common_lib.h(48):     <BR/>\n
+..\\..\\Library\\common_lib.h(48):     <BR/>\n
+..\\..\\Library\\common_lib.h(48):     <BR/>\n
+..\\..\\Library\\common_lib.h(48):     <br/>\n
+..\\..\\Library\\common_lib.h(48):     <table border="0">\n
+..\\..\\Library\\common_lib.h(48):     <tr><td></td></tr>\n
+..\\..\\Library\\common_lib.h(48):     <TR><TD></TD></TR>\n
+..\\..\\Library\\common_lib.h(48):     <TR><TD>\n
+..\\..\\Library\\common_lib.h(48):     <blockquote>\n
+..\\..\\Library\\common_lib.h(48):     <H1><b>Web Tours</b></H1>\n
+..\\..\\Library\\common_lib.h(48):     Welcome to the Web Tours site.\n
+..\\..\\Library\\common_lib.h(48):     <br/>\n
+..\\..\\Library\\common_lib.h(48):     To make reservations,please enter your account information to the left.\n
+..\\..\\Library\\common_lib.h(48):     <br/>\n
+..\\..\\Library\\common_lib.h(48):     If you haven't registered yet, <A href="/cgi-bin/login.pl?username=&amp;password=&amp;getI
+..\\..\\Library\\common_lib.h(48):     nfo=true" ><B>sign up now</B></A> to get access to all our resources.\n
+..\\..\\Library\\common_lib.h(48):     <br/>\n
+..\\..\\Library\\common_lib.h(48):     To configure the server options, use <A href="/cgi-bin/admin.pl" target="body" ><b>adminis
+..\\..\\Library\\common_lib.h(48):     tration</b></A> link.\n
+..\\..\\Library\\common_lib.h(48):     <br/><br/><br/><br/><br/><br/>\n
+..\\..\\Library\\common_lib.h(48):     <br/><small>\n
+..\\..\\Library\\common_lib.h(48):     This product uses parts of the SMT Kernel, Copyright (c) 1991-99 <A href="http://www.imati
+..\\..\\Library\\common_lib.h(48):     x.com" target="new"><B><small>iMatix Corporation</small></B></A> \n
+..\\..\\Library\\common_lib.h(48):     </small>\n
+..\\..\\Library\\common_lib.h(48):     </blockquote></TD>\n
+..\\..\\Library\\common_lib.h(48):     <TD></TD></TR>\n
+..\\..\\Library\\common_lib.h(48):     </table>\n
+..\\..\\Library\\common_lib.h(48):     </body>\n
+..\\..\\Library\\common_lib.h(48):     </HTML>\n
+..\\..\\Library\\common_lib.h(48): t=380ms: Request done "http://127.0.0.1:1080/WebTours/home.html"  	[MsgId: MMSG-26000]
+..\\..\\Library\\common_lib.h(48): Search registration for "userSession" parameter is filtered by "Request URL"  	[MsgId: MMSG-26000]
+..\\..\\Library\\common_lib.h(48): t=435ms: 256-byte response headers for "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=2)
+..\\..\\Library\\common_lib.h(48):     HTTP/1.1 200 OK\r\n
+..\\..\\Library\\common_lib.h(48):     Date: Wed, 06 Apr 2022 15:27:40 GMT\r\n
+..\\..\\Library\\common_lib.h(48):     Server: Apache/2.2.21 (Win32)\r\n
+..\\..\\Library\\common_lib.h(48):     Expires: Tue, 05 Apr 2022 15:27:40 GMT\r\n
+..\\..\\Library\\common_lib.h(48):     Keep-Alive: timeout=5, max=100\r\n
+..\\..\\Library\\common_lib.h(48):     Connection: Keep-Alive\r\n
+..\\..\\Library\\common_lib.h(48):     Transfer-Encoding: chunked\r\n
+..\\..\\Library\\common_lib.h(48):     Content-Type: text/html; charset=ISO-8859-1\r\n
+..\\..\\Library\\common_lib.h(48):     \r\n
+..\\..\\Library\\common_lib.h(48): t=435ms: 5-byte chunked response overhead for "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=2)
+..\\..\\Library\\common_lib.h(48):     5d0\r\n
+..\\..\\Library\\common_lib.h(48): t=435ms: 7-byte chunked response overhead for "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=2)
+..\\..\\Library\\common_lib.h(48):     \r\n
+..\\..\\Library\\common_lib.h(48):     0\r\n
+..\\..\\Library\\common_lib.h(48):     \r\n
+..\\..\\Library\\common_lib.h(48): t=436ms: 1488-byte chunked response body for "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=2)
+..\\..\\Library\\common_lib.h(48):     <!DOCTYPE html\n
+..\\..\\Library\\common_lib.h(48):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+..\\..\\Library\\common_lib.h(48):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+..\\..\\Library\\common_lib.h(48):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+..\\..\\Library\\common_lib.h(48):     <head>\n
+..\\..\\Library\\common_lib.h(48):     <title>Web Tours Navigation Bar</title>\n
+..\\..\\Library\\common_lib.h(48):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+..\\..\\Library\\common_lib.h(48):     </head>\n
+..\\..\\Library\\common_lib.h(48):     <body bgcolor="#E0E7F1">\n
+..\\..\\Library\\common_lib.h(48):     <style>\n
+..\\..\\Library\\common_lib.h(48):     blockquote {font-family: tahoma; font-size : 10pt}\n
+..\\..\\Library\\common_lib.h(48):     H1 {font-family: tahoma; font-size : 22pt; color: #993333}\n
+..\\..\\Library\\common_lib.h(48):     H3 {font-family: tahoma; font-size : 10pt; color: black}\n
+..\\..\\Library\\common_lib.h(48):     small {font-family: tahoma; font-size : 8pt}\n
+..\\..\\Library\\common_lib.h(48):     </style>\n
+..\\..\\Library\\common_lib.h(48):     <form method="post" action="/cgi-bin/login.pl" target="body">\n
+..\\..\\Library\\common_lib.h(48):     <input type="hidden" name="userSession" value="133597.315512353ziHVQVVpQVzzzzzHtVcDVptHVf"
+..\\..\\Library\\common_lib.h(48):     />\n
+..\\..\\Library\\common_lib.h(48):     <table border="0"><tr><td>&nbsp;</td>\n
+..\\..\\Library\\common_lib.h(48):     <td>&nbsp;</td></tr>\n
+..\\..\\Library\\common_lib.h(48):     <tr><td>&nbsp;</td>\n
+..\\..\\Library\\common_lib.h(48):     <td>&nbsp;</td></tr>\n
+..\\..\\Library\\common_lib.h(48):     <tr><td>&nbsp;</td>\n
+..\\..\\Library\\common_lib.h(48):     <td><small>&nbsp;Username</small></td></tr>\n
+..\\..\\Library\\common_lib.h(48):     <tr><td>&nbsp;</td>\n
+..\\..\\Library\\common_lib.h(48):     <td><input type="text" name="username" value="" size="14" maxlength="14"/></td></tr>\n
+..\\..\\Library\\common_lib.h(48):     <tr><td>&nbsp;</td>\n
+..\\..\\Library\\common_lib.h(48):     <td><small>&nbsp;Password</small></td>\n
+..\\..\\Library\\common_lib.h(48):     <tr><td>&nbsp;</td>\n
+..\\..\\Library\\common_lib.h(48):     <td><input type="password" name="password" value="" size="14" maxlength="14"/></td></tr>\n
+..\\..\\Library\\common_lib.h(48):     <tr><td>&nbsp;</td>\n
+..\\..\\Library\\common_lib.h(48):     <td>&nbsp;</td></tr>\n
+..\\..\\Library\\common_lib.h(48):     <tr><td>&nbsp;</td>\n
+..\\..\\Library\\common_lib.h(48):     <td><input type="image" name="login" value="Login" alt="Login" border="1" \n
+..\\..\\Library\\common_lib.h(48):     src="/WebTours/images/mer_login.gif"/></td></tr>\n
+..\\..\\Library\\common_lib.h(48):     <tr><td>&nbsp;</td><td>&nbsp;</td></tr>\n
+..\\..\\Library\\common_lib.h(48):     </table><input type="hidden" name="JSFormSubmit" value="off"/>\n
+..\\..\\Library\\common_lib.h(48):     </form>\n
+..\\..\\Library\\common_lib.h(48):     \n
+..\\..\\Library\\common_lib.h(48):     </body>\n
+..\\..\\Library\\common_lib.h(48):     </html>\n
+..\\..\\Library\\common_lib.h(48): Found resource "http://127.0.0.1:1080/WebTours/images/mer_login.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
+..\\..\\Library\\common_lib.h(48): t=437ms: Request done "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26000]
+..\\..\\Library\\common_lib.h(48): Notify: Saving Parameter "userSession = 133597.315512353ziHVQVVpQVzzzzzHtVcDVptHVf".
+..\\..\\Library\\common_lib.h(48): t=461ms: Already connected [0] to 127.0.0.1:1080  	[MsgId: MMSG-26000]
+..\\..\\Library\\common_lib.h(48): t=461ms: 653-byte request headers for "http://127.0.0.1:1080/WebTours/images/mer_login.gif" (RelFrameId=, Internal ID=4)
+..\\..\\Library\\common_lib.h(48):     GET /WebTours/images/mer_login.gif HTTP/1.1\r\n
+..\\..\\Library\\common_lib.h(48):     Referer: http://127.0.0.1:1080/cgi-bin/nav.pl?in=home\r\n
+..\\..\\Library\\common_lib.h(48):     DNT: 1\r\n
+..\\..\\Library\\common_lib.h(48):     Sec-Fetch-Dest: frame\r\n
+..\\..\\Library\\common_lib.h(48):     Sec-Fetch-Mode: navigate\r\n
+..\\..\\Library\\common_lib.h(48):     Sec-Fetch-Site: same-origin\r\n
+..\\..\\Library\\common_lib.h(48):     Upgrade-Insecure-Requests: 1\r\n
+..\\..\\Library\\common_lib.h(48):     sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"\r\n
+..\\..\\Library\\common_lib.h(48):     sec-ch-ua-mobile: ?0\r\n
+..\\..\\Library\\common_lib.h(48):     sec-ch-ua-platform: "Windows"\r\n
+..\\..\\Library\\common_lib.h(48):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+..\\..\\Library\\common_lib.h(48):     o) Chrome/99.0.4844.82 Safari/537.36\r\n
+..\\..\\Library\\common_lib.h(48):     Accept-Encoding: gzip, deflate, br\r\n
+..\\..\\Library\\common_lib.h(48):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+..\\..\\Library\\common_lib.h(48):     Accept: */*\r\n
+..\\..\\Library\\common_lib.h(48):     Connection: Keep-Alive\r\n
+..\\..\\Library\\common_lib.h(48):     Host: 127.0.0.1:1080\r\n
+..\\..\\Library\\common_lib.h(48):     Cookie: MSO=SID&1649258860\r\n
+..\\..\\Library\\common_lib.h(48):     \r\n
+..\\..\\Library\\common_lib.h(48): t=463ms: 297-byte response headers for "http://127.0.0.1:1080/WebTours/images/mer_login.gif" (RelFrameId=, Internal ID=4)
+..\\..\\Library\\common_lib.h(48):     HTTP/1.1 200 OK\r\n
+..\\..\\Library\\common_lib.h(48):     Date: Wed, 06 Apr 2022 15:27:40 GMT\r\n
+..\\..\\Library\\common_lib.h(48):     Server: Apache/2.2.21 (Win32)\r\n
+..\\..\\Library\\common_lib.h(48):     Last-Modified: Sat, 26 Mar 2022 07:29:11 GMT\r\n
+..\\..\\Library\\common_lib.h(48):     ETag: "500000001c684-2a7-5db1a0918c7fd"\r\n
+..\\..\\Library\\common_lib.h(48):     Accept-Ranges: bytes\r\n
+..\\..\\Library\\common_lib.h(48):     Content-Length: 679\r\n
+..\\..\\Library\\common_lib.h(48):     Keep-Alive: timeout=5, max=99\r\n
+..\\..\\Library\\common_lib.h(48):     Connection: Keep-Alive\r\n
+..\\..\\Library\\common_lib.h(48):     Content-Type: image/gif\r\n
+..\\..\\Library\\common_lib.h(48):     \r\n
+..\\..\\Library\\common_lib.h(48): t=464ms: 679-byte response body for "http://127.0.0.1:1080/WebTours/images/mer_login.gif" (RelFrameId=, Internal ID=4)
+..\\..\\Library\\common_lib.h(48): t=464ms: Request done "http://127.0.0.1:1080/WebTours/images/mer_login.gif"  	[MsgId: MMSG-26000]
+..\\..\\Library\\common_lib.h(48): Registered web_reg_find successful for "Text=Web Tours" (count=5)  	[MsgId: MMSG-26364]
+..\\..\\Library\\common_lib.h(48): web_url("welcome.pl") was successful, 4214 body bytes, 1180 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+..\\..\\Library\\common_lib.h(58): Notify: Transaction "HomePage" ended with a "Pass" status (Duration: 0.2756 Wasted Time: 0.0962).
+..\\..\\Library\\common_lib.h(64): Notify: Transaction "Login" started.
+..\\..\\Library\\common_lib.h(66): web_reg_find started  	[MsgId: MMSG-26355]
+..\\..\\Library\\common_lib.h(66): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+..\\..\\Library\\common_lib.h(70): web_reg_find started  	[MsgId: MMSG-26355]
+..\\..\\Library\\common_lib.h(70): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+..\\..\\Library\\common_lib.h(73): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+..\\..\\Library\\common_lib.h(73): An unrecognized header ("Origin") is being added  	[MsgId: MMSG-26595]
+..\\..\\Library\\common_lib.h(73): "Origin: http://127.0.0.1:1080" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+..\\..\\Library\\common_lib.h(73): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
+..\\..\\Library\\common_lib.h(76): web_add_auto_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
+..\\..\\Library\\common_lib.h(76): An unrecognized header ("Sec-Fetch-User") is being added  	[MsgId: MMSG-26595]
+..\\..\\Library\\common_lib.h(76): "Sec-Fetch-User: ?1" header registered for adding to requests from all following Action functions  	[MsgId: MMSG-26505]
+..\\..\\Library\\common_lib.h(76): web_add_auto_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
+..\\..\\Library\\common_lib.h(81): web_submit_data("login.pl") started  	[MsgId: MMSG-26355]
+..\\..\\Library\\common_lib.h(81): Notify: Parameter Substitution: parameter "userSession" =  "133597.315512353ziHVQVVpQVzzzzzHtVcDVptHVf"
+..\\..\\Library\\common_lib.h(81): Notify: Parameter Substitution: parameter "userLogin" =  "acrobat"
+..\\..\\Library\\common_lib.h(81): Notify: Parameter Substitution: parameter "userPassword" =  "25924474"
+..\\..\\Library\\common_lib.h(81): t=534ms: Already connected [0] to 127.0.0.1:1080  	[MsgId: MMSG-26000]
+..\\..\\Library\\common_lib.h(81): t=534ms: 762-byte request headers for "http://127.0.0.1:1080/cgi-bin/login.pl" (RelFrameId=1, Internal ID=5)
+..\\..\\Library\\common_lib.h(81):     POST /cgi-bin/login.pl HTTP/1.1\r\n
+..\\..\\Library\\common_lib.h(81):     Content-Type: application/x-www-form-urlencoded\r\n
+..\\..\\Library\\common_lib.h(81):     Referer: http://127.0.0.1:1080/cgi-bin/nav.pl?in=home\r\n
+..\\..\\Library\\common_lib.h(81):     Origin: http://127.0.0.1:1080\r\n
+..\\..\\Library\\common_lib.h(81):     DNT: 1\r\n
+..\\..\\Library\\common_lib.h(81):     Sec-Fetch-Dest: frame\r\n
+..\\..\\Library\\common_lib.h(81):     Sec-Fetch-Mode: navigate\r\n
+..\\..\\Library\\common_lib.h(81):     Sec-Fetch-Site: same-origin\r\n
+..\\..\\Library\\common_lib.h(81):     Upgrade-Insecure-Requests: 1\r\n
+..\\..\\Library\\common_lib.h(81):     sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"\r\n
+..\\..\\Library\\common_lib.h(81):     sec-ch-ua-mobile: ?0\r\n
+..\\..\\Library\\common_lib.h(81):     sec-ch-ua-platform: "Windows"\r\n
+..\\..\\Library\\common_lib.h(81):     Sec-Fetch-User: ?1\r\n
+..\\..\\Library\\common_lib.h(81):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+..\\..\\Library\\common_lib.h(81):     o) Chrome/99.0.4844.82 Safari/537.36\r\n
+..\\..\\Library\\common_lib.h(81):     Accept-Encoding: gzip, deflate, br\r\n
+..\\..\\Library\\common_lib.h(81):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+..\\..\\Library\\common_lib.h(81):     Accept: */*\r\n
+..\\..\\Library\\common_lib.h(81):     Connection: Keep-Alive\r\n
+..\\..\\Library\\common_lib.h(81):     Host: 127.0.0.1:1080\r\n
+..\\..\\Library\\common_lib.h(81):     Cookie: MSO=SID&1649258860\r\n
+..\\..\\Library\\common_lib.h(81):     Content-Length: 127\r\n
+..\\..\\Library\\common_lib.h(81):     \r\n
+..\\..\\Library\\common_lib.h(81): t=535ms: 127-byte request body for "http://127.0.0.1:1080/cgi-bin/login.pl" (RelFrameId=1, Internal ID=5)
+..\\..\\Library\\common_lib.h(81):     userSession=133597.315512353ziHVQVVpQVzzzzzHtVcDVptHVf&username=acrobat&password=25924474&
+..\\..\\Library\\common_lib.h(81):     login.x=66&login.y=9&JSFormSubmit=off
+..\\..\\Library\\common_lib.h(81): t=600ms: 393-byte response headers for "http://127.0.0.1:1080/cgi-bin/login.pl" (RelFrameId=1, Internal ID=5)
+..\\..\\Library\\common_lib.h(81):     HTTP/1.1 200 OK\r\n
+..\\..\\Library\\common_lib.h(81):     Date: Wed, 06 Apr 2022 15:27:40 GMT\r\n
+..\\..\\Library\\common_lib.h(81):     Server: Apache/2.2.21 (Win32)\r\n
+..\\..\\Library\\common_lib.h(81):     Expires: 5s\r\n
+..\\..\\Library\\common_lib.h(81):     Set-Cookie: MTUserInfo=firstName&Carlos&address2&Brooklyn&username&acrobat&hash&84&lastNam
+..\\..\\Library\\common_lib.h(81):     e&Watson%0A&address1&22%20Church%20Street&creditCard&&expDate&%0A; path=/\r\n
+..\\..\\Library\\common_lib.h(81):     Keep-Alive: timeout=5, max=98\r\n
+..\\..\\Library\\common_lib.h(81):     Connection: Keep-Alive\r\n
+..\\..\\Library\\common_lib.h(81):     Transfer-Encoding: chunked\r\n
+..\\..\\Library\\common_lib.h(81):     Content-Type: text/html; charset=ISO-8859-1\r\n
+..\\..\\Library\\common_lib.h(81):     \r\n
+..\\..\\Library\\common_lib.h(81): t=602ms: 5-byte chunked response overhead for "http://127.0.0.1:1080/cgi-bin/login.pl" (RelFrameId=1, Internal ID=5)
+..\\..\\Library\\common_lib.h(81):     1e1\r\n
+..\\..\\Library\\common_lib.h(81): t=602ms: 7-byte chunked response overhead for "http://127.0.0.1:1080/cgi-bin/login.pl" (RelFrameId=1, Internal ID=5)
+..\\..\\Library\\common_lib.h(81):     \r\n
+..\\..\\Library\\common_lib.h(81):     0\r\n
+..\\..\\Library\\common_lib.h(81):     \r\n
+..\\..\\Library\\common_lib.h(81): t=602ms: 481-byte chunked response body for "http://127.0.0.1:1080/cgi-bin/login.pl" (RelFrameId=1, Internal ID=5)
+..\\..\\Library\\common_lib.h(81):     <!--\n
+..\\..\\Library\\common_lib.h(81):     User password was correct - added a cookie with the user's default\n
+..\\..\\Library\\common_lib.h(81):     information.  Set the user up to make reservations...\n
+..\\..\\Library\\common_lib.h(81):     \n
+..\\..\\Library\\common_lib.h(81):     --->\n
+..\\..\\Library\\common_lib.h(81):     \n
+..\\..\\Library\\common_lib.h(81):     <html>\n
+..\\..\\Library\\common_lib.h(81):     <title>Web Tours</title>\n
+..\\..\\Library\\common_lib.h(81):     <frameset cols="160,*" border=1 frameborder=1>\n
+..\\..\\Library\\common_lib.h(81):     <frame src="nav.pl?page=menu&in=home" name="navbar" marginheight="2" marginwidth="2" nores
+..\\..\\Library\\common_lib.h(81):     ize="noresize" scrolling="auto"/>\n
+..\\..\\Library\\common_lib.h(81):     <frame src="login.pl?intro=true" name="info" marginheight="2" marginwidth="2" noresize="no
+..\\..\\Library\\common_lib.h(81):     resize" scrolling="auto"/>\n
+..\\..\\Library\\common_lib.h(81):     </frameset>\n
+..\\..\\Library\\common_lib.h(81):     \n
+..\\..\\Library\\common_lib.h(81):     </body>\n
+..\\..\\Library\\common_lib.h(81):     </html>
+..\\..\\Library\\common_lib.h(81): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home" in "http://127.0.0.1:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+..\\..\\Library\\common_lib.h(81): Detected non-resource "http://127.0.0.1:1080/cgi-bin/login.pl?intro=true" in "http://127.0.0.1:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+..\\..\\Library\\common_lib.h(81): t=603ms: Request done "http://127.0.0.1:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26000]
+..\\..\\Library\\common_lib.h(81): t=604ms: Already connected [1] to 127.0.0.1:1080  	[MsgId: MMSG-26000]
+..\\..\\Library\\common_lib.h(81): t=604ms: 846-byte request headers for "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home" (RelFrameId=1.1, Internal ID=6)
+..\\..\\Library\\common_lib.h(81):     GET /cgi-bin/nav.pl?page=menu&in=home HTTP/1.1\r\n
+..\\..\\Library\\common_lib.h(81):     Referer: http://127.0.0.1:1080/cgi-bin/login.pl\r\n
+..\\..\\Library\\common_lib.h(81):     Origin: http://127.0.0.1:1080\r\n
+..\\..\\Library\\common_lib.h(81):     DNT: 1\r\n
+..\\..\\Library\\common_lib.h(81):     Sec-Fetch-Dest: frame\r\n
+..\\..\\Library\\common_lib.h(81):     Sec-Fetch-Mode: navigate\r\n
+..\\..\\Library\\common_lib.h(81):     Sec-Fetch-Site: same-origin\r\n
+..\\..\\Library\\common_lib.h(81):     Upgrade-Insecure-Requests: 1\r\n
+..\\..\\Library\\common_lib.h(81):     sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"\r\n
+..\\..\\Library\\common_lib.h(81):     sec-ch-ua-mobile: ?0\r\n
+..\\..\\Library\\common_lib.h(81):     sec-ch-ua-platform: "Windows"\r\n
+..\\..\\Library\\common_lib.h(81):     Sec-Fetch-User: ?1\r\n
+..\\..\\Library\\common_lib.h(81):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+..\\..\\Library\\common_lib.h(81):     o) Chrome/99.0.4844.82 Safari/537.36\r\n
+..\\..\\Library\\common_lib.h(81):     Accept-Encoding: gzip, deflate, br\r\n
+..\\..\\Library\\common_lib.h(81):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+..\\..\\Library\\common_lib.h(81):     Accept: */*\r\n
+..\\..\\Library\\common_lib.h(81):     Connection: Keep-Alive\r\n
+..\\..\\Library\\common_lib.h(81):     Host: 127.0.0.1:1080\r\n
+..\\..\\Library\\common_lib.h(81):     Cookie: MSO=SID&1649258860; MTUserInfo=firstName&Carlos&address2&Brooklyn&username&acrobat
+..\\..\\Library\\common_lib.h(81):     &hash&84&lastName&Watson%0A&address1&22%20Church%20Street&creditCard&&expDate&%0A\r\n
+..\\..\\Library\\common_lib.h(81):     \r\n
+..\\..\\Library\\common_lib.h(81): t=604ms: Already connected [2] to 127.0.0.1:1080  	[MsgId: MMSG-26000]
+..\\..\\Library\\common_lib.h(81): t=604ms: 841-byte request headers for "http://127.0.0.1:1080/cgi-bin/login.pl?intro=true" (RelFrameId=1.2, Internal ID=7)
+..\\..\\Library\\common_lib.h(81):     GET /cgi-bin/login.pl?intro=true HTTP/1.1\r\n
+..\\..\\Library\\common_lib.h(81):     Referer: http://127.0.0.1:1080/cgi-bin/login.pl\r\n
+..\\..\\Library\\common_lib.h(81):     Origin: http://127.0.0.1:1080\r\n
+..\\..\\Library\\common_lib.h(81):     DNT: 1\r\n
+..\\..\\Library\\common_lib.h(81):     Sec-Fetch-Dest: frame\r\n
+..\\..\\Library\\common_lib.h(81):     Sec-Fetch-Mode: navigate\r\n
+..\\..\\Library\\common_lib.h(81):     Sec-Fetch-Site: same-origin\r\n
+..\\..\\Library\\common_lib.h(81):     Upgrade-Insecure-Requests: 1\r\n
+..\\..\\Library\\common_lib.h(81):     sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"\r\n
+..\\..\\Library\\common_lib.h(81):     sec-ch-ua-mobile: ?0\r\n
+..\\..\\Library\\common_lib.h(81):     sec-ch-ua-platform: "Windows"\r\n
+..\\..\\Library\\common_lib.h(81):     Sec-Fetch-User: ?1\r\n
+..\\..\\Library\\common_lib.h(81):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+..\\..\\Library\\common_lib.h(81):     o) Chrome/99.0.4844.82 Safari/537.36\r\n
+..\\..\\Library\\common_lib.h(81):     Accept-Encoding: gzip, deflate, br\r\n
+..\\..\\Library\\common_lib.h(81):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+..\\..\\Library\\common_lib.h(81):     Accept: */*\r\n
+..\\..\\Library\\common_lib.h(81):     Connection: Keep-Alive\r\n
+..\\..\\Library\\common_lib.h(81):     Host: 127.0.0.1:1080\r\n
+..\\..\\Library\\common_lib.h(81):     Cookie: MSO=SID&1649258860; MTUserInfo=firstName&Carlos&address2&Brooklyn&username&acrobat
+..\\..\\Library\\common_lib.h(81):     &hash&84&lastName&Watson%0A&address1&22%20Church%20Street&creditCard&&expDate&%0A\r\n
+..\\..\\Library\\common_lib.h(81):     \r\n
+..\\..\\Library\\common_lib.h(81): t=660ms: 255-byte response headers for "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home" (RelFrameId=1.1, Internal ID=6)
+..\\..\\Library\\common_lib.h(81):     HTTP/1.1 200 OK\r\n
+..\\..\\Library\\common_lib.h(81):     Date: Wed, 06 Apr 2022 15:27:40 GMT\r\n
+..\\..\\Library\\common_lib.h(81):     Server: Apache/2.2.21 (Win32)\r\n
+..\\..\\Library\\common_lib.h(81):     Expires: Tue, 05 Apr 2022 15:27:40 GMT\r\n
+..\\..\\Library\\common_lib.h(81):     Keep-Alive: timeout=5, max=99\r\n
+..\\..\\Library\\common_lib.h(81):     Connection: Keep-Alive\r\n
+..\\..\\Library\\common_lib.h(81):     Transfer-Encoding: chunked\r\n
+..\\..\\Library\\common_lib.h(81):     Content-Type: text/html; charset=ISO-8859-1\r\n
+..\\..\\Library\\common_lib.h(81):     \r\n
+..\\..\\Library\\common_lib.h(81): t=660ms: 5-byte chunked response overhead for "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home" (RelFrameId=1.1, Internal ID=6)
+..\\..\\Library\\common_lib.h(81):     5ca\r\n
+..\\..\\Library\\common_lib.h(81): t=661ms: 7-byte chunked response overhead for "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home" (RelFrameId=1.1, Internal ID=6)
+..\\..\\Library\\common_lib.h(81):     \r\n
+..\\..\\Library\\common_lib.h(81):     0\r\n
+..\\..\\Library\\common_lib.h(81):     \r\n
+..\\..\\Library\\common_lib.h(81): t=661ms: 1482-byte chunked response body for "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home" (RelFrameId=1.1, Internal ID=6)
+..\\..\\Library\\common_lib.h(81):     <!DOCTYPE html\n
+..\\..\\Library\\common_lib.h(81):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+..\\..\\Library\\common_lib.h(81):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+..\\..\\Library\\common_lib.h(81):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+..\\..\\Library\\common_lib.h(81):     <head>\n
+..\\..\\Library\\common_lib.h(81):     <title>Web Tours Navigation Bar</title>\n
+..\\..\\Library\\common_lib.h(81):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+..\\..\\Library\\common_lib.h(81):     </head>\n
+..\\..\\Library\\common_lib.h(81):     <body bgcolor="#E0E7F1">\n
+..\\..\\Library\\common_lib.h(81):     \n
+..\\..\\Library\\common_lib.h(81):     <style>\n
+..\\..\\Library\\common_lib.h(81):     \tblockquote {font-family: tahoma; font-size : 10pt}\n
+..\\..\\Library\\common_lib.h(81):     \tH1 {font-family: tahoma; font-size : 22pt; color: #993333}\n
+..\\..\\Library\\common_lib.h(81):     \tsmall {font-family: tahoma; font-size : 8pt}\n
+..\\..\\Library\\common_lib.h(81):     \tH3{font-family: tahoma; font-size : 10pt; color: black}\n
+..\\..\\Library\\common_lib.h(81):     \tA {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATIO
+..\\..\\Library\\common_lib.h(81):     N: none}\n
+..\\..\\Library\\common_lib.h(81):     \tA:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DE
+..\\..\\Library\\common_lib.h(81):     CORATION: underline}\n
+..\\..\\Library\\common_lib.h(81):     \tTD {font-family: tahoma; font-size : 10pt; color: black}\n
+..\\..\\Library\\common_lib.h(81):     </style>\n
+..\\..\\Library\\common_lib.h(81):     \n
+..\\..\\Library\\common_lib.h(81):     <BR><BR><center>\n
+..\\..\\Library\\common_lib.h(81):     \n
+..\\..\\Library\\common_lib.h(81):     <br clear="both"/><center><A HREF="welcome.pl?page=search" TARGET="body"><IMG BORDER="0" S
+..\\..\\Library\\common_lib.h(81):     RC="/WebTours/images/flights.gif" \n
+..\\..\\Library\\common_lib.h(81):     ALT="Search Flights Button"/></A>\n
+..\\..\\Library\\common_lib.h(81):     <br clear="both"/><A HREF="welcome.pl?page=itinerary" TARGET="body"><IMG BORDER="0" SRC="/
+..\\..\\Library\\common_lib.h(81):     WebTours/images/itinerary.gif" \n
+..\\..\\Library\\common_lib.h(81):     ALT="Itinerary Button"/></A>\n
+..\\..\\Library\\common_lib.h(81):     <br clear="both"/><A HREF="welcome.pl?page=menus" TARGET="body"><IMG BORDER="0" SRC="/WebT
+..\\..\\Library\\common_lib.h(81):     ours/images/in_home.gif" \n
+..\\..\\Library\\common_lib.h(81):     ALT="Home Button"/></A>\n
+..\\..\\Library\\common_lib.h(81):     <br clear><A HREF="welcome.pl?signOff=1" TARGET="body"><IMG BORDER="0" SRC="/WebTours/imag
+..\\..\\Library\\common_lib.h(81):     es/signoff.gif" \n
+..\\..\\Library\\common_lib.h(81):     ALT="SignOff Button"/></A></center>\n
+..\\..\\Library\\common_lib.h(81):     \n
+..\\..\\Library\\common_lib.h(81):     </body>\n
+..\\..\\Library\\common_lib.h(81):     </html>\n
+..\\..\\Library\\common_lib.h(81): Found resource "http://127.0.0.1:1080/WebTours/images/flights.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+..\\..\\Library\\common_lib.h(81): Found resource "http://127.0.0.1:1080/WebTours/images/itinerary.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+..\\..\\Library\\common_lib.h(81): Found resource "http://127.0.0.1:1080/WebTours/images/in_home.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+..\\..\\Library\\common_lib.h(81): Found resource "http://127.0.0.1:1080/WebTours/images/signoff.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+..\\..\\Library\\common_lib.h(81): t=663ms: Request done "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26000]
+..\\..\\Library\\common_lib.h(81): t=663ms: Already connected [0] to 127.0.0.1:1080  	[MsgId: MMSG-26000]
+..\\..\\Library\\common_lib.h(81): t=663ms: 857-byte request headers for "http://127.0.0.1:1080/WebTours/images/flights.gif" (RelFrameId=, Internal ID=8)
+..\\..\\Library\\common_lib.h(81):     GET /WebTours/images/flights.gif HTTP/1.1\r\n
+..\\..\\Library\\common_lib.h(81):     Referer: http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home\r\n
+..\\..\\Library\\common_lib.h(81):     Origin: http://127.0.0.1:1080\r\n
+..\\..\\Library\\common_lib.h(81):     DNT: 1\r\n
+..\\..\\Library\\common_lib.h(81):     Sec-Fetch-Dest: frame\r\n
+..\\..\\Library\\common_lib.h(81):     Sec-Fetch-Mode: navigate\r\n
+..\\..\\Library\\common_lib.h(81):     Sec-Fetch-Site: same-origin\r\n
+..\\..\\Library\\common_lib.h(81):     Upgrade-Insecure-Requests: 1\r\n
+..\\..\\Library\\common_lib.h(81):     sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"\r\n
+..\\..\\Library\\common_lib.h(81):     sec-ch-ua-mobile: ?0\r\n
+..\\..\\Library\\common_lib.h(81):     sec-ch-ua-platform: "Windows"\r\n
+..\\..\\Library\\common_lib.h(81):     Sec-Fetch-User: ?1\r\n
+..\\..\\Library\\common_lib.h(81):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+..\\..\\Library\\common_lib.h(81):     o) Chrome/99.0.4844.82 Safari/537.36\r\n
+..\\..\\Library\\common_lib.h(81):     Accept-Encoding: gzip, deflate, br\r\n
+..\\..\\Library\\common_lib.h(81):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+..\\..\\Library\\common_lib.h(81):     Accept: */*\r\n
+..\\..\\Library\\common_lib.h(81):     Connection: Keep-Alive\r\n
+..\\..\\Library\\common_lib.h(81):     Host: 127.0.0.1:1080\r\n
+..\\..\\Library\\common_lib.h(81):     Cookie: MSO=SID&1649258860; MTUserInfo=firstName&Carlos&address2&Brooklyn&username&acrobat
+..\\..\\Library\\common_lib.h(81):     &hash&84&lastName&Watson%0A&address1&22%20Church%20Street&creditCard&&expDate&%0A\r\n
+..\\..\\Library\\common_lib.h(81):     \r\n
+..\\..\\Library\\common_lib.h(81): t=664ms: Connecting [3] to host 127.0.0.1:1080  	[MsgId: MMSG-26000]
+..\\..\\Library\\common_lib.h(81): t=664ms: Connecting [4] to host 127.0.0.1:1080  	[MsgId: MMSG-26000]
+..\\..\\Library\\common_lib.h(81): t=665ms: Connecting [5] to host 127.0.0.1:1080  	[MsgId: MMSG-26000]
+..\\..\\Library\\common_lib.h(81): t=665ms: Connected socket [3] from 127.0.0.1:20861 to 127.0.0.1:1080 in 1 ms  	[MsgId: MMSG-26000]
+..\\..\\Library\\common_lib.h(81): t=666ms: 859-byte request headers for "http://127.0.0.1:1080/WebTours/images/itinerary.gif" (RelFrameId=, Internal ID=9)
+..\\..\\Library\\common_lib.h(81):     GET /WebTours/images/itinerary.gif HTTP/1.1\r\n
+..\\..\\Library\\common_lib.h(81):     Referer: http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home\r\n
+..\\..\\Library\\common_lib.h(81):     Origin: http://127.0.0.1:1080\r\n
+..\\..\\Library\\common_lib.h(81):     DNT: 1\r\n
+..\\..\\Library\\common_lib.h(81):     Sec-Fetch-Dest: frame\r\n
+..\\..\\Library\\common_lib.h(81):     Sec-Fetch-Mode: navigate\r\n
+..\\..\\Library\\common_lib.h(81):     Sec-Fetch-Site: same-origin\r\n
+..\\..\\Library\\common_lib.h(81):     Upgrade-Insecure-Requests: 1\r\n
+..\\..\\Library\\common_lib.h(81):     sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"\r\n
+..\\..\\Library\\common_lib.h(81):     sec-ch-ua-mobile: ?0\r\n
+..\\..\\Library\\common_lib.h(81):     sec-ch-ua-platform: "Windows"\r\n
+..\\..\\Library\\common_lib.h(81):     Sec-Fetch-User: ?1\r\n
+..\\..\\Library\\common_lib.h(81):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+..\\..\\Library\\common_lib.h(81):     o) Chrome/99.0.4844.82 Safari/537.36\r\n
+..\\..\\Library\\common_lib.h(81):     Accept-Encoding: gzip, deflate, br\r\n
+..\\..\\Library\\common_lib.h(81):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+..\\..\\Library\\common_lib.h(81):     Accept: */*\r\n
+..\\..\\Library\\common_lib.h(81):     Connection: Keep-Alive\r\n
+..\\..\\Library\\common_lib.h(81):     Host: 127.0.0.1:1080\r\n
+..\\..\\Library\\common_lib.h(81):     Cookie: MSO=SID&1649258860; MTUserInfo=firstName&Carlos&address2&Brooklyn&username&acrobat
+..\\..\\Library\\common_lib.h(81):     &hash&84&lastName&Watson%0A&address1&22%20Church%20Street&creditCard&&expDate&%0A\r\n
+..\\..\\Library\\common_lib.h(81):     \r\n
+..\\..\\Library\\common_lib.h(81): t=666ms: 297-byte response headers for "http://127.0.0.1:1080/WebTours/images/flights.gif" (RelFrameId=, Internal ID=8)
+..\\..\\Library\\common_lib.h(81):     HTTP/1.1 200 OK\r\n
+..\\..\\Library\\common_lib.h(81):     Date: Wed, 06 Apr 2022 15:27:40 GMT\r\n
+..\\..\\Library\\common_lib.h(81):     Server: Apache/2.2.21 (Win32)\r\n
+..\\..\\Library\\common_lib.h(81):     Last-Modified: Sat, 26 Mar 2022 07:29:11 GMT\r\n
+..\\..\\Library\\common_lib.h(81):     ETag: "600000001c677-2d6-5db1a09166823"\r\n
+..\\..\\Library\\common_lib.h(81):     Accept-Ranges: bytes\r\n
+..\\..\\Library\\common_lib.h(81):     Content-Length: 726\r\n
+..\\..\\Library\\common_lib.h(81):     Keep-Alive: timeout=5, max=97\r\n
+..\\..\\Library\\common_lib.h(81):     Connection: Keep-Alive\r\n
+..\\..\\Library\\common_lib.h(81):     Content-Type: image/gif\r\n
+..\\..\\Library\\common_lib.h(81):     \r\n
+..\\..\\Library\\common_lib.h(81): t=667ms: 726-byte response body for "http://127.0.0.1:1080/WebTours/images/flights.gif" (RelFrameId=, Internal ID=8)
+..\\..\\Library\\common_lib.h(81): t=667ms: Request done "http://127.0.0.1:1080/WebTours/images/flights.gif"  	[MsgId: MMSG-26000]
+..\\..\\Library\\common_lib.h(81): t=668ms: 298-byte response headers for "http://127.0.0.1:1080/WebTours/images/itinerary.gif" (RelFrameId=, Internal ID=9)
+..\\..\\Library\\common_lib.h(81):     HTTP/1.1 200 OK\r\n
+..\\..\\Library\\common_lib.h(81):     Date: Wed, 06 Apr 2022 15:27:40 GMT\r\n
+..\\..\\Library\\common_lib.h(81):     Server: Apache/2.2.21 (Win32)\r\n
+..\\..\\Library\\common_lib.h(81):     Last-Modified: Sat, 26 Mar 2022 07:29:11 GMT\r\n
+..\\..\\Library\\common_lib.h(81):     ETag: "500000001c681-2dd-5db1a09183fc9"\r\n
+..\\..\\Library\\common_lib.h(81):     Accept-Ranges: bytes\r\n
+..\\..\\Library\\common_lib.h(81):     Content-Length: 733\r\n
+..\\..\\Library\\common_lib.h(81):     Keep-Alive: timeout=5, max=100\r\n
+..\\..\\Library\\common_lib.h(81):     Connection: Keep-Alive\r\n
+..\\..\\Library\\common_lib.h(81):     Content-Type: image/gif\r\n
+..\\..\\Library\\common_lib.h(81):     \r\n
+..\\..\\Library\\common_lib.h(81): t=669ms: 733-byte response body for "http://127.0.0.1:1080/WebTours/images/itinerary.gif" (RelFrameId=, Internal ID=9)
+..\\..\\Library\\common_lib.h(81): t=669ms: Request done "http://127.0.0.1:1080/WebTours/images/itinerary.gif"  	[MsgId: MMSG-26000]
+..\\..\\Library\\common_lib.h(81): t=669ms: Connected socket [4] from 127.0.0.1:20862 to 127.0.0.1:1080 in 5 ms  	[MsgId: MMSG-26000]
+..\\..\\Library\\common_lib.h(81): t=670ms: 857-byte request headers for "http://127.0.0.1:1080/WebTours/images/in_home.gif" (RelFrameId=, Internal ID=10)
+..\\..\\Library\\common_lib.h(81):     GET /WebTours/images/in_home.gif HTTP/1.1\r\n
+..\\..\\Library\\common_lib.h(81):     Referer: http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home\r\n
+..\\..\\Library\\common_lib.h(81):     Origin: http://127.0.0.1:1080\r\n
+..\\..\\Library\\common_lib.h(81):     DNT: 1\r\n
+..\\..\\Library\\common_lib.h(81):     Sec-Fetch-Dest: frame\r\n
+..\\..\\Library\\common_lib.h(81):     Sec-Fetch-Mode: navigate\r\n
+..\\..\\Library\\common_lib.h(81):     Sec-Fetch-Site: same-origin\r\n
+..\\..\\Library\\common_lib.h(81):     Upgrade-Insecure-Requests: 1\r\n
+..\\..\\Library\\common_lib.h(81):     sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"\r\n
+..\\..\\Library\\common_lib.h(81):     sec-ch-ua-mobile: ?0\r\n
+..\\..\\Library\\common_lib.h(81):     sec-ch-ua-platform: "Windows"\r\n
+..\\..\\Library\\common_lib.h(81):     Sec-Fetch-User: ?1\r\n
+..\\..\\Library\\common_lib.h(81):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+..\\..\\Library\\common_lib.h(81):     o) Chrome/99.0.4844.82 Safari/537.36\r\n
+..\\..\\Library\\common_lib.h(81):     Accept-Encoding: gzip, deflate, br\r\n
+..\\..\\Library\\common_lib.h(81):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+..\\..\\Library\\common_lib.h(81):     Accept: */*\r\n
+..\\..\\Library\\common_lib.h(81):     Connection: Keep-Alive\r\n
+..\\..\\Library\\common_lib.h(81):     Host: 127.0.0.1:1080\r\n
+..\\..\\Library\\common_lib.h(81):     Cookie: MSO=SID&1649258860; MTUserInfo=firstName&Carlos&address2&Brooklyn&username&acrobat
+..\\..\\Library\\common_lib.h(81):     &hash&84&lastName&Watson%0A&address1&22%20Church%20Street&creditCard&&expDate&%0A\r\n
+..\\..\\Library\\common_lib.h(81):     \r\n
+..\\..\\Library\\common_lib.h(81): t=670ms: Connected socket [5] from 127.0.0.1:20863 to 127.0.0.1:1080 in 5 ms  	[MsgId: MMSG-26000]
+..\\..\\Library\\common_lib.h(81): t=670ms: 857-byte request headers for "http://127.0.0.1:1080/WebTours/images/signoff.gif" (RelFrameId=, Internal ID=11)
+..\\..\\Library\\common_lib.h(81):     GET /WebTours/images/signoff.gif HTTP/1.1\r\n
+..\\..\\Library\\common_lib.h(81):     Referer: http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home\r\n
+..\\..\\Library\\common_lib.h(81):     Origin: http://127.0.0.1:1080\r\n
+..\\..\\Library\\common_lib.h(81):     DNT: 1\r\n
+..\\..\\Library\\common_lib.h(81):     Sec-Fetch-Dest: frame\r\n
+..\\..\\Library\\common_lib.h(81):     Sec-Fetch-Mode: navigate\r\n
+..\\..\\Library\\common_lib.h(81):     Sec-Fetch-Site: same-origin\r\n
+..\\..\\Library\\common_lib.h(81):     Upgrade-Insecure-Requests: 1\r\n
+..\\..\\Library\\common_lib.h(81):     sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"\r\n
+..\\..\\Library\\common_lib.h(81):     sec-ch-ua-mobile: ?0\r\n
+..\\..\\Library\\common_lib.h(81):     sec-ch-ua-platform: "Windows"\r\n
+..\\..\\Library\\common_lib.h(81):     Sec-Fetch-User: ?1\r\n
+..\\..\\Library\\common_lib.h(81):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+..\\..\\Library\\common_lib.h(81):     o) Chrome/99.0.4844.82 Safari/537.36\r\n
+..\\..\\Library\\common_lib.h(81):     Accept-Encoding: gzip, deflate, br\r\n
+..\\..\\Library\\common_lib.h(81):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+..\\..\\Library\\common_lib.h(81):     Accept: */*\r\n
+..\\..\\Library\\common_lib.h(81):     Connection: Keep-Alive\r\n
+..\\..\\Library\\common_lib.h(81):     Host: 127.0.0.1:1080\r\n
+..\\..\\Library\\common_lib.h(81):     Cookie: MSO=SID&1649258860; MTUserInfo=firstName&Carlos&address2&Brooklyn&username&acrobat
+..\\..\\Library\\common_lib.h(81):     &hash&84&lastName&Watson%0A&address1&22%20Church%20Street&creditCard&&expDate&%0A\r\n
+..\\..\\Library\\common_lib.h(81):     \r\n
+..\\..\\Library\\common_lib.h(81): t=672ms: 298-byte response headers for "http://127.0.0.1:1080/WebTours/images/in_home.gif" (RelFrameId=, Internal ID=10)
+..\\..\\Library\\common_lib.h(81):     HTTP/1.1 200 OK\r\n
+..\\..\\Library\\common_lib.h(81):     Date: Wed, 06 Apr 2022 15:27:40 GMT\r\n
+..\\..\\Library\\common_lib.h(81):     Server: Apache/2.2.21 (Win32)\r\n
+..\\..\\Library\\common_lib.h(81):     Last-Modified: Sat, 26 Mar 2022 07:29:11 GMT\r\n
+..\\..\\Library\\common_lib.h(81):     ETag: "500000001c67e-2b0-5db1a0917bb3a"\r\n
+..\\..\\Library\\common_lib.h(81):     Accept-Ranges: bytes\r\n
+..\\..\\Library\\common_lib.h(81):     Content-Length: 688\r\n
+..\\..\\Library\\common_lib.h(81):     Keep-Alive: timeout=5, max=100\r\n
+..\\..\\Library\\common_lib.h(81):     Connection: Keep-Alive\r\n
+..\\..\\Library\\common_lib.h(81):     Content-Type: image/gif\r\n
+..\\..\\Library\\common_lib.h(81):     \r\n
+..\\..\\Library\\common_lib.h(81): t=673ms: 688-byte response body for "http://127.0.0.1:1080/WebTours/images/in_home.gif" (RelFrameId=, Internal ID=10)
+..\\..\\Library\\common_lib.h(81): t=674ms: Request done "http://127.0.0.1:1080/WebTours/images/in_home.gif"  	[MsgId: MMSG-26000]
+..\\..\\Library\\common_lib.h(81): t=674ms: 298-byte response headers for "http://127.0.0.1:1080/WebTours/images/signoff.gif" (RelFrameId=, Internal ID=11)
+..\\..\\Library\\common_lib.h(81):     HTTP/1.1 200 OK\r\n
+..\\..\\Library\\common_lib.h(81):     Date: Wed, 06 Apr 2022 15:27:40 GMT\r\n
+..\\..\\Library\\common_lib.h(81):     Server: Apache/2.2.21 (Win32)\r\n
+..\\..\\Library\\common_lib.h(81):     Last-Modified: Sat, 26 Mar 2022 07:29:11 GMT\r\n
+..\\..\\Library\\common_lib.h(81):     ETag: "500000001c687-2ef-5db1a09194b3b"\r\n
+..\\..\\Library\\common_lib.h(81):     Accept-Ranges: bytes\r\n
+..\\..\\Library\\common_lib.h(81):     Content-Length: 751\r\n
+..\\..\\Library\\common_lib.h(81):     Keep-Alive: timeout=5, max=100\r\n
+..\\..\\Library\\common_lib.h(81):     Connection: Keep-Alive\r\n
+..\\..\\Library\\common_lib.h(81):     Content-Type: image/gif\r\n
+..\\..\\Library\\common_lib.h(81):     \r\n
+..\\..\\Library\\common_lib.h(81): t=675ms: 751-byte response body for "http://127.0.0.1:1080/WebTours/images/signoff.gif" (RelFrameId=, Internal ID=11)
+..\\..\\Library\\common_lib.h(81): t=675ms: Request done "http://127.0.0.1:1080/WebTours/images/signoff.gif"  	[MsgId: MMSG-26000]
+..\\..\\Library\\common_lib.h(81): t=676ms: 228-byte response headers for "http://127.0.0.1:1080/cgi-bin/login.pl?intro=true" (RelFrameId=1.2, Internal ID=7)
+..\\..\\Library\\common_lib.h(81):     HTTP/1.1 200 OK\r\n
+..\\..\\Library\\common_lib.h(81):     Date: Wed, 06 Apr 2022 15:27:40 GMT\r\n
+..\\..\\Library\\common_lib.h(81):     Server: Apache/2.2.21 (Win32)\r\n
+..\\..\\Library\\common_lib.h(81):     Expires: 5s\r\n
+..\\..\\Library\\common_lib.h(81):     Keep-Alive: timeout=5, max=99\r\n
+..\\..\\Library\\common_lib.h(81):     Connection: Keep-Alive\r\n
+..\\..\\Library\\common_lib.h(81):     Transfer-Encoding: chunked\r\n
+..\\..\\Library\\common_lib.h(81):     Content-Type: text/html; charset=ISO-8859-1\r\n
+..\\..\\Library\\common_lib.h(81):     \r\n
+..\\..\\Library\\common_lib.h(81): t=676ms: 5-byte chunked response overhead for "http://127.0.0.1:1080/cgi-bin/login.pl?intro=true" (RelFrameId=1.2, Internal ID=7)
+..\\..\\Library\\common_lib.h(81):     399\r\n
+..\\..\\Library\\common_lib.h(81): t=677ms: 7-byte chunked response overhead for "http://127.0.0.1:1080/cgi-bin/login.pl?intro=true" (RelFrameId=1.2, Internal ID=7)
+..\\..\\Library\\common_lib.h(81):     \r\n
+..\\..\\Library\\common_lib.h(81):     0\r\n
+..\\..\\Library\\common_lib.h(81):     \r\n
+..\\..\\Library\\common_lib.h(81): t=677ms: 921-byte chunked response body for "http://127.0.0.1:1080/cgi-bin/login.pl?intro=true" (RelFrameId=1.2, Internal ID=7)
+..\\..\\Library\\common_lib.h(81):     <!DOCTYPE html\n
+..\\..\\Library\\common_lib.h(81):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+..\\..\\Library\\common_lib.h(81):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+..\\..\\Library\\common_lib.h(81):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+..\\..\\Library\\common_lib.h(81):     <head>\n
+..\\..\\Library\\common_lib.h(81):     <title>Welcome to Web Tours</title>\n
+..\\..\\Library\\common_lib.h(81):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+..\\..\\Library\\common_lib.h(81):     </head>\n
+..\\..\\Library\\common_lib.h(81):     <body bgcolor="#E0E7F1">\n
+..\\..\\Library\\common_lib.h(81):     <p /><style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; fon
+..\\..\\Library\\common_lib.h(81):     t-size : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family:
+..\\..\\Library\\common_lib.h(81):      tahoma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 10pt; color: 
+..\\..\\Library\\common_lib.h(81):     black}</style><BR/><BR/><BR/><BR/><BR/><blockquote>Welcome, <b>acrobat</b>, to the Web Tou
+..\\..\\Library\\common_lib.h(81):     rs reservation pages.<BR/>Using the menu to the left, you can search for new flights to bo
+..\\..\\Library\\common_lib.h(81):     ok, \n
+..\\..\\Library\\common_lib.h(81):     or review/edit the flights already booked.  Don't forget to sign off when\n
+..\\..\\Library\\common_lib.h(81):     you're done!\n
+..\\..\\Library\\common_lib.h(81):     </blockquote>\n
+..\\..\\Library\\common_lib.h(81):     </body>\n
+..\\..\\Library\\common_lib.h(81):     </html>
+..\\..\\Library\\common_lib.h(81): t=678ms: Request done "http://127.0.0.1:1080/cgi-bin/login.pl?intro=true"  	[MsgId: MMSG-26000]
+..\\..\\Library\\common_lib.h(81): Registered web_reg_find successful for "Text=Illegal Access"  	[MsgId: MMSG-26362]
+..\\..\\Library\\common_lib.h(81): Registered web_reg_find successful for "Text=User password was correct" (count=1)  	[MsgId: MMSG-26364]
+..\\..\\Library\\common_lib.h(81): web_submit_data("login.pl") was successful, 5782 body bytes, 2067 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+..\\..\\Library\\common_lib.h(98): Notify: Transaction "Login" ended with a "Pass" status (Duration: 0.1622 Wasted Time: 0.0097).
+..\\..\\Library\\common_lib.h(104): Notify: Transaction "Flights" started.
+..\\..\\Library\\common_lib.h(106): web_reg_find started  	[MsgId: MMSG-26355]
+..\\..\\Library\\common_lib.h(106): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+..\\..\\Library\\common_lib.h(109): web_remove_auto_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
+..\\..\\Library\\common_lib.h(109): Previous automatically added web header for "Sec-Fetch-User" removed  	[MsgId: MMSG-26587]
+..\\..\\Library\\common_lib.h(109): web_remove/revert_auto_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
+..\\..\\Library\\common_lib.h(113): web_url("Search Flights Button") started  	[MsgId: MMSG-26355]
+..\\..\\Library\\common_lib.h(113): t=703ms: Already connected [0] to 127.0.0.1:1080  	[MsgId: MMSG-26000]
+..\\..\\Library\\common_lib.h(113): t=703ms: 809-byte request headers for "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=search" (RelFrameId=1, Internal ID=12)
+..\\..\\Library\\common_lib.h(113):     GET /cgi-bin/welcome.pl?page=search HTTP/1.1\r\n
+..\\..\\Library\\common_lib.h(113):     Referer: http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home\r\n
+..\\..\\Library\\common_lib.h(113):     DNT: 1\r\n
+..\\..\\Library\\common_lib.h(113):     Sec-Fetch-Dest: frame\r\n
+..\\..\\Library\\common_lib.h(113):     Sec-Fetch-Mode: navigate\r\n
+..\\..\\Library\\common_lib.h(113):     Sec-Fetch-Site: same-origin\r\n
+..\\..\\Library\\common_lib.h(113):     Upgrade-Insecure-Requests: 1\r\n
+..\\..\\Library\\common_lib.h(113):     sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"\r\n
+..\\..\\Library\\common_lib.h(113):     sec-ch-ua-mobile: ?0\r\n
+..\\..\\Library\\common_lib.h(113):     sec-ch-ua-platform: "Windows"\r\n
+..\\..\\Library\\common_lib.h(113):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+..\\..\\Library\\common_lib.h(113):     o) Chrome/99.0.4844.82 Safari/537.36\r\n
+..\\..\\Library\\common_lib.h(113):     Accept-Encoding: gzip, deflate, br\r\n
+..\\..\\Library\\common_lib.h(113):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+..\\..\\Library\\common_lib.h(113):     Accept: */*\r\n
+..\\..\\Library\\common_lib.h(113):     Connection: Keep-Alive\r\n
+..\\..\\Library\\common_lib.h(113):     Host: 127.0.0.1:1080\r\n
+..\\..\\Library\\common_lib.h(113):     Cookie: MSO=SID&1649258860; MTUserInfo=firstName&Carlos&address2&Brooklyn&username&acrobat
+..\\..\\Library\\common_lib.h(113):     &hash&84&lastName&Watson%0A&address1&22%20Church%20Street&creditCard&&expDate&%0A\r\n
+..\\..\\Library\\common_lib.h(113):     \r\n
+..\\..\\Library\\common_lib.h(113): t=754ms: 215-byte response headers for "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=search" (RelFrameId=1, Internal ID=12)
+..\\..\\Library\\common_lib.h(113):     HTTP/1.1 200 OK\r\n
+..\\..\\Library\\common_lib.h(113):     Date: Wed, 06 Apr 2022 15:27:40 GMT\r\n
+..\\..\\Library\\common_lib.h(113):     Server: Apache/2.2.21 (Win32)\r\n
+..\\..\\Library\\common_lib.h(113):     Keep-Alive: timeout=5, max=96\r\n
+..\\..\\Library\\common_lib.h(113):     Connection: Keep-Alive\r\n
+..\\..\\Library\\common_lib.h(113):     Transfer-Encoding: chunked\r\n
+..\\..\\Library\\common_lib.h(113):     Content-Type: text/html; charset=ISO-8859-1\r\n
+..\\..\\Library\\common_lib.h(113):     \r\n
+..\\..\\Library\\common_lib.h(113): t=755ms: 5-byte chunked response overhead for "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=search" (RelFrameId=1, Internal ID=12)
+..\\..\\Library\\common_lib.h(113):     268\r\n
+..\\..\\Library\\common_lib.h(113): t=755ms: 7-byte chunked response overhead for "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=search" (RelFrameId=1, Internal ID=12)
+..\\..\\Library\\common_lib.h(113):     \r\n
+..\\..\\Library\\common_lib.h(113):     0\r\n
+..\\..\\Library\\common_lib.h(113):     \r\n
+..\\..\\Library\\common_lib.h(113): t=756ms: 616-byte chunked response body for "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=search" (RelFrameId=1, Internal ID=12)
+..\\..\\Library\\common_lib.h(113):     <!-- \n
+..\\..\\Library\\common_lib.h(113):      User has returned to the search page.  Since user has already logged on,\n
+..\\..\\Library\\common_lib.h(113):      we can give them the menu in the navbar.\n
+..\\..\\Library\\common_lib.h(113):      --->\n
+..\\..\\Library\\common_lib.h(113):     \n
+..\\..\\Library\\common_lib.h(113):     <html>\n
+..\\..\\Library\\common_lib.h(113):     <title>Web Tours</title>\n
+..\\..\\Library\\common_lib.h(113):        <!-- Frame Set -->\n
+..\\..\\Library\\common_lib.h(113):        <frameset cols="160,*" border="1" frameborder="1">\n
+..\\..\\Library\\common_lib.h(113):           <!-- Navigation Frame -->\n
+..\\..\\Library\\common_lib.h(113):           <frame src="nav.pl?page=menu&in=flights" name="navbar" \n
+..\\..\\Library\\common_lib.h(113):                 marginheight="2" marginwidth="2" norseize="noresize" scrolling="auto"/>\n
+..\\..\\Library\\common_lib.h(113):           <!-- Reservation Frame -->\n
+..\\..\\Library\\common_lib.h(113):           <frame src="reservations.pl?page=welcome" name="info" \n
+..\\..\\Library\\common_lib.h(113):                 marginheight="2" marginwidth="2" norseize="noresize" scrolling="auto"/>\n
+..\\..\\Library\\common_lib.h(113):        </frameset>\n
+..\\..\\Library\\common_lib.h(113):     </html>\n
+..\\..\\Library\\common_lib.h(113): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=flights" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=search"  	[MsgId: MMSG-26574]
+..\\..\\Library\\common_lib.h(113): Detected non-resource "http://127.0.0.1:1080/cgi-bin/reservations.pl?page=welcome" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=search"  	[MsgId: MMSG-26574]
+..\\..\\Library\\common_lib.h(113): t=756ms: Request done "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=search"  	[MsgId: MMSG-26000]
+..\\..\\Library\\common_lib.h(113): t=757ms: Already connected [1] to 127.0.0.1:1080  	[MsgId: MMSG-26000]
+..\\..\\Library\\common_lib.h(113): t=757ms: 812-byte request headers for "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=flights" (RelFrameId=1.1, Internal ID=13)
+..\\..\\Library\\common_lib.h(113):     GET /cgi-bin/nav.pl?page=menu&in=flights HTTP/1.1\r\n
+..\\..\\Library\\common_lib.h(113):     Referer: http://127.0.0.1:1080/cgi-bin/welcome.pl?page=search\r\n
+..\\..\\Library\\common_lib.h(113):     DNT: 1\r\n
+..\\..\\Library\\common_lib.h(113):     Sec-Fetch-Dest: frame\r\n
+..\\..\\Library\\common_lib.h(113):     Sec-Fetch-Mode: navigate\r\n
+..\\..\\Library\\common_lib.h(113):     Sec-Fetch-Site: same-origin\r\n
+..\\..\\Library\\common_lib.h(113):     Upgrade-Insecure-Requests: 1\r\n
+..\\..\\Library\\common_lib.h(113):     sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"\r\n
+..\\..\\Library\\common_lib.h(113):     sec-ch-ua-mobile: ?0\r\n
+..\\..\\Library\\common_lib.h(113):     sec-ch-ua-platform: "Windows"\r\n
+..\\..\\Library\\common_lib.h(113):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+..\\..\\Library\\common_lib.h(113):     o) Chrome/99.0.4844.82 Safari/537.36\r\n
+..\\..\\Library\\common_lib.h(113):     Accept-Encoding: gzip, deflate, br\r\n
+..\\..\\Library\\common_lib.h(113):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+..\\..\\Library\\common_lib.h(113):     Accept: */*\r\n
+..\\..\\Library\\common_lib.h(113):     Connection: Keep-Alive\r\n
+..\\..\\Library\\common_lib.h(113):     Host: 127.0.0.1:1080\r\n
+..\\..\\Library\\common_lib.h(113):     Cookie: MSO=SID&1649258860; MTUserInfo=firstName&Carlos&address2&Brooklyn&username&acrobat
+..\\..\\Library\\common_lib.h(113):     &hash&84&lastName&Watson%0A&address1&22%20Church%20Street&creditCard&&expDate&%0A\r\n
+..\\..\\Library\\common_lib.h(113):     \r\n
+..\\..\\Library\\common_lib.h(113): t=758ms: Already connected [2] to 127.0.0.1:1080  	[MsgId: MMSG-26000]
+..\\..\\Library\\common_lib.h(113): t=758ms: 813-byte request headers for "http://127.0.0.1:1080/cgi-bin/reservations.pl?page=welcome" (RelFrameId=1.2, Internal ID=14)
+..\\..\\Library\\common_lib.h(113):     GET /cgi-bin/reservations.pl?page=welcome HTTP/1.1\r\n
+..\\..\\Library\\common_lib.h(113):     Referer: http://127.0.0.1:1080/cgi-bin/welcome.pl?page=search\r\n
+..\\..\\Library\\common_lib.h(113):     DNT: 1\r\n
+..\\..\\Library\\common_lib.h(113):     Sec-Fetch-Dest: frame\r\n
+..\\..\\Library\\common_lib.h(113):     Sec-Fetch-Mode: navigate\r\n
+..\\..\\Library\\common_lib.h(113):     Sec-Fetch-Site: same-origin\r\n
+..\\..\\Library\\common_lib.h(113):     Upgrade-Insecure-Requests: 1\r\n
+..\\..\\Library\\common_lib.h(113):     sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"\r\n
+..\\..\\Library\\common_lib.h(113):     sec-ch-ua-mobile: ?0\r\n
+..\\..\\Library\\common_lib.h(113):     sec-ch-ua-platform: "Windows"\r\n
+..\\..\\Library\\common_lib.h(113):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+..\\..\\Library\\common_lib.h(113):     o) Chrome/99.0.4844.82 Safari/537.36\r\n
+..\\..\\Library\\common_lib.h(113):     Accept-Encoding: gzip, deflate, br\r\n
+..\\..\\Library\\common_lib.h(113):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+..\\..\\Library\\common_lib.h(113):     Accept: */*\r\n
+..\\..\\Library\\common_lib.h(113):     Connection: Keep-Alive\r\n
+..\\..\\Library\\common_lib.h(113):     Host: 127.0.0.1:1080\r\n
+..\\..\\Library\\common_lib.h(113):     Cookie: MSO=SID&1649258860; MTUserInfo=firstName&Carlos&address2&Brooklyn&username&acrobat
+..\\..\\Library\\common_lib.h(113):     &hash&84&lastName&Watson%0A&address1&22%20Church%20Street&creditCard&&expDate&%0A\r\n
+..\\..\\Library\\common_lib.h(113):     \r\n
+..\\..\\Library\\common_lib.h(113): t=825ms: 255-byte response headers for "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=flights" (RelFrameId=1.1, Internal ID=13)
+..\\..\\Library\\common_lib.h(113):     HTTP/1.1 200 OK\r\n
+..\\..\\Library\\common_lib.h(113):     Date: Wed, 06 Apr 2022 15:27:40 GMT\r\n
+..\\..\\Library\\common_lib.h(113):     Server: Apache/2.2.21 (Win32)\r\n
+..\\..\\Library\\common_lib.h(113):     Expires: Tue, 05 Apr 2022 15:27:40 GMT\r\n
+..\\..\\Library\\common_lib.h(113):     Keep-Alive: timeout=5, max=98\r\n
+..\\..\\Library\\common_lib.h(113):     Connection: Keep-Alive\r\n
+..\\..\\Library\\common_lib.h(113):     Transfer-Encoding: chunked\r\n
+..\\..\\Library\\common_lib.h(113):     Content-Type: text/html; charset=ISO-8859-1\r\n
+..\\..\\Library\\common_lib.h(113):     \r\n
+..\\..\\Library\\common_lib.h(113): t=825ms: 5-byte chunked response overhead for "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=flights" (RelFrameId=1.1, Internal ID=13)
+..\\..\\Library\\common_lib.h(113):     5ca\r\n
+..\\..\\Library\\common_lib.h(113): t=825ms: 7-byte chunked response overhead for "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=flights" (RelFrameId=1.1, Internal ID=13)
+..\\..\\Library\\common_lib.h(113):     \r\n
+..\\..\\Library\\common_lib.h(113):     0\r\n
+..\\..\\Library\\common_lib.h(113):     \r\n
+..\\..\\Library\\common_lib.h(113): t=825ms: 1482-byte chunked response body for "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=flights" (RelFrameId=1.1, Internal ID=13)
+..\\..\\Library\\common_lib.h(113):     <!DOCTYPE html\n
+..\\..\\Library\\common_lib.h(113):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+..\\..\\Library\\common_lib.h(113):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+..\\..\\Library\\common_lib.h(113):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+..\\..\\Library\\common_lib.h(113):     <head>\n
+..\\..\\Library\\common_lib.h(113):     <title>Web Tours Navigation Bar</title>\n
+..\\..\\Library\\common_lib.h(113):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+..\\..\\Library\\common_lib.h(113):     </head>\n
+..\\..\\Library\\common_lib.h(113):     <body bgcolor="#E0E7F1">\n
+..\\..\\Library\\common_lib.h(113):     \n
+..\\..\\Library\\common_lib.h(113):     <style>\n
+..\\..\\Library\\common_lib.h(113):     \tblockquote {font-family: tahoma; font-size : 10pt}\n
+..\\..\\Library\\common_lib.h(113):     \tH1 {font-family: tahoma; font-size : 22pt; color: #993333}\n
+..\\..\\Library\\common_lib.h(113):     \tsmall {font-family: tahoma; font-size : 8pt}\n
+..\\..\\Library\\common_lib.h(113):     \tH3{font-family: tahoma; font-size : 10pt; color: black}\n
+..\\..\\Library\\common_lib.h(113):     \tA {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATIO
+..\\..\\Library\\common_lib.h(113):     N: none}\n
+..\\..\\Library\\common_lib.h(113):     \tA:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DE
+..\\..\\Library\\common_lib.h(113):     CORATION: underline}\n
+..\\..\\Library\\common_lib.h(113):     \tTD {font-family: tahoma; font-size : 10pt; color: black}\n
+..\\..\\Library\\common_lib.h(113):     </style>\n
+..\\..\\Library\\common_lib.h(113):     \n
+..\\..\\Library\\common_lib.h(113):     <BR><BR><center>\n
+..\\..\\Library\\common_lib.h(113):     \n
+..\\..\\Library\\common_lib.h(113):     <br clear="both"/><center><A HREF="welcome.pl?page=search" TARGET="body"><IMG BORDER="0" S
+..\\..\\Library\\common_lib.h(113):     RC="/WebTours/images/in_flights.gif" \n
+..\\..\\Library\\common_lib.h(113):     ALT="Search Flights Button"/></A>\n
+..\\..\\Library\\common_lib.h(113):     <br clear="both"/><A HREF="welcome.pl?page=itinerary" TARGET="body"><IMG BORDER="0" SRC="/
+..\\..\\Library\\common_lib.h(113):     WebTours/images/itinerary.gif" \n
+..\\..\\Library\\common_lib.h(113):     ALT="Itinerary Button"/></A>\n
+..\\..\\Library\\common_lib.h(113):     <br clear="both"/><A HREF="welcome.pl?page=menus" TARGET="body"><IMG BORDER="0" SRC="/WebT
+..\\..\\Library\\common_lib.h(113):     ours/images/home.gif" \n
+..\\..\\Library\\common_lib.h(113):     ALT="Home Button"/></A>\n
+..\\..\\Library\\common_lib.h(113):     <br clear><A HREF="welcome.pl?signOff=1" TARGET="body"><IMG BORDER="0" SRC="/WebTours/imag
+..\\..\\Library\\common_lib.h(113):     es/signoff.gif" \n
+..\\..\\Library\\common_lib.h(113):     ALT="SignOff Button"/></A></center>\n
+..\\..\\Library\\common_lib.h(113):     \n
+..\\..\\Library\\common_lib.h(113):     </body>\n
+..\\..\\Library\\common_lib.h(113):     </html>\n
+..\\..\\Library\\common_lib.h(113): Found resource "http://127.0.0.1:1080/WebTours/images/in_flights.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=flights"  	[MsgId: MMSG-26659]
+..\\..\\Library\\common_lib.h(113): Resource "http://127.0.0.1:1080/WebTours/images/itinerary.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+..\\..\\Library\\common_lib.h(113): Found resource "http://127.0.0.1:1080/WebTours/images/home.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=flights"  	[MsgId: MMSG-26659]
+..\\..\\Library\\common_lib.h(113): Resource "http://127.0.0.1:1080/WebTours/images/signoff.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+..\\..\\Library\\common_lib.h(113): t=827ms: Request done "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=flights"  	[MsgId: MMSG-26000]
+..\\..\\Library\\common_lib.h(113): t=828ms: Already connected [0] to 127.0.0.1:1080  	[MsgId: MMSG-26000]
+..\\..\\Library\\common_lib.h(113): t=828ms: 812-byte request headers for "http://127.0.0.1:1080/WebTours/images/in_flights.gif" (RelFrameId=, Internal ID=15)
+..\\..\\Library\\common_lib.h(113):     GET /WebTours/images/in_flights.gif HTTP/1.1\r\n
+..\\..\\Library\\common_lib.h(113):     Referer: http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=flights\r\n
+..\\..\\Library\\common_lib.h(113):     DNT: 1\r\n
+..\\..\\Library\\common_lib.h(113):     Sec-Fetch-Dest: frame\r\n
+..\\..\\Library\\common_lib.h(113):     Sec-Fetch-Mode: navigate\r\n
+..\\..\\Library\\common_lib.h(113):     Sec-Fetch-Site: same-origin\r\n
+..\\..\\Library\\common_lib.h(113):     Upgrade-Insecure-Requests: 1\r\n
+..\\..\\Library\\common_lib.h(113):     sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"\r\n
+..\\..\\Library\\common_lib.h(113):     sec-ch-ua-mobile: ?0\r\n
+..\\..\\Library\\common_lib.h(113):     sec-ch-ua-platform: "Windows"\r\n
+..\\..\\Library\\common_lib.h(113):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+..\\..\\Library\\common_lib.h(113):     o) Chrome/99.0.4844.82 Safari/537.36\r\n
+..\\..\\Library\\common_lib.h(113):     Accept-Encoding: gzip, deflate, br\r\n
+..\\..\\Library\\common_lib.h(113):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+..\\..\\Library\\common_lib.h(113):     Accept: */*\r\n
+..\\..\\Library\\common_lib.h(113):     Connection: Keep-Alive\r\n
+..\\..\\Library\\common_lib.h(113):     Host: 127.0.0.1:1080\r\n
+..\\..\\Library\\common_lib.h(113):     Cookie: MSO=SID&1649258860; MTUserInfo=firstName&Carlos&address2&Brooklyn&username&acrobat
+..\\..\\Library\\common_lib.h(113):     &hash&84&lastName&Watson%0A&address1&22%20Church%20Street&creditCard&&expDate&%0A\r\n
+..\\..\\Library\\common_lib.h(113):     \r\n
+..\\..\\Library\\common_lib.h(113): t=828ms: Already connected [3] to 127.0.0.1:1080  	[MsgId: MMSG-26000]
+..\\..\\Library\\common_lib.h(113): t=828ms: 806-byte request headers for "http://127.0.0.1:1080/WebTours/images/home.gif" (RelFrameId=, Internal ID=16)
+..\\..\\Library\\common_lib.h(113):     GET /WebTours/images/home.gif HTTP/1.1\r\n
+..\\..\\Library\\common_lib.h(113):     Referer: http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=flights\r\n
+..\\..\\Library\\common_lib.h(113):     DNT: 1\r\n
+..\\..\\Library\\common_lib.h(113):     Sec-Fetch-Dest: frame\r\n
+..\\..\\Library\\common_lib.h(113):     Sec-Fetch-Mode: navigate\r\n
+..\\..\\Library\\common_lib.h(113):     Sec-Fetch-Site: same-origin\r\n
+..\\..\\Library\\common_lib.h(113):     Upgrade-Insecure-Requests: 1\r\n
+..\\..\\Library\\common_lib.h(113):     sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"\r\n
+..\\..\\Library\\common_lib.h(113):     sec-ch-ua-mobile: ?0\r\n
+..\\..\\Library\\common_lib.h(113):     sec-ch-ua-platform: "Windows"\r\n
+..\\..\\Library\\common_lib.h(113):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+..\\..\\Library\\common_lib.h(113):     o) Chrome/99.0.4844.82 Safari/537.36\r\n
+..\\..\\Library\\common_lib.h(113):     Accept-Encoding: gzip, deflate, br\r\n
+..\\..\\Library\\common_lib.h(113):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+..\\..\\Library\\common_lib.h(113):     Accept: */*\r\n
+..\\..\\Library\\common_lib.h(113):     Connection: Keep-Alive\r\n
+..\\..\\Library\\common_lib.h(113):     Host: 127.0.0.1:1080\r\n
+..\\..\\Library\\common_lib.h(113):     Cookie: MSO=SID&1649258860; MTUserInfo=firstName&Carlos&address2&Brooklyn&username&acrobat
+..\\..\\Library\\common_lib.h(113):     &hash&84&lastName&Watson%0A&address1&22%20Church%20Street&creditCard&&expDate&%0A\r\n
+..\\..\\Library\\common_lib.h(113):     \r\n
+..\\..\\Library\\common_lib.h(113): t=830ms: 297-byte response headers for "http://127.0.0.1:1080/WebTours/images/in_flights.gif" (RelFrameId=, Internal ID=15)
+..\\..\\Library\\common_lib.h(113):     HTTP/1.1 200 OK\r\n
+..\\..\\Library\\common_lib.h(113):     Date: Wed, 06 Apr 2022 15:27:40 GMT\r\n
+..\\..\\Library\\common_lib.h(113):     Server: Apache/2.2.21 (Win32)\r\n
+..\\..\\Library\\common_lib.h(113):     Last-Modified: Sat, 26 Mar 2022 07:29:11 GMT\r\n
+..\\..\\Library\\common_lib.h(113):     ETag: "500000001c67d-2d6-5db1a09179052"\r\n
+..\\..\\Library\\common_lib.h(113):     Accept-Ranges: bytes\r\n
+..\\..\\Library\\common_lib.h(113):     Content-Length: 726\r\n
+..\\..\\Library\\common_lib.h(113):     Keep-Alive: timeout=5, max=95\r\n
+..\\..\\Library\\common_lib.h(113):     Connection: Keep-Alive\r\n
+..\\..\\Library\\common_lib.h(113):     Content-Type: image/gif\r\n
+..\\..\\Library\\common_lib.h(113):     \r\n
+..\\..\\Library\\common_lib.h(113): t=831ms: 726-byte response body for "http://127.0.0.1:1080/WebTours/images/in_flights.gif" (RelFrameId=, Internal ID=15)
+..\\..\\Library\\common_lib.h(113): t=831ms: Request done "http://127.0.0.1:1080/WebTours/images/in_flights.gif"  	[MsgId: MMSG-26000]
+..\\..\\Library\\common_lib.h(113): t=832ms: 297-byte response headers for "http://127.0.0.1:1080/WebTours/images/home.gif" (RelFrameId=, Internal ID=16)
+..\\..\\Library\\common_lib.h(113):     HTTP/1.1 200 OK\r\n
+..\\..\\Library\\common_lib.h(113):     Date: Wed, 06 Apr 2022 15:27:40 GMT\r\n
+..\\..\\Library\\common_lib.h(113):     Server: Apache/2.2.21 (Win32)\r\n
+..\\..\\Library\\common_lib.h(113):     Last-Modified: Sat, 26 Mar 2022 07:29:11 GMT\r\n
+..\\..\\Library\\common_lib.h(113):     ETag: "500000001c67b-2b0-5db1a091732b7"\r\n
+..\\..\\Library\\common_lib.h(113):     Accept-Ranges: bytes\r\n
+..\\..\\Library\\common_lib.h(113):     Content-Length: 688\r\n
+..\\..\\Library\\common_lib.h(113):     Keep-Alive: timeout=5, max=99\r\n
+..\\..\\Library\\common_lib.h(113):     Connection: Keep-Alive\r\n
+..\\..\\Library\\common_lib.h(113):     Content-Type: image/gif\r\n
+..\\..\\Library\\common_lib.h(113):     \r\n
+..\\..\\Library\\common_lib.h(113): t=833ms: 688-byte response body for "http://127.0.0.1:1080/WebTours/images/home.gif" (RelFrameId=, Internal ID=16)
+..\\..\\Library\\common_lib.h(113): t=833ms: Request done "http://127.0.0.1:1080/WebTours/images/home.gif"  	[MsgId: MMSG-26000]
+..\\..\\Library\\common_lib.h(113): t=846ms: 255-byte response headers for "http://127.0.0.1:1080/cgi-bin/reservations.pl?page=welcome" (RelFrameId=1.2, Internal ID=14)
+..\\..\\Library\\common_lib.h(113):     HTTP/1.1 200 OK\r\n
+..\\..\\Library\\common_lib.h(113):     Date: Wed, 06 Apr 2022 15:27:40 GMT\r\n
+..\\..\\Library\\common_lib.h(113):     Server: Apache/2.2.21 (Win32)\r\n
+..\\..\\Library\\common_lib.h(113):     Expires: Tue, 05 Apr 2022 15:27:40 GMT\r\n
+..\\..\\Library\\common_lib.h(113):     Keep-Alive: timeout=5, max=98\r\n
+..\\..\\Library\\common_lib.h(113):     Connection: Keep-Alive\r\n
+..\\..\\Library\\common_lib.h(113):     Transfer-Encoding: chunked\r\n
+..\\..\\Library\\common_lib.h(113):     Content-Type: text/html; charset=ISO-8859-1\r\n
+..\\..\\Library\\common_lib.h(113):     \r\n
+..\\..\\Library\\common_lib.h(113): t=846ms: 5-byte chunked response overhead for "http://127.0.0.1:1080/cgi-bin/reservations.pl?page=welcome" (RelFrameId=1.2, Internal ID=14)
+..\\..\\Library\\common_lib.h(113):     f84\r\n
+..\\..\\Library\\common_lib.h(113): t=846ms: 7-byte chunked response overhead for "http://127.0.0.1:1080/cgi-bin/reservations.pl?page=welcome" (RelFrameId=1.2, Internal ID=14)
+..\\..\\Library\\common_lib.h(113):     \r\n
+..\\..\\Library\\common_lib.h(113):     112\r\n
+..\\..\\Library\\common_lib.h(113): t=847ms: 7-byte chunked response overhead for "http://127.0.0.1:1080/cgi-bin/reservations.pl?page=welcome" (RelFrameId=1.2, Internal ID=14)
+..\\..\\Library\\common_lib.h(113):     \r\n
+..\\..\\Library\\common_lib.h(113):     0\r\n
+..\\..\\Library\\common_lib.h(113):     \r\n
+..\\..\\Library\\common_lib.h(113): t=847ms: 4246-byte chunked response body for "http://127.0.0.1:1080/cgi-bin/reservations.pl?page=welcome" (RelFrameId=1.2, Internal ID=14)
+..\\..\\Library\\common_lib.h(113):     <!DOCTYPE html\n
+..\\..\\Library\\common_lib.h(113):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+..\\..\\Library\\common_lib.h(113):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+..\\..\\Library\\common_lib.h(113):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+..\\..\\Library\\common_lib.h(113):     <head>\n
+..\\..\\Library\\common_lib.h(113):     <title>Flight Selections</title>\n
+..\\..\\Library\\common_lib.h(113):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+..\\..\\Library\\common_lib.h(113):     </head>\n
+..\\..\\Library\\common_lib.h(113):     <body bgcolor="#E0E7F1">\n
+..\\..\\Library\\common_lib.h(113):     <style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; font-siz
+..\\..\\Library\\common_lib.h(113):     e : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family: taho
+..\\..\\Library\\common_lib.h(113):     ma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 10pt; color: black
+..\\..\\Library\\common_lib.h(113):     }</style><BR/><BR/><h1><font color="#003366">&nbsp;&nbsp;<b>Find Flight</font></b></h1><bl
+..\\..\\Library\\common_lib.h(113):     ockquote>\n
+..\\..\\Library\\common_lib.h(113):     <form method="post" action="reservations.pl" enctype="application/x-www-form-urlencoded" o
+..\\..\\Library\\common_lib.h(113):     nsubmit="" name="DestForm">\n
+..\\..\\Library\\common_lib.h(113):     <input type="hidden" name="advanceDiscount" value="0"  /><table border="0" cellspacing="5"
+..\\..\\Library\\common_lib.h(113):     ><tr><td align="left">Departure City :</td> <td><select name="depart" >\n
+..\\..\\Library\\common_lib.h(113):     <option selected="selected" value="Denver">Denver</option>\n
+..\\..\\Library\\common_lib.h(113):     <option value="Frankfurt">Frankfurt</option>\n
+..\\..\\Library\\common_lib.h(113):     <option value="London">London</option>\n
+..\\..\\Library\\common_lib.h(113):     <option value="Los Angeles">Los Angeles</option>\n
+..\\..\\Library\\common_lib.h(113):     <option value="Paris">Paris</option>\n
+..\\..\\Library\\common_lib.h(113):     <option value="Portland">Portland</option>\n
+..\\..\\Library\\common_lib.h(113):     <option value="San Francisco">San Francisco</option>\n
+..\\..\\Library\\common_lib.h(113):     <option value="Seattle">Seattle</option>\n
+..\\..\\Library\\common_lib.h(113):     <option value="Sydney">Sydney</option>\n
+..\\..\\Library\\common_lib.h(113):     <option value="Zurich">Zurich</option>\n
+..\\..\\Library\\common_lib.h(113):     </select></td> <td align="left">Departure Date :</td> <td><input type="text" name="departD
+..\\..\\Library\\common_lib.h(113):     ate" value="04/07/2022" size="10" maxlength="10" /> \n
+..\\..\\Library\\common_lib.h(113):     <!-- Departure Date Applet -->\n
+..\\..\\Library\\common_lib.h(113):     <APPLET CODEBASE="/WebTours/classes/" CODE="FormDateUpdate.class" MAYSCRIPT Width=26 Heigh
+..\\..\\Library\\common_lib.h(113):     t=28 BORDER=0>\n
+..\\..\\Library\\common_lib.h(113):        <PARAM NAME=CalenderTitle  VALUE="Select Departure Date">\n
+..\\..\\Library\\common_lib.h(113):        <PARAM NAME=HtmlFormIndex  VALUE=0>\n
+..\\..\\Library\\common_lib.h(113):        <PARAM NAME=HtmlEditIndex  VALUE=2>\n
+..\\..\\Library\\common_lib.h(113):        <PARAM NAME=AutoClose      VALUE=1>\n
+..\\..\\Library\\common_lib.h(113):        <PARAM NAME=Label          VALUE="...">\n
+..\\..\\Library\\common_lib.h(113):     </APPLET>\n
+..\\..\\Library\\common_lib.h(113):     </td></tr> <tr><td align="left">Arrival City :</td> <td><select name="arrive" >\n
+..\\..\\Library\\common_lib.h(113):     <option selected="selected" value="Denver">Denver</option>\n
+..\\..\\Library\\common_lib.h(113):     <option value="Frankfurt">Frankfurt</option>\n
+..\\..\\Library\\common_lib.h(113):     <option value="London">London</option>\n
+..\\..\\Library\\common_lib.h(113):     <option value="Los Angeles">Los Angeles</option>\n
+..\\..\\Library\\common_lib.h(113):     <option value="Paris">Paris</option>\n
+..\\..\\Library\\common_lib.h(113):     <option value="Portland">Portland</option>\n
+..\\..\\Library\\common_lib.h(113):     <option value="San Francisco">San Francisco</option>\n
+..\\..\\Library\\common_lib.h(113):     <option value="Seattle">Seattle</option>\n
+..\\..\\Library\\common_lib.h(113):     <option value="Sydney">Sydney</option>\n
+..\\..\\Library\\common_lib.h(113):     <option value="Zurich">Zurich</option>\n
+..\\..\\Library\\common_lib.h(113):     </select></td> <td align="left">Return Date :</td> <td><input type="text" name="returnDate
+..\\..\\Library\\common_lib.h(113):     " value="04/08/2022" size="10" maxlength="10" /> \n
+..\\..\\Library\\common_lib.h(113):     <!-- Return Date Applet -->\n
+..\\..\\Library\\common_lib.h(113):     <APPLET CODEBASE="/WebTours/classes/" CODE="FormDateUpdate.class" MAYSCRIPT Width=26 Heigh
+..\\..\\Library\\common_lib.h(113):     t=28 BORDER=0>\n
+..\\..\\Library\\common_lib.h(113):        <PARAM NAME=CalenderTitle  VALUE="Select Return Date">\n
+..\\..\\Library\\common_lib.h(113):        <PARAM NAME=HtmlFormIndex  VALUE=0>\n
+..\\..\\Library\\common_lib.h(113):        <PARAM NAME=HtmlEditIndex  VALUE=4>\n
+..\\..\\Library\\common_lib.h(113):        <PARAM NAME=AutoClose      VALUE=1>\n
+..\\..\\Library\\common_lib.h(113):        <PARAM NAME=Label          VALUE="...">\n
+..\\..\\Library\\common_lib.h(113):     </APPLET>\n
+..\\..\\Library\\common_lib.h(113):     </td></tr> <tr><td align="left">No. of Passengers : </td> <td><input type="text" name="num
+..\\..\\Library\\common_lib.h(113):     Passengers" value="1" size="3" maxlength="8" /></td> <td colspan="2"><label><input type="c
+..\\..\\Library\\common_lib.h(113):     heckbox" name="roundtrip" value="on" />Roundtrip ticket</label></td></tr> <tr><td>Seating 
+..\\..\\Library\\common_lib.h(113):     Preference</td> <td /> <td>Type of Seat</td></tr> <tr><td><label><input type="radio" name=
+..\\..\\Library\\common_lib.h(113):     "seatPref" value="Aisle" />Aisle</label><br /> <label><input type="radio" name="seatPref" 
+..\\..\\Library\\common_lib.h(113):     value="Window" />Window</label><br /> <label><input type="radio" name="seatPref" value="No
+..\\..\\Library\\common_lib.h(113):     ne" checked="checked" />None</label><br /></td> <td /> <td><label><input type="radio" name
+..\\..\\Library\\common_lib.h(113):     ="seatType" value="First" />First</label><br /> <label><input type="radio" name="seatType"
+..\\..\\Library\\common_lib.h(113):      value="Business" />Business</label><br /> <label><input type="radio" name="seatType" valu
+..\\..\\Library\\common_lib.h(113):     e="Coach" checked="checked" />Coach</label><br /></td></tr> <tr><td height="10" /></tr> <t
+..\\..\\Library\\common_lib.h(113):     r><td align="center" colspan="4"><input type="image" name="findFlights" src="/WebTours/ima
+..\\..\\Library\\common_lib.h(113):     ges/button_next.gif" border="0" /></td></tr></table><div><input type="hidden" name=".cgifi
+..\\..\\Library\\common_lib.h(113):     elds" value="roundtrip"  /><input type="hidden" name=".cgifields" value="seatType"  /><inp
+..\\..\\Library\\common_lib.h(113):     ut type="hidden" name=".cgifields" value="seatPref"  /></div></form>\n
+..\\..\\Library\\common_lib.h(113):     </blockquote>\n
+..\\..\\Library\\common_lib.h(113):     \n
+..\\..\\Library\\common_lib.h(113):     </body>\n
+..\\..\\Library\\common_lib.h(113):     </html>\n
+..\\..\\Library\\common_lib.h(113): Found resource "http://127.0.0.1:1080/WebTours/images/button_next.gif" in HTML "http://127.0.0.1:1080/cgi-bin/reservations.pl?page=welcome"  	[MsgId: MMSG-26659]
+..\\..\\Library\\common_lib.h(113): t=849ms: Request done "http://127.0.0.1:1080/cgi-bin/reservations.pl?page=welcome"  	[MsgId: MMSG-26000]
+..\\..\\Library\\common_lib.h(113): t=850ms: Already connected [0] to 127.0.0.1:1080  	[MsgId: MMSG-26000]
+..\\..\\Library\\common_lib.h(113): t=850ms: 814-byte request headers for "http://127.0.0.1:1080/WebTours/images/button_next.gif" (RelFrameId=, Internal ID=17)
+..\\..\\Library\\common_lib.h(113):     GET /WebTours/images/button_next.gif HTTP/1.1\r\n
+..\\..\\Library\\common_lib.h(113):     Referer: http://127.0.0.1:1080/cgi-bin/reservations.pl?page=welcome\r\n
+..\\..\\Library\\common_lib.h(113):     DNT: 1\r\n
+..\\..\\Library\\common_lib.h(113):     Sec-Fetch-Dest: frame\r\n
+..\\..\\Library\\common_lib.h(113):     Sec-Fetch-Mode: navigate\r\n
+..\\..\\Library\\common_lib.h(113):     Sec-Fetch-Site: same-origin\r\n
+..\\..\\Library\\common_lib.h(113):     Upgrade-Insecure-Requests: 1\r\n
+..\\..\\Library\\common_lib.h(113):     sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"\r\n
+..\\..\\Library\\common_lib.h(113):     sec-ch-ua-mobile: ?0\r\n
+..\\..\\Library\\common_lib.h(113):     sec-ch-ua-platform: "Windows"\r\n
+..\\..\\Library\\common_lib.h(113):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+..\\..\\Library\\common_lib.h(113):     o) Chrome/99.0.4844.82 Safari/537.36\r\n
+..\\..\\Library\\common_lib.h(113):     Accept-Encoding: gzip, deflate, br\r\n
+..\\..\\Library\\common_lib.h(113):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+..\\..\\Library\\common_lib.h(113):     Accept: */*\r\n
+..\\..\\Library\\common_lib.h(113):     Connection: Keep-Alive\r\n
+..\\..\\Library\\common_lib.h(113):     Host: 127.0.0.1:1080\r\n
+..\\..\\Library\\common_lib.h(113):     Cookie: MSO=SID&1649258860; MTUserInfo=firstName&Carlos&address2&Brooklyn&username&acrobat
+..\\..\\Library\\common_lib.h(113):     &hash&84&lastName&Watson%0A&address1&22%20Church%20Street&creditCard&&expDate&%0A\r\n
+..\\..\\Library\\common_lib.h(113):     \r\n
+..\\..\\Library\\common_lib.h(113): t=852ms: 297-byte response headers for "http://127.0.0.1:1080/WebTours/images/button_next.gif" (RelFrameId=, Internal ID=17)
+..\\..\\Library\\common_lib.h(113):     HTTP/1.1 200 OK\r\n
+..\\..\\Library\\common_lib.h(113):     Date: Wed, 06 Apr 2022 15:27:40 GMT\r\n
+..\\..\\Library\\common_lib.h(113):     Server: Apache/2.2.21 (Win32)\r\n
+..\\..\\Library\\common_lib.h(113):     Last-Modified: Sat, 26 Mar 2022 07:29:11 GMT\r\n
+..\\..\\Library\\common_lib.h(113):     ETag: "600000001c674-2f6-5db1a0915dfc7"\r\n
+..\\..\\Library\\common_lib.h(113):     Accept-Ranges: bytes\r\n
+..\\..\\Library\\common_lib.h(113):     Content-Length: 758\r\n
+..\\..\\Library\\common_lib.h(113):     Keep-Alive: timeout=5, max=94\r\n
+..\\..\\Library\\common_lib.h(113):     Connection: Keep-Alive\r\n
+..\\..\\Library\\common_lib.h(113):     Content-Type: image/gif\r\n
+..\\..\\Library\\common_lib.h(113):     \r\n
+..\\..\\Library\\common_lib.h(113): t=853ms: 758-byte response body for "http://127.0.0.1:1080/WebTours/images/button_next.gif" (RelFrameId=, Internal ID=17)
+..\\..\\Library\\common_lib.h(113): t=853ms: Request done "http://127.0.0.1:1080/WebTours/images/button_next.gif"  	[MsgId: MMSG-26000]
+..\\..\\Library\\common_lib.h(113): Registered web_reg_find successful for "Text=Flight Selections" (count=1)  	[MsgId: MMSG-26364]
+..\\..\\Library\\common_lib.h(113): web_url("Search Flights Button") was successful, 8516 body bytes, 1616 header bytes, 43 chunking overhead bytes  	[MsgId: MMSG-26385]
+..\\..\\Library\\common_lib.h(123): Notify: Transaction "Flights" ended with a "Pass" status (Duration: 0.1630 Wasted Time: 0.0071).
+Action.c(16): Notify: Transaction "Itinerary" started.
+Action.c(18): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(18): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(21): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(21): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(27): web_remove_auto_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
+Action.c(27): Warning -26590: web_remove/revert_auto_header for "Sec-Fetch-User" had no effect  	[MsgId: MWAR-26590]
+Action.c(27): web_remove/revert_auto_header("Sec-Fetch-User") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(31): web_image("Itinerary Button") started  	[MsgId: MMSG-26355]
+Action.c(31): Image-linking to "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=itinerary", Target Frame="body"  	[MsgId: MMSG-27993]
+Action.c(31): t=951ms: Already connected [0] to 127.0.0.1:1080  	[MsgId: MMSG-26000]
+Action.c(31): t=951ms: 815-byte request headers for "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=itinerary" (RelFrameId=1, Internal ID=18)
+Action.c(31):     GET /cgi-bin/welcome.pl?page=itinerary HTTP/1.1\r\n
+Action.c(31):     Referer: http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=flights\r\n
+Action.c(31):     DNT: 1\r\n
+Action.c(31):     Sec-Fetch-Dest: frame\r\n
+Action.c(31):     Sec-Fetch-Mode: navigate\r\n
+Action.c(31):     Sec-Fetch-Site: same-origin\r\n
+Action.c(31):     Upgrade-Insecure-Requests: 1\r\n
+Action.c(31):     sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"\r\n
+Action.c(31):     sec-ch-ua-mobile: ?0\r\n
+Action.c(31):     sec-ch-ua-platform: "Windows"\r\n
+Action.c(31):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Action.c(31):     o) Chrome/99.0.4844.82 Safari/537.36\r\n
+Action.c(31):     Accept-Encoding: gzip, deflate, br\r\n
+Action.c(31):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+Action.c(31):     Accept: */*\r\n
+Action.c(31):     Connection: Keep-Alive\r\n
+Action.c(31):     Host: 127.0.0.1:1080\r\n
+Action.c(31):     Cookie: MSO=SID&1649258860; MTUserInfo=firstName&Carlos&address2&Brooklyn&username&acrobat
+Action.c(31):     &hash&84&lastName&Watson%0A&address1&22%20Church%20Street&creditCard&&expDate&%0A\r\n
+Action.c(31):     \r\n
+Action.c(31): t=1022ms: 215-byte response headers for "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=itinerary" (RelFrameId=1, Internal ID=18)
+Action.c(31):     HTTP/1.1 200 OK\r\n
+Action.c(31):     Date: Wed, 06 Apr 2022 15:27:40 GMT\r\n
+Action.c(31):     Server: Apache/2.2.21 (Win32)\r\n
+Action.c(31):     Keep-Alive: timeout=5, max=93\r\n
+Action.c(31):     Connection: Keep-Alive\r\n
+Action.c(31):     Transfer-Encoding: chunked\r\n
+Action.c(31):     Content-Type: text/html; charset=ISO-8859-1\r\n
+Action.c(31):     \r\n
+Action.c(31): t=1024ms: 5-byte chunked response overhead for "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=itinerary" (RelFrameId=1, Internal ID=18)
+Action.c(31):     24f\r\n
+Action.c(31): t=1024ms: 7-byte chunked response overhead for "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=itinerary" (RelFrameId=1, Internal ID=18)
+Action.c(31):     \r\n
+Action.c(31):     0\r\n
+Action.c(31):     \r\n
+Action.c(31): t=1024ms: 591-byte chunked response body for "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=itinerary" (RelFrameId=1, Internal ID=18)
+Action.c(31):     <!-- \n
+Action.c(31):      User wants the intineraries.  Since user has already logged on,\n
+Action.c(31):      we can give them the menu in the navbar.\n
+Action.c(31):      --->\n
+Action.c(31):     \n
+Action.c(31):     <html>\n
+Action.c(31):     <title>Web Tours</title>\n
+Action.c(31):        <!-- Frame Set -->\n
+Action.c(31):        <frameset cols="160,*" border="1" frameborder="1">\n
+Action.c(31):           <!-- Navigation Frame -->\n
+Action.c(31):           <frame src="nav.pl?page=menu&in=itinerary" name="navbar" \n
+Action.c(31):                 marginheight="2" marginwidth="2" noresize="noresize" scrolling="auto"/>\n
+Action.c(31):           <!-- Itinerary Frame -->\n
+Action.c(31):           <frame src="itinerary.pl" name="info" \n
+Action.c(31):                 marginheight="2" marginwidth="2" noresize="noresize" scrolling="auto"/>\n
+Action.c(31):        </frameset>\n
+Action.c(31):     </html>\n
+Action.c(31): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=itinerary" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=itinerary"  	[MsgId: MMSG-26574]
+Action.c(31): Detected non-resource "http://127.0.0.1:1080/cgi-bin/itinerary.pl" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=itinerary"  	[MsgId: MMSG-26574]
+Action.c(31): t=1026ms: Request done "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=itinerary"  	[MsgId: MMSG-26000]
+Action.c(31): t=1027ms: Already connected [1] to 127.0.0.1:1080  	[MsgId: MMSG-26000]
+Action.c(31): t=1027ms: 817-byte request headers for "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=itinerary" (RelFrameId=1.1, Internal ID=19)
+Action.c(31):     GET /cgi-bin/nav.pl?page=menu&in=itinerary HTTP/1.1\r\n
+Action.c(31):     Referer: http://127.0.0.1:1080/cgi-bin/welcome.pl?page=itinerary\r\n
+Action.c(31):     DNT: 1\r\n
+Action.c(31):     Sec-Fetch-Dest: frame\r\n
+Action.c(31):     Sec-Fetch-Mode: navigate\r\n
+Action.c(31):     Sec-Fetch-Site: same-origin\r\n
+Action.c(31):     Upgrade-Insecure-Requests: 1\r\n
+Action.c(31):     sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"\r\n
+Action.c(31):     sec-ch-ua-mobile: ?0\r\n
+Action.c(31):     sec-ch-ua-platform: "Windows"\r\n
+Action.c(31):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Action.c(31):     o) Chrome/99.0.4844.82 Safari/537.36\r\n
+Action.c(31):     Accept-Encoding: gzip, deflate, br\r\n
+Action.c(31):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+Action.c(31):     Accept: */*\r\n
+Action.c(31):     Connection: Keep-Alive\r\n
+Action.c(31):     Host: 127.0.0.1:1080\r\n
+Action.c(31):     Cookie: MSO=SID&1649258860; MTUserInfo=firstName&Carlos&address2&Brooklyn&username&acrobat
+Action.c(31):     &hash&84&lastName&Watson%0A&address1&22%20Church%20Street&creditCard&&expDate&%0A\r\n
+Action.c(31):     \r\n
+Action.c(31): t=1028ms: Already connected [2] to 127.0.0.1:1080  	[MsgId: MMSG-26000]
+Action.c(31): t=1028ms: 800-byte request headers for "http://127.0.0.1:1080/cgi-bin/itinerary.pl" (RelFrameId=1.2, Internal ID=20)
+Action.c(31):     GET /cgi-bin/itinerary.pl HTTP/1.1\r\n
+Action.c(31):     Referer: http://127.0.0.1:1080/cgi-bin/welcome.pl?page=itinerary\r\n
+Action.c(31):     DNT: 1\r\n
+Action.c(31):     Sec-Fetch-Dest: frame\r\n
+Action.c(31):     Sec-Fetch-Mode: navigate\r\n
+Action.c(31):     Sec-Fetch-Site: same-origin\r\n
+Action.c(31):     Upgrade-Insecure-Requests: 1\r\n
+Action.c(31):     sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"\r\n
+Action.c(31):     sec-ch-ua-mobile: ?0\r\n
+Action.c(31):     sec-ch-ua-platform: "Windows"\r\n
+Action.c(31):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Action.c(31):     o) Chrome/99.0.4844.82 Safari/537.36\r\n
+Action.c(31):     Accept-Encoding: gzip, deflate, br\r\n
+Action.c(31):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+Action.c(31):     Accept: */*\r\n
+Action.c(31):     Connection: Keep-Alive\r\n
+Action.c(31):     Host: 127.0.0.1:1080\r\n
+Action.c(31):     Cookie: MSO=SID&1649258860; MTUserInfo=firstName&Carlos&address2&Brooklyn&username&acrobat
+Action.c(31):     &hash&84&lastName&Watson%0A&address1&22%20Church%20Street&creditCard&&expDate&%0A\r\n
+Action.c(31):     \r\n
+Action.c(31): t=1106ms: 255-byte response headers for "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=itinerary" (RelFrameId=1.1, Internal ID=19)
+Action.c(31):     HTTP/1.1 200 OK\r\n
+Action.c(31):     Date: Wed, 06 Apr 2022 15:27:40 GMT\r\n
+Action.c(31):     Server: Apache/2.2.21 (Win32)\r\n
+Action.c(31):     Expires: Tue, 05 Apr 2022 15:27:40 GMT\r\n
+Action.c(31):     Keep-Alive: timeout=5, max=97\r\n
+Action.c(31):     Connection: Keep-Alive\r\n
+Action.c(31):     Transfer-Encoding: chunked\r\n
+Action.c(31):     Content-Type: text/html; charset=ISO-8859-1\r\n
+Action.c(31):     \r\n
+Action.c(31): t=1108ms: 5-byte chunked response overhead for "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=itinerary" (RelFrameId=1.1, Internal ID=19)
+Action.c(31):     5ca\r\n
+Action.c(31): t=1108ms: 7-byte chunked response overhead for "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=itinerary" (RelFrameId=1.1, Internal ID=19)
+Action.c(31):     \r\n
+Action.c(31):     0\r\n
+Action.c(31):     \r\n
+Action.c(31): t=1109ms: 1482-byte chunked response body for "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=itinerary" (RelFrameId=1.1, Internal ID=19)
+Action.c(31):     <!DOCTYPE html\n
+Action.c(31):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+Action.c(31):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+Action.c(31):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+Action.c(31):     <head>\n
+Action.c(31):     <title>Web Tours Navigation Bar</title>\n
+Action.c(31):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+Action.c(31):     </head>\n
+Action.c(31):     <body bgcolor="#E0E7F1">\n
+Action.c(31):     \n
+Action.c(31):     <style>\n
+Action.c(31):     \tblockquote {font-family: tahoma; font-size : 10pt}\n
+Action.c(31):     \tH1 {font-family: tahoma; font-size : 22pt; color: #993333}\n
+Action.c(31):     \tsmall {font-family: tahoma; font-size : 8pt}\n
+Action.c(31):     \tH3{font-family: tahoma; font-size : 10pt; color: black}\n
+Action.c(31):     \tA {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATIO
+Action.c(31):     N: none}\n
+Action.c(31):     \tA:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DE
+Action.c(31):     CORATION: underline}\n
+Action.c(31):     \tTD {font-family: tahoma; font-size : 10pt; color: black}\n
+Action.c(31):     </style>\n
+Action.c(31):     \n
+Action.c(31):     <BR><BR><center>\n
+Action.c(31):     \n
+Action.c(31):     <br clear="both"/><center><A HREF="welcome.pl?page=search" TARGET="body"><IMG BORDER="0" S
+Action.c(31):     RC="/WebTours/images/flights.gif" \n
+Action.c(31):     ALT="Search Flights Button"/></A>\n
+Action.c(31):     <br clear="both"/><A HREF="welcome.pl?page=itinerary" TARGET="body"><IMG BORDER="0" SRC="/
+Action.c(31):     WebTours/images/in_itinerary.gif" \n
+Action.c(31):     ALT="Itinerary Button"/></A>\n
+Action.c(31):     <br clear="both"/><A HREF="welcome.pl?page=menus" TARGET="body"><IMG BORDER="0" SRC="/WebT
+Action.c(31):     ours/images/home.gif" \n
+Action.c(31):     ALT="Home Button"/></A>\n
+Action.c(31):     <br clear><A HREF="welcome.pl?signOff=1" TARGET="body"><IMG BORDER="0" SRC="/WebTours/imag
+Action.c(31):     es/signoff.gif" \n
+Action.c(31):     ALT="SignOff Button"/></A></center>\n
+Action.c(31):     \n
+Action.c(31):     </body>\n
+Action.c(31):     </html>\n
+Action.c(31): Resource "http://127.0.0.1:1080/WebTours/images/flights.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(31): Found resource "http://127.0.0.1:1080/WebTours/images/in_itinerary.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=itinerary"  	[MsgId: MMSG-26659]
+Action.c(31): Resource "http://127.0.0.1:1080/WebTours/images/home.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(31): Resource "http://127.0.0.1:1080/WebTours/images/signoff.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(31): t=1113ms: Request done "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=itinerary"  	[MsgId: MMSG-26000]
+Action.c(31): t=1113ms: Already connected [0] to 127.0.0.1:1080  	[MsgId: MMSG-26000]
+Action.c(31): t=1114ms: 816-byte request headers for "http://127.0.0.1:1080/WebTours/images/in_itinerary.gif" (RelFrameId=, Internal ID=21)
+Action.c(31):     GET /WebTours/images/in_itinerary.gif HTTP/1.1\r\n
+Action.c(31):     Referer: http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=itinerary\r\n
+Action.c(31):     DNT: 1\r\n
+Action.c(31):     Sec-Fetch-Dest: frame\r\n
+Action.c(31):     Sec-Fetch-Mode: navigate\r\n
+Action.c(31):     Sec-Fetch-Site: same-origin\r\n
+Action.c(31):     Upgrade-Insecure-Requests: 1\r\n
+Action.c(31):     sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"\r\n
+Action.c(31):     sec-ch-ua-mobile: ?0\r\n
+Action.c(31):     sec-ch-ua-platform: "Windows"\r\n
+Action.c(31):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Action.c(31):     o) Chrome/99.0.4844.82 Safari/537.36\r\n
+Action.c(31):     Accept-Encoding: gzip, deflate, br\r\n
+Action.c(31):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+Action.c(31):     Accept: */*\r\n
+Action.c(31):     Connection: Keep-Alive\r\n
+Action.c(31):     Host: 127.0.0.1:1080\r\n
+Action.c(31):     Cookie: MSO=SID&1649258860; MTUserInfo=firstName&Carlos&address2&Brooklyn&username&acrobat
+Action.c(31):     &hash&84&lastName&Watson%0A&address1&22%20Church%20Street&creditCard&&expDate&%0A\r\n
+Action.c(31):     \r\n
+Action.c(31): t=1116ms: 297-byte response headers for "http://127.0.0.1:1080/WebTours/images/in_itinerary.gif" (RelFrameId=, Internal ID=21)
+Action.c(31):     HTTP/1.1 200 OK\r\n
+Action.c(31):     Date: Wed, 06 Apr 2022 15:27:40 GMT\r\n
+Action.c(31):     Server: Apache/2.2.21 (Win32)\r\n
+Action.c(31):     Last-Modified: Sat, 26 Mar 2022 07:29:11 GMT\r\n
+Action.c(31):     ETag: "500000001c67f-2dd-5db1a0917edb7"\r\n
+Action.c(31):     Accept-Ranges: bytes\r\n
+Action.c(31):     Content-Length: 733\r\n
+Action.c(31):     Keep-Alive: timeout=5, max=92\r\n
+Action.c(31):     Connection: Keep-Alive\r\n
+Action.c(31):     Content-Type: image/gif\r\n
+Action.c(31):     \r\n
+Action.c(31): t=1118ms: 733-byte response body for "http://127.0.0.1:1080/WebTours/images/in_itinerary.gif" (RelFrameId=, Internal ID=21)
+Action.c(31): t=1118ms: Request done "http://127.0.0.1:1080/WebTours/images/in_itinerary.gif"  	[MsgId: MMSG-26000]
+Action.c(31): t=1133ms: 255-byte response headers for "http://127.0.0.1:1080/cgi-bin/itinerary.pl" (RelFrameId=1.2, Internal ID=20)
+Action.c(31):     HTTP/1.1 200 OK\r\n
+Action.c(31):     Date: Wed, 06 Apr 2022 15:27:40 GMT\r\n
+Action.c(31):     Server: Apache/2.2.21 (Win32)\r\n
+Action.c(31):     Expires: Tue, 05 Apr 2022 15:27:40 GMT\r\n
+Action.c(31):     Keep-Alive: timeout=5, max=97\r\n
+Action.c(31):     Connection: Keep-Alive\r\n
+Action.c(31):     Transfer-Encoding: chunked\r\n
+Action.c(31):     Content-Type: text/html; charset=ISO-8859-1\r\n
+Action.c(31):     \r\n
+Action.c(31): t=1133ms: 5-byte chunked response overhead for "http://127.0.0.1:1080/cgi-bin/itinerary.pl" (RelFrameId=1.2, Internal ID=20)
+Action.c(31):     f84\r\n
+Action.c(31): t=1134ms: 8-byte chunked response overhead for "http://127.0.0.1:1080/cgi-bin/itinerary.pl" (RelFrameId=1.2, Internal ID=20)
+Action.c(31):     \r\n
+Action.c(31):     1000\r\n
+Action.c(31): t=1134ms: 8-byte chunked response overhead for "http://127.0.0.1:1080/cgi-bin/itinerary.pl" (RelFrameId=1.2, Internal ID=20)
+Action.c(31):     \r\n
+Action.c(31):     1000\r\n
+Action.c(31): t=1134ms: 12011-byte chunked response body for "http://127.0.0.1:1080/cgi-bin/itinerary.pl" (RelFrameId=1.2, Internal ID=20)
+Action.c(31):     <!DOCTYPE html\n
+Action.c(31):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+Action.c(31):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+Action.c(31):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+Action.c(31):     <head>\n
+Action.c(31):     <title>Flights List</title>\n
+Action.c(31):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+Action.c(31):     </head>\n
+Action.c(31):     <body bgcolor="#E0E7F1">\n
+Action.c(31):     <style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; font-siz
+Action.c(31):     e : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family: taho
+Action.c(31):     ma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 8pt; color: black}
+Action.c(31):     </style><BR/><BR/><h1><font color="#003366">&nbsp;&nbsp;<b>Itinerary</font></b></h1><block
+Action.c(31):     quote><form method="post" action="itinerary.pl" enctype="application/x-www-form-urlencoded
+Action.c(31):     ">\n
+Action.c(31):     <center>\n
+Action.c(31):     <TABLE BORDER="0" WIDTH="85%" CELLSPACING="0">\n
+Action.c(31):     <TR bgcolor="#5E7884">\n
+Action.c(31):       <TD colspan="4" align="center"><font color="white"><B>Carlos Watson\n
+Action.c(31):      's Flight Transaction Summary</B></color></TD></TR>\n
+Action.c(31):     \n
+Action.c(31):     <!-- Flight #1 -->\n
+Action.c(31):     <TR bgcolor="#EFF2F7">\n
+Action.c(31):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Action.c(31):     <b>\n
+Action.c(31):     <label><input type="checkbox" name="1" value="on" /></label></font></b>\n
+Action.c(31):     <input type="hidden" name="flightID" value="71249339-781-CW"  />\n
+Action.c(31):       </TD>\n
+Action.c(31):       <TD width="45%" valign="top">\n
+Action.c(31):           <b>&nbsp;&nbsp;A Coach class ticket for :</b><br/>\n
+Action.c(31):           <center><table border="0" width="85%"><tr><td>\n
+Action.c(31):           <li><i>CARLOS_WATSON\n
+Action.c(31):           <li><i></i>\n
+Action.c(31):           </td></tr></table></center>\n
+Action.c(31):       </TD>\n
+Action.c(31):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Action.c(31):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Action.c(31):           <center>\n
+Action.c(31):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Action.c(31):               Carlos Watson\n
+Action.c(31):     <br/>\n
+Action.c(31):               22 Church Street<br/>\n
+Action.c(31):               Brooklyn<br/>\n
+Action.c(31):               <br/>\n
+Action.c(31):               Total Charge: $ 165 <BR/> (CC: x-1923)\n
+Action.c(31):           </td> </tr> </table>\n
+Action.c(31):           </center>\n
+Action.c(31):       </TD>\n
+Action.c(31):     </TR>\n
+Action.c(31):     <TR bgcolor="#EFF2F7">\n
+Action.c(31):       <TD COLSPAN="3">\n
+Action.c(31):       <b>Flight Details:</b><BR/>  <center>\n
+Action.c(31):       04/07/2022\n
+Action.c(31):      :  5pm : Flight 732 leaves Seattle  for Los Angeles.<br>  </center>\n
+Action.c(31):       </TD>\n
+Action.c(31):     </TR>\n
+Action.c(31):     \n
+Action.c(31):     <TR bgcolor="#EFF2F7">\n
+Action.c(31):       <TD COLSPAN="4">\n
+Action.c(31):       <hr/>\n
+Action.c(31):       </TD>\n
+Action.c(31):     </TR>\n
+Action.c(31):     \n
+Action.c(31):     <!-- Flight #1 -->\n
+Action.c(31):     <TR bgcolor="#EFF2F7">\n
+Action.c(31):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Action.c(31):     <b>\n
+Action.c(31):     <label><input type="checkbox" name="2" value="on" /></label></font></b>\n
+Action.c(31):     <input type="hidden" name="flightID" value="71230053-1572-CW"  />\n
+Action.c(31):       </TD>\n
+Action.c(31):       <TD width="45%" valign="top">\n
+Action.c(31):           <b>&nbsp;&nbsp;A First class ticket for :</b><br/>\n
+Action.c(31):           <center><table border="0" width="85%"><tr><td>\n
+Action.c(31):           <li><i>CARLOS_WATSON\n
+Action.c(31):           <li><i></i>\n
+Action.c(31):           </td></tr></table></center>\n
+Action.c(31):       </TD>\n
+Action.c(31):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Action.c(31):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Action.c(31):           <center>\n
+Action.c(31):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Action.c(31):               Carlos Watson\n
+Action.c(31):     <br/>\n
+Action.c(31):               22 Church Street<br/>\n
+Action.c(31):               Brooklyn<br/>\n
+Action.c(31):               <br/>\n
+Action.c(31):               Total Charge: $ 444 <BR/> (CC: x-1923)\n
+Action.c(31):           </td> </tr> </table>\n
+Action.c(31):           </center>\n
+Action.c(31):       </TD>\n
+Action.c(31):     </TR>\n
+Action.c(31):     <TR bgcolor="#EFF2F7">\n
+Action.c(31):       <TD COLSPAN="3">\n
+Action.c(31):       <b>Flight Details:</b><BR/>  <center>\n
+Action.c(31):       04/07/2022\n
+Action.c(31):      :  1pm : Flight 211 leaves London  for Frankfurt.<br>  </center>\n
+Action.c(31):       </TD>\n
+Action.c(31):     </TR>\n
+Action.c(31):     \n
+Action.c(31):     <TR bgcolor="#EFF2F7">\n
+Action.c(31):       <TD COLSPAN="4">\n
+Action.c(31):       <hr/>\n
+Action.c(31):       </TD>\n
+Action.c(31):     </TR>\n
+Action.c(31):     \n
+Action.c(31):     <!-- Flight #1 -->\n
+Action.c(31):     <TR bgcolor="#EFF2F7">\n
+Action.c(31):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Action.c(31):     <b>\n
+Action.c(31):     <label><input type="checkbox" name="3" value="on" /></label></font></b>\n
+Action.c(31):     <input type="hidden" name="flightID" value="0-23-CW"  />\n
+Action.c(31):       </TD>\n
+Action.c(31):       <TD width="45%" valign="top">\n
+Action.c(31):           <b>&nbsp;&nbsp;A Coach class ticket for :</b><br/>\n
+Action.c(31):           <center><table border="0" width="85%"><tr><td>\n
+Action.c(31):           <li><i>Carlos Watson\n
+Action.c(31):           <li><i></i>\n
+Action.c(31):           </td></tr></table></center>\n
+Action.c(31):       </TD>\n
+Action.c(31):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Action.c(31):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Action.c(31):           <center>\n
+Action.c(31):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Action.c(31):               Carlos Watson\n
+Action.c(31):     <br/>\n
+Action.c(31):               22 Church Street<br/>\n
+Action.c(31):               Brooklyn<br/>\n
+Action.c(31):               <br/>\n
+Action.c(31):               Total Charge: $ 0 <BR/> (CC: x-)\n
+Action.c(31):           </td> </tr> </table>\n
+Action.c(31):           </center>\n
+Action.c(31):       </TD>\n
+Action.c(31):     </TR>\n
+Action.c(31):     <TR bgcolor="#EFF2F7">\n
+Action.c(31):       <TD COLSPAN="3">\n
+Action.c(31):       <b>Flight Details:</b><BR/>  <center>\n
+Action.c(31):       04/07/2022\n
+Action.c(31):      :  8am : Flight 000 leaves Denver  for Denver.<br>  </center>\n
+Action.c(31):       </TD>\n
+Action.c(31):     </TR>\n
+Action.c(31):     \n
+Action.c(31):     <TR bgcolor="#EFF2F7">\n
+Action.c(31):       <TD COLSPAN="4">\n
+Action.c(31):       <hr/>\n
+Action.c(31):       </TD>\n
+Action.c(31):     </TR>\n
+Action.c(31):     \n
+Action.c(31):     <!-- Flight #1 -->\n
+Action.c(31):     <TR bgcolor="#EFF2F7">\n
+Action.c(31):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Action.c(31):     <b>\n
+Action.c(31):     <label><input type="checkbox" name="4" value="on" /></label></font></b>\n
+Action.c(31):     <input type="hidden" name="flightID" value="71251512-3141-CW"  />\n
+Action.c(31):       </TD>\n
+Action.c(31):       <TD width="45%" valign="top">\n
+Action.c(31):           <b>&nbsp;&nbsp;A First class ticket for :</b><br/>\n
+Action.c(31):           <center><table border="0" width="85%"><tr><td>\n
+Action.c(31):           <li><i>CARLOS_WATSON\n
+Action.c(31):           <li><i></i>\n
+Action.c(31):           </td></tr></table></center>\n
+Action.c(31):       </TD>\n
+Action.c(31):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Action.c(31):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Action.c(31):           <center>\n
+Action.c(31):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Action.c(31):               Carlos Watson\n
+Action.c(31):     <br/>\n
+Action.c(31):               22 Church Street<br/>\n
+Action.c(31):               Brooklyn<br/>\n
+Action.c(31):               <br/>\n
+Action.c(31):               Total Charge: $ 839 <BR/> (CC: x-1923)\n
+Action.c(31):           </td> </tr> </table>\n
+Action.c(31):           </center>\n
+Action.c(31):       </TD>\n
+Action.c(31):     </TR>\n
+Action.c(31):     <TR bgcolor="#EFF2F7">\n
+Action.c(31):       <TD COLSPAN="3">\n
+Action.c(31):       <b>Flight Details:</b><BR/>  <center>\n
+Action.c(31):       04/07/2022\n
+Action.c(31):      :  8am : Flight 790 leaves Seattle  for Zurich.<br>  </center>\n
+Action.c(31):       </TD>\n
+Action.c(31):     </TR>\n
+Action.c(31):     \n
+Action.c(31):     <TR bgcolor="#EFF2F7">\n
+Action.c(31):       <TD COLSPAN="4">\n
+Action.c(31):       <hr/>\n
+Action.c(31):       </TD>\n
+Action.c(31):     </TR>\n
+Action.c(31):     \n
+Action.c(31):     <!-- Flight #1 -->\n
+Action.c(31):     <TR bgcolor="#EFF2F7">\n
+Action.c(31):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Action.c(31):     <b>\n
+Action.c(31):     <label><input type="checkbox" name="5" value="on" /></label></font></b>\n
+Action.c(31):     <input type="hidden" name="flightID" value="71226025-3855489-CW"  />\n
+Action.c(31):       </TD>\n
+Action.c(31):       <TD width="45%" valign="top">\n
+Action.c(31):           <b>&nbsp;&nbsp;A First class ticket for :</b><br/>\n
+Action.c(31):           <center><table border="0" width="85%"><tr><td>\n
+Action.c(31):           <li><i>CARLOS_WATSON\n
+Action.c(31):           <li><i></i>\n
+Action.c(31):           </td></tr></table></center>\n
+Action.c(31):       </TD>\n
+Action.c(31):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Action.c(31):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Action.c(31):           <center>\n
+Action.c(31):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Action.c(31):               Carlos Watson\n
+Action.c(31):     <br/>\n
+Action.c(31):               22 Church Street<br/>\n
+Action.c(31):               Brooklyn<br/>\n
+Action.c(31):               <br/>\n
+Action.c(31):               Total Charge: $ 1368 <BR/> (CC: x-1923)\n
+Action.c(31):           </td> </tr> </table>\n
+Action.c(31):           </center>\n
+Action.c(31):       </TD>\n
+Action.c(31):     </TR>\n
+Action.c(31):     <TR bgcolor="#EFF2F7">\n
+Action.c(31):       <TD COLSPAN="3">\n
+Action.c(31):       <b>Flight Details:</b><BR/>  <center>\n
+Action.c(31):       04/07/2022\n
+Action.c(31):      :  5pm : Flight 102 leaves Frankfurt  for Denver.<br>  04/08/2022\n
+Action.c(31):      :  5pm : Flight 012 leaves Denver  for Frankfurt.<br>  </center>\n
+Action.c(31):       </TD>\n
+Action.c(31):     </TR>\n
+Action.c(31):     \n
+Action.c(31):     <TR bgcolor="#EFF2F7">\n
+Action.c(31):       <TD COLSPAN="4">\n
+Action.c(31):       <hr/>\n
+Action.c(31):       </TD>\n
+Action.c(31):     </TR>\n
+Action.c(31):     \n
+Action.c(31):     <!-- Flight #1 -->\n
+Action.c(31):     <TR bgcolor="#EFF2F7">\n
+Action.c(31):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Action.c(31):     <b>\n
+Action.c(31):     <label><input type="checkbox" name="6" value="on" /></label></font></b>\n
+Action.c(31):     <input type="hidden" name="flightID" value="712341158-4794805-CW"  />\n
+Action.c(31):       </TD>\n
+Action.c(31):       <TD width="45%" valign="top">\n
+Action.c(31):           <b>&nbsp;&nbsp;A First class ticket for :</b><br/>\n
+Action.c(31):           <center><table border="0" width="85%"><tr><td>\n
+Action.c(31):           <li><i>CARLOS_WATSON\n
+Action.c(31):           <li><i></i>\n
+Action.c(31):           </td></tr></table></center>\n
+Action.c(31):       </TD>\n
+Action.c(31):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Action.c(31):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Action.c(31):           <center>\n
+Action.c(31):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Action.c(31):               Carlos Watson\n
+Action.c(31):     <br/>\n
+Action.c(31):               22 Church Street<br/>\n
+Action.c(31):               Brooklyn<br/>\n
+Action.c(31):               <br/>\n
+Action.c(31):               Total Charge: $ 2477 <BR/> (CC: x-1923)\n
+Action.c(31):           </td> </tr> </table>\n
+Action.c(31):           </center>\n
+Action.c(31):       </TD>\n
+Action.c(31):     </TR>\n
+Action.c(31):     <TR bgcolor="#EFF2F7">\n
+Action.c(31):       <TD COLSPAN="3">\n
+Action.c(31):       <b>Flight Details:</b><BR/>  <center>\n
+Action.c(31):       04/07/2022\n
+Action.c(31):      :  1pm : Flight 321 leaves Los Angeles  for London.<br>  04/08/2022\n
+Action.c(31):      :  11pm : Flight 233 leaves London  for Los Angeles.<br>  </center>\n
+Action.c(31):       </TD>\n
+Action.c(31):     </TR>\n
+Action.c(31):     \n
+Action.c(31):     <TR bgcolor="#EFF2F7">\n
+Action.c(31):       <TD COLSPAN="4">\n
+Action.c(31):       <hr/>\n
+Action.c(31):       </TD>\n
+Action.c(31):     </TR>\n
+Action.c(31):     \n
+Action.c(31):     <!-- Flight #1 -->\n
+Action.c(31):     <TR bgcolor="#EFF2F7">\n
+Action.c(31):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Action.c(31):     <b>\n
+Action.c(31):     <label><input type="checkbox" name="7" value="on" /></label></font></b>\n
+Action.c(31):     <input type="hidden" name="flightID" value="0-53-CW"  />\n
+Action.c(31):       </TD>\n
+Action.c(31):       <TD width="45%" valign="top">\n
+Action.c(31):           <b>&nbsp;&nbsp;A Coach class ticket for :</b><br/>\n
+Action.c(31):           <center><table border="0" width="85%"><tr><td>\n
+Action.c(31):           <li><i>Carlos Watson\n
+Action.c(31):           <li><i></i>\n
+Action.c(31):           </td></tr></table></center>\n
+Action.c(31):       </TD>\n
+Action.c(31):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Action.c(31):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Action.c(31):           <center>\n
+Action.c(31):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Action.c(31):               Carlos Watson\n
+Action.c(31):     <br/>\n
+Action.c(31):               22 Church Street<br/>\n
+Action.c(31):               Brooklyn<br/>\n
+Action.c(31):               <br/>\n
+Action.c(31):               Total Charge: $ 0 <BR/> (CC: x-)\n
+Action.c(31):           </td> </tr> </table>\n
+Action.c(31):           </center>\n
+Action.c(31):       </TD>\n
+Action.c(31):     </TR>\n
+Action.c(31):     <TR bgcolor="#EFF2F7">\n
+Action.c(31):       <TD COLSPAN="3">\n
+Action.c(31):       <b>Flight Details:</b><BR/>  <center>\n
+Action.c(31):       04/07/2022\n
+Action.c(31):      :  8am : Flight 000 leaves Denver  for Denver.<br>  </center>\n
+Action.c(31):       </TD>\n
+Action.c(31):     </TR>\n
+Action.c(31):     \n
+Action.c(31):     <TR bgcolor="#EFF2F7">\n
+Action.c(31):       <TD COLSPAN="4">\n
+Action.c(31):       <hr/>\n
+Action.c(31):       </TD>\n
+Action.c(31):     </TR>\n
+Action.c(31):     \n
+Action.c(31):     <!-- Flight #1 -->\n
+Action.c(31):     <TR bgcolor="#EFF2F7">\n
+Action.c(31):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Action.c(31):     <b>\n
+Action.c(31):     <label><input type="checkbox" name="8" value="on" /></label></font></b>\n
+Action.c(31):     <input type="hidden" name="flightID" value="0-61-CW"  />\n
+Action.c(31):       </TD>\n
+Action.c(31):       <TD width="45%" valign="top">\n
+Action.c(31):           <b>&nbsp;&nbsp;A Coach class ticket for :</b><br/>\n
+Action.c(31):           <center><table border="0" width="85%"><tr><td>\n
+Action.c(31):           <li><i>Carlos Watson\n
+Action.c(31):           <li><i></i>\n
+Action.c(31):           </td></tr></table></center>\n
+Action.c(31):       </TD>\n
+Action.c(31):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Action.c(31):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Action.c(31):           <center>\n
+Action.c(31):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Action.c(31):               Carlos Watson\n
+Action.c(31):     <br/>\n
+Action.c(31):               22 Church Street<br/>\n
+Action.c(31):               Brooklyn<br/>\n
+Action.c(31):               <br/>\n
+Action.c(31):               Total Charge: $ 0 <BR/> (CC: x-)\n
+Action.c(31):           </td> </tr> </table>\n
+Action.c(31):           </center>\n
+Action.c(31):       </TD>\n
+Action.c(31):     </TR>\n
+Action.c(31):     <TR bgcolor="#EFF2F7">\n
+Action.c(31):       <TD COLSPAN="3">\n
+Action.c(31):       <b>Flight Details:</b><BR/>  <center>\n
+Action.c(31):       04/07/2022\n
+Action.c(31):      :  8am : Flight 000 leaves Denver  for Denver.<br>  </center>\n
+Action.c(31):       </TD>\n
+Action.c(31):     </TR>\n
+Action.c(31):     \n
+Action.c(31):     <TR bgcolor="#EFF2F7">\n
+Action.c(31):       <TD COLSPAN="4">\n
+Action.c(31):       <hr/>\n
+Action.c(31):       </TD>\n
+Action.c(31):     </TR>\n
+Action.c(31):     \n
+Action.c(31):     <!-- Flight #1 -->\n
+Action.c(31):     <TR bgcolor="#EFF2F7">\n
+Action.c(31):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Action.c(31):     <b>\n
+Action.c(31):     <label><input type="checkbox" name="9" value="on" /></label></font></b>\n
+Action.c(31):     <input type="hidden" name="flightID" value="0-69-CW"  />\n
+Action.c(31):       </TD>\n
+Action.c(31):       <TD width="45%" valign="top">\n
+Action.c(31):           <b>&nbsp;&nbsp;A Coach class ticket for :</b><br/>\n
+Action.c(31):           <center><table border="0" width="85%"><tr><td>\n
+Action.c(31):           <li><i>Carlos Watson\n
+Action.c(31):           <li><i></i>\n
+Action.c(31):           </td></tr></table></center>\n
+Action.c(31):       </TD>\n
+Action.c(31):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Action.c(31):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Action.c(31):           <center>\n
+Action.c(31):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Action.c(31):               Carlos Watson\n
+Action.c(31):     <br/>\n
+Action.c(31):               22 Church Street<br/>\n
+Action.c(31):               Brooklyn<br/>\n
+Action.c(31):               <br/>\n
+Action.c(31):               Total Charge: $ 0 <BR/> (CC: x-)\n
+Action.c(31):           </td> </tr> </table>\n
+Action.c(31):           </center>\n
+Action.c(31):       </TD>\n
+Action.c(31):     </TR>\n
+Action.c(31):     <TR bgcolor="#EFF2F7">\n
+Action.c(31):       <TD COLSPAN="3">\n
+Action.c(31):       <b>Flight Details:</b><BR/>  <center>\n
+Action.c(31):       04/07/2022\n
+Action.c(31):      :  8am : Flight 000 leaves Denver  for Denver.<br>  </center>\n
+Action.c(31):       </TD>\n
+Action.c(31):     </TR>\n
+Action.c(31):     \n
+Action.c(31):     <TR bgcolor="#EFF2F7">\n
+Action.c(31):       <TD COLSPAN="4">\n
+Action.c(31):       <hr/>\n
+Action.c(31):       </TD>\n
+Action.c(31):     </TR>\n
+Action.c(31):     \n
+Action.c(31):     <!-- Flight #1 -->\n
+Action.c(31):     <TR bgcolor="#EFF2F7">\n
+Action.c(31):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Action.c(31):     <b>\n
+Action.c(31):     <label><input type="checkbox" name="10" value="on" /></label></font></b>\n
+Action.c(31):     <input type="hidden" name="flightID" value="71257511-7755-CW"  />\n
+Action.c(31):       </TD>\n
+Action.c(31):       <TD width="45%" valign="top">\n
+Action.c(31):           <b>&nbsp;&nbsp;A First class ticket for :</b><br/>\n
+Action.c(31):           <center><table border="0" width="85%"><tr><td>\n
+Action.c(31):           <li><i>CARLOS_WATSON\n
+Action.c(31):           <li><i></i>\n
+Action.c(31):           </td></tr></table></center>\n
+Action.c(31):       </TD>\n
+Action.c(31):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Action.c(31):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Action.c(31):           <center>\n
+Action.c(31):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Action.c(31):               Carlos Watson\n
+Action.c(31):     <br/>\n
+Action.c(31):               22 Church Street<br/>\n
+Action.c(31):               Brooklyn<br/>\n
+Action.c(31):               <br/>\n
+Action.c(31):               Total Charge: $ 819 <BR/> (CC: x-1923)\n
+Action.c(31):           </td> </tr> </table>\n
+Action.c(31):           </center>\n
+Action.c(31):       </TD>\n
+Action.c(31):     </TR>\n
+Action.c(31):     <TR bgcolor="#EFF2F7">\n
+Action.c(31):       <TD COLSPAN="3">\n
+Action.c(31):       <b>Flight Details:</b><BR/>  <center>\n
+Action.c(31):       04/07/2022\n
+Action.c(31):      :  5pm : Flight 952 leaves Zurich  for Portland.<br>  </center>\n
+Action.c(31):       </TD>\n
+Action.c(31):     </TR>\n
+Action.c(31):     \n
+Action.c(31):     <TR bgcolor="#EFF2F7">\n
+Action.c(31):       <TD COLSPAN="4">\n
+Action.c(31):       <hr/>\n
+Action.c(31):       
+Action.c(31): Notify: Saving Parameter "FlightID_1 = 71249339".
+Action.c(31): Notify: Saving Parameter "FlightID_2 = 71230053".
+Action.c(31): Notify: Saving Parameter "FlightID_3 = 0".
+Action.c(31): Notify: Saving Parameter "FlightID_4 = 71251512".
+Action.c(31): Notify: Saving Parameter "FlightID_5 = 71226025".
+Action.c(31): Notify: Saving Parameter "FlightID_6 = 712341158".
+Action.c(31): Notify: Saving Parameter "FlightID_7 = 0".
+Action.c(31): Notify: Saving Parameter "FlightID_8 = 0".
+Action.c(31): Notify: Saving Parameter "FlightID_9 = 0".
+Action.c(31): Notify: Saving Parameter "FlightID_10 = 71257511".
+Action.c(31): t=1166ms: 8-byte chunked response overhead for "http://127.0.0.1:1080/cgi-bin/itinerary.pl" (RelFrameId=1.2, Internal ID=20)
+Action.c(31):     \r\n
+Action.c(31):     1000\r\n
+Action.c(31): t=1167ms: 7-byte chunked response overhead for "http://127.0.0.1:1080/cgi-bin/itinerary.pl" (RelFrameId=1.2, Internal ID=20)
+Action.c(31):     \r\n
+Action.c(31):     57f\r\n
+Action.c(31): t=1167ms: 7-byte chunked response overhead for "http://127.0.0.1:1080/cgi-bin/itinerary.pl" (RelFrameId=1.2, Internal ID=20)
+Action.c(31):     \r\n
+Action.c(31):     0\r\n
+Action.c(31):     \r\n
+Action.c(31): t=1168ms: 5656-byte chunked response body for "http://127.0.0.1:1080/cgi-bin/itinerary.pl" (RelFrameId=1.2, Internal ID=20)
+Action.c(31):     </TD>\n
+Action.c(31):     </TR>\n
+Action.c(31):     \n
+Action.c(31):     <!-- Flight #1 -->\n
+Action.c(31):     <TR bgcolor="#EFF2F7">\n
+Action.c(31):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Action.c(31):     <b>\n
+Action.c(31):     <label><input type="checkbox" name="11" value="on" /></label></font></b>\n
+Action.c(31):     <input type="hidden" name="flightID" value="0-84-CW"  />\n
+Action.c(31):       </TD>\n
+Action.c(31):       <TD width="45%" valign="top">\n
+Action.c(31):           <b>&nbsp;&nbsp;A Coach class ticket for :</b><br/>\n
+Action.c(31):           <center><table border="0" width="85%"><tr><td>\n
+Action.c(31):           <li><i>Carlos Watson\n
+Action.c(31):           <li><i></i>\n
+Action.c(31):           </td></tr></table></center>\n
+Action.c(31):       </TD>\n
+Action.c(31):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Action.c(31):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Action.c(31):           <center>\n
+Action.c(31):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Action.c(31):               Carlos Watson\n
+Action.c(31):     <br/>\n
+Action.c(31):               22 Church Street<br/>\n
+Action.c(31):               Brooklyn<br/>\n
+Action.c(31):               <br/>\n
+Action.c(31):               Total Charge: $ 0 <BR/> (CC: x-)\n
+Action.c(31):           </td> </tr> </table>\n
+Action.c(31):           </center>\n
+Action.c(31):       </TD>\n
+Action.c(31):     </TR>\n
+Action.c(31):     <TR bgcolor="#EFF2F7">\n
+Action.c(31):       <TD COLSPAN="3">\n
+Action.c(31):       <b>Flight Details:</b><BR/>  <center>\n
+Action.c(31):       04/07/2022\n
+Action.c(31):      :  8am : Flight 000 leaves Denver  for Denver.<br>  </center>\n
+Action.c(31):       </TD>\n
+Action.c(31):     </TR>\n
+Action.c(31):     \n
+Action.c(31):     <TR bgcolor="#EFF2F7">\n
+Action.c(31):       <TD COLSPAN="4">\n
+Action.c(31):       <hr/>\n
+Action.c(31):       </TD>\n
+Action.c(31):     </TR>\n
+Action.c(31):     \n
+Action.c(31):     <!-- Flight #1 -->\n
+Action.c(31):     <TR bgcolor="#EFF2F7">\n
+Action.c(31):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Action.c(31):     <b>\n
+Action.c(31):     <label><input type="checkbox" name="12" value="on" /></label></font></b>\n
+Action.c(31):     <input type="hidden" name="flightID" value="71225986-9280-CW"  />\n
+Action.c(31):       </TD>\n
+Action.c(31):       <TD width="45%" valign="top">\n
+Action.c(31):           <b>&nbsp;&nbsp;A First class ticket for :</b><br/>\n
+Action.c(31):           <center><table border="0" width="85%"><tr><td>\n
+Action.c(31):           <li><i>CARLOS_WATSON\n
+Action.c(31):           <li><i></i>\n
+Action.c(31):           </td></tr></table></center>\n
+Action.c(31):       </TD>\n
+Action.c(31):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Action.c(31):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Action.c(31):           <center>\n
+Action.c(31):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Action.c(31):               Carlos Watson\n
+Action.c(31):     <br/>\n
+Action.c(31):               22 Church Street<br/>\n
+Action.c(31):               Brooklyn<br/>\n
+Action.c(31):               <br/>\n
+Action.c(31):               Total Charge: $ 644 <BR/> (CC: x-1923)\n
+Action.c(31):           </td> </tr> </table>\n
+Action.c(31):           </center>\n
+Action.c(31):       </TD>\n
+Action.c(31):     </TR>\n
+Action.c(31):     <TR bgcolor="#EFF2F7">\n
+Action.c(31):       <TD COLSPAN="3">\n
+Action.c(31):       <b>Flight Details:</b><BR/>  <center>\n
+Action.c(31):       04/07/2022\n
+Action.c(31):      :  1pm : Flight 101 leaves Frankfurt  for Denver.<br>  </center>\n
+Action.c(31):       </TD>\n
+Action.c(31):     </TR>\n
+Action.c(31):     \n
+Action.c(31):     <TR bgcolor="#EFF2F7">\n
+Action.c(31):       <TD COLSPAN="4">\n
+Action.c(31):       <hr/>\n
+Action.c(31):       </TD>\n
+Action.c(31):     </TR>\n
+Action.c(31):     \n
+Action.c(31):     <!-- Flight #1 -->\n
+Action.c(31):     <TR bgcolor="#EFF2F7">\n
+Action.c(31):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Action.c(31):     <b>\n
+Action.c(31):     <label><input type="checkbox" name="13" value="on" /></label></font></b>\n
+Action.c(31):     <input type="hidden" name="flightID" value="71247827-10025-CW"  />\n
+Action.c(31):       </TD>\n
+Action.c(31):       <TD width="45%" valign="top">\n
+Action.c(31):           <b>&nbsp;&nbsp;A Coach class ticket for :</b><br/>\n
+Action.c(31):           <center><table border="0" width="85%"><tr><td>\n
+Action.c(31):           <li><i>CARLOS_WATSON\n
+Action.c(31):           <li><i></i>\n
+Action.c(31):           </td></tr></table></center>\n
+Action.c(31):       </TD>\n
+Action.c(31):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Action.c(31):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Action.c(31):           <center>\n
+Action.c(31):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Action.c(31):               Carlos Watson\n
+Action.c(31):     <br/>\n
+Action.c(31):               22 Church Street<br/>\n
+Action.c(31):               Brooklyn<br/>\n
+Action.c(31):               <br/>\n
+Action.c(31):               Total Charge: $ 335 <BR/> (CC: x-1923)\n
+Action.c(31):           </td> </tr> </table>\n
+Action.c(31):           </center>\n
+Action.c(31):       </TD>\n
+Action.c(31):     </TR>\n
+Action.c(31):     <TR bgcolor="#EFF2F7">\n
+Action.c(31):       <TD COLSPAN="3">\n
+Action.c(31):       <b>Flight Details:</b><BR/>  <center>\n
+Action.c(31):       04/07/2022\n
+Action.c(31):      :  1pm : Flight 691 leaves San Francisco  for Zurich.<br>  </center>\n
+Action.c(31):       </TD>\n
+Action.c(31):     </TR>\n
+Action.c(31):     \n
+Action.c(31):     <TR bgcolor="#EFF2F7">\n
+Action.c(31):       <TD COLSPAN="4">\n
+Action.c(31):       <hr/>\n
+Action.c(31):       </TD>\n
+Action.c(31):     </TR>\n
+Action.c(31):     \n
+Action.c(31):     <!-- Flight #1 -->\n
+Action.c(31):     <TR bgcolor="#EFF2F7">\n
+Action.c(31):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Action.c(31):     <b>\n
+Action.c(31):     <label><input type="checkbox" name="14" value="on" /></label></font></b>\n
+Action.c(31):     <input type="hidden" name="flightID" value="71247803-107800-CW"  />\n
+Action.c(31):       </TD>\n
+Action.c(31):       <TD width="45%" valign="top">\n
+Action.c(31):           <b>&nbsp;&nbsp;2 First class tickets for :</b><br/>\n
+Action.c(31):           <center><table border="0" width="85%"><tr><td>\n
+Action.c(31):           <li><i>CARLOS_WATSON      <li><i>STEPHEN_ANDERSON\n
+Action.c(31):           <li><i></i>\n
+Action.c(31):           </td></tr></table></center>\n
+Action.c(31):       </TD>\n
+Action.c(31):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Action.c(31):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Action.c(31):           <center>\n
+Action.c(31):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Action.c(31):               Carlos Watson\n
+Action.c(31):     <br/>\n
+Action.c(31):               22 Church Street<br/>\n
+Action.c(31):               Brooklyn<br/>\n
+Action.c(31):               <br/>\n
+Action.c(31):               Total Charge: $ 1410 <BR/> (CC: x-1923)\n
+Action.c(31):           </td> </tr> </table>\n
+Action.c(31):           </center>\n
+Action.c(31):       </TD>\n
+Action.c(31):     </TR>\n
+Action.c(31):     <TR bgcolor="#EFF2F7">\n
+Action.c(31):       <TD COLSPAN="3">\n
+Action.c(31):       <b>Flight Details:</b><BR/>  <center>\n
+Action.c(31):       04/07/2022\n
+Action.c(31):      :  8am : Flight 690 leaves San Francisco  for Zurich.<br>  </center>\n
+Action.c(31):       </TD>\n
+Action.c(31):     </TR>\n
+Action.c(31):     \n
+Action.c(31):     <TR bgcolor="#EFF2F7">\n
+Action.c(31):       <TD COLSPAN="4">\n
+Action.c(31):       <hr/>\n
+Action.c(31):       </TD>\n
+Action.c(31):     </TR>\n
+Action.c(31):     <TR>\n
+Action.c(31):        <TD align="center" COLSPAN="4">\n
+Action.c(31):        <b>A total of 14 scheduled flights.</font></b>\n
+Action.c(31):        </TD>\n
+Action.c(31):     </TR>\n
+Action.c(31):     </TABLE>\n
+Action.c(31):     \n
+Action.c(31):     <TABLE WIDTH="87%" BORDER="0" CELLSPACING="0">\n
+Action.c(31):     <TR>\n
+Action.c(31):     <TD align="left" width="50%" >\n
+Action.c(31):     <input type="image" name="removeFlights" src="/WebTours/images/cancelreservation.gif" bord
+Action.c(31):     er="0" /></TD>\n
+Action.c(31):     <TD align="right" width="50%" >\n
+Action.c(31):     <input type="image" name="removeAllFlights" src="/WebTours/images/cancelallreservations.gi
+Action.c(31):     f" border="0" /></TD>\n
+Action.c(31):     </TABLE>\n
+Action.c(31):     \n
+Action.c(31):     <div><input type="hidden" name=".cgifields" value="6"  /><input type="hidden" name=".cgifi
+Action.c(31):     elds" value="11"  /><input type="hidden" name=".cgifields" value="3"  /><input type="hidde
+Action.c(31):     n" name=".cgifields" value="7"  /><input type="hidden" name=".cgifields" value="9"  /><inp
+Action.c(31):     ut type="hidden" name=".cgifields" value="12"  /><input type="hidden" name=".cgifields" va
+Action.c(31):     lue="2"  /><input type="hidden" name=".cgifields" value="14"  /><input type="hidden" name=
+Action.c(31):     ".cgifields" value="8"  /><input type="hidden" name=".cgifields" value="1"  /><input type=
+Action.c(31):     "hidden" name=".cgifields" value="4"  /><input type="hidden" name=".cgifields" value="13" 
+Action.c(31):      /><input type="hidden" name=".cgifields" value="10"  /><input type="hidden" name=".cgifie
+Action.c(31):     lds" value="5"  /></div></form>\n
+Action.c(31):     \n
+Action.c(31):     </center>\n
+Action.c(31):     \n
+Action.c(31):     </body>\n
+Action.c(31):     </html>
+Action.c(31): Notify: Saving Parameter "FlightID_11 = 0".
+Action.c(31): Notify: Saving Parameter "FlightID_12 = 71225986".
+Action.c(31): Notify: Saving Parameter "FlightID_13 = 71247827".
+Action.c(31): Notify: Saving Parameter "FlightID_14 = 71247803".
+Action.c(31): Found resource "http://127.0.0.1:1080/WebTours/images/cancelreservation.gif" in HTML "http://127.0.0.1:1080/cgi-bin/itinerary.pl"  	[MsgId: MMSG-26659]
+Action.c(31): Found resource "http://127.0.0.1:1080/WebTours/images/cancelallreservations.gif" in HTML "http://127.0.0.1:1080/cgi-bin/itinerary.pl"  	[MsgId: MMSG-26659]
+Action.c(31): t=1186ms: Request done "http://127.0.0.1:1080/cgi-bin/itinerary.pl"  	[MsgId: MMSG-26000]
+Action.c(31): t=1187ms: Already connected [0] to 127.0.0.1:1080  	[MsgId: MMSG-26000]
+Action.c(31): t=1187ms: 804-byte request headers for "http://127.0.0.1:1080/WebTours/images/cancelreservation.gif" (RelFrameId=, Internal ID=22)
+Action.c(31):     GET /WebTours/images/cancelreservation.gif HTTP/1.1\r\n
+Action.c(31):     Referer: http://127.0.0.1:1080/cgi-bin/itinerary.pl\r\n
+Action.c(31):     DNT: 1\r\n
+Action.c(31):     Sec-Fetch-Dest: frame\r\n
+Action.c(31):     Sec-Fetch-Mode: navigate\r\n
+Action.c(31):     Sec-Fetch-Site: same-origin\r\n
+Action.c(31):     Upgrade-Insecure-Requests: 1\r\n
+Action.c(31):     sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"\r\n
+Action.c(31):     sec-ch-ua-mobile: ?0\r\n
+Action.c(31):     sec-ch-ua-platform: "Windows"\r\n
+Action.c(31):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Action.c(31):     o) Chrome/99.0.4844.82 Safari/537.36\r\n
+Action.c(31):     Accept-Encoding: gzip, deflate, br\r\n
+Action.c(31):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+Action.c(31):     Accept: */*\r\n
+Action.c(31):     Connection: Keep-Alive\r\n
+Action.c(31):     Host: 127.0.0.1:1080\r\n
+Action.c(31):     Cookie: MSO=SID&1649258860; MTUserInfo=firstName&Carlos&address2&Brooklyn&username&acrobat
+Action.c(31):     &hash&84&lastName&Watson%0A&address1&22%20Church%20Street&creditCard&&expDate&%0A\r\n
+Action.c(31):     \r\n
+Action.c(31): t=1189ms: Already connected [1] to 127.0.0.1:1080  	[MsgId: MMSG-26000]
+Action.c(31): t=1189ms: 808-byte request headers for "http://127.0.0.1:1080/WebTours/images/cancelallreservations.gif" (RelFrameId=, Internal ID=23)
+Action.c(31):     GET /WebTours/images/cancelallreservations.gif HTTP/1.1\r\n
+Action.c(31):     Referer: http://127.0.0.1:1080/cgi-bin/itinerary.pl\r\n
+Action.c(31):     DNT: 1\r\n
+Action.c(31):     Sec-Fetch-Dest: frame\r\n
+Action.c(31):     Sec-Fetch-Mode: navigate\r\n
+Action.c(31):     Sec-Fetch-Site: same-origin\r\n
+Action.c(31):     Upgrade-Insecure-Requests: 1\r\n
+Action.c(31):     sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"\r\n
+Action.c(31):     sec-ch-ua-mobile: ?0\r\n
+Action.c(31):     sec-ch-ua-platform: "Windows"\r\n
+Action.c(31):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Action.c(31):     o) Chrome/99.0.4844.82 Safari/537.36\r\n
+Action.c(31):     Accept-Encoding: gzip, deflate, br\r\n
+Action.c(31):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+Action.c(31):     Accept: */*\r\n
+Action.c(31):     Connection: Keep-Alive\r\n
+Action.c(31):     Host: 127.0.0.1:1080\r\n
+Action.c(31):     Cookie: MSO=SID&1649258860; MTUserInfo=firstName&Carlos&address2&Brooklyn&username&acrobat
+Action.c(31):     &hash&84&lastName&Watson%0A&address1&22%20Church%20Street&creditCard&&expDate&%0A\r\n
+Action.c(31):     \r\n
+Action.c(31): t=1191ms: 297-byte response headers for "http://127.0.0.1:1080/WebTours/images/cancelreservation.gif" (RelFrameId=, Internal ID=22)
+Action.c(31):     HTTP/1.1 200 OK\r\n
+Action.c(31):     Date: Wed, 06 Apr 2022 15:27:40 GMT\r\n
+Action.c(31):     Server: Apache/2.2.21 (Win32)\r\n
+Action.c(31):     Last-Modified: Sat, 26 Mar 2022 07:29:11 GMT\r\n
+Action.c(31):     ETag: "600000001c676-33f-5db1a09163d46"\r\n
+Action.c(31):     Accept-Ranges: bytes\r\n
+Action.c(31):     Content-Length: 831\r\n
+Action.c(31):     Keep-Alive: timeout=5, max=91\r\n
+Action.c(31):     Connection: Keep-Alive\r\n
+Action.c(31):     Content-Type: image/gif\r\n
+Action.c(31):     \r\n
+Action.c(31): t=1192ms: 831-byte response body for "http://127.0.0.1:1080/WebTours/images/cancelreservation.gif" (RelFrameId=, Internal ID=22)
+Action.c(31): t=1193ms: Request done "http://127.0.0.1:1080/WebTours/images/cancelreservation.gif"  	[MsgId: MMSG-26000]
+Action.c(31): t=1194ms: 297-byte response headers for "http://127.0.0.1:1080/WebTours/images/cancelallreservations.gif" (RelFrameId=, Internal ID=23)
+Action.c(31):     HTTP/1.1 200 OK\r\n
+Action.c(31):     Date: Wed, 06 Apr 2022 15:27:40 GMT\r\n
+Action.c(31):     Server: Apache/2.2.21 (Win32)\r\n
+Action.c(31):     Last-Modified: Sat, 26 Mar 2022 07:29:11 GMT\r\n
+Action.c(31):     ETag: "600000001c675-2e6-5db1a09161289"\r\n
+Action.c(31):     Accept-Ranges: bytes\r\n
+Action.c(31):     Content-Length: 742\r\n
+Action.c(31):     Keep-Alive: timeout=5, max=96\r\n
+Action.c(31):     Connection: Keep-Alive\r\n
+Action.c(31):     Content-Type: image/gif\r\n
+Action.c(31):     \r\n
+Action.c(31): t=1195ms: 742-byte response body for "http://127.0.0.1:1080/WebTours/images/cancelallreservations.gif" (RelFrameId=, Internal ID=23)
+Action.c(31): t=1195ms: Request done "http://127.0.0.1:1080/WebTours/images/cancelallreservations.gif"  	[MsgId: MMSG-26000]
+Action.c(31): Registered web_reg_find successful for "Text=User wants the intineraries" (count=1)  	[MsgId: MMSG-26364]
+Action.c(31): Notify: Saving Parameter "FlightID_count = 14".
+Action.c(31): web_image("Itinerary Button") was successful, 22046 body bytes, 1616 header bytes, 67 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(36): Notify: Transaction "Itinerary" ended with a "Pass" status (Duration: 0.3388 Wasted Time: 0.0094).
+Action.c(39): Notify: Transaction "06_ViewingTickets" ended with a "Pass" status (Duration: 0.9958 Wasted Time: 0.1225).
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
+t=1274ms: Closed connection [0] to 127.0.0.1:1080 after completing 10 request(s)  	[MsgId: MMSG-26000]
+t=1274ms: Closed connection [1] to 127.0.0.1:1080 after completing 5 request(s)  	[MsgId: MMSG-26000]
+t=1274ms: Closed connection [2] to 127.0.0.1:1080 after completing 4 request(s)  	[MsgId: MMSG-26000]
+t=1274ms: Closed connection [3] to 127.0.0.1:1080 after completing 2 request(s)  	[MsgId: MMSG-26000]
+t=1274ms: Closed connection [4] to 127.0.0.1:1080 after completing 1 request(s)  	[MsgId: MMSG-26000]
+t=1275ms: Closed connection [5] to 127.0.0.1:1080 after completing 1 request(s)  	[MsgId: MMSG-26000]

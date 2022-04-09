@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Thu, 07 Apr 2022 11:17:38 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: Wed, 06 Apr 2022 11:17:38 GMT
+Set-Cookie: MTUserInfo=firstName&Linda&username&metaphase&address2&Mansfield&hash&5&address1&2789%20Single%20Street&lastName&Pearson%0A; path=/
+Keep-Alive: timeout=5, max=88
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+

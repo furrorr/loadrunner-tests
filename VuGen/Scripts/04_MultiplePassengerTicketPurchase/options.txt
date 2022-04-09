@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\ageef\Documents\VuGen\Scripts\04_MultiplePassengerTicketPurchase
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\ageef\documents\vugen\scripts\04_multiplepassengerticketpurchase\\logfile.log
+c:\users\ageef\documents\vugen\scripts\04_multiplepassengerticketpurchase\\combined_04_MultiplePassengerTicketPurchase.c
+c:\users\ageef\documents\vugen\scripts\04_multiplepassengerticketpurchase\\pre_cci.c

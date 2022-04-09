@@ -1,0 +1,377 @@
+[API Trapper      (1154:4670)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[API Trapper      (3efc:3d68)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[API Trapper      (1d50:1dc4)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer (1d50:4b40)] ------------------------------------------------------------------------------------------
+[Network Analyzer (1d50:4b40)] Load Network Traffic Analyzers:
+[Network Analyzer (1d50:4b40)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (1d50:4b40)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (1d50:4b40)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (1d50:4b40)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (1d50:4b40)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (1d50:4b40)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (1d50:4b40)] ------------------------------------------------------------------------------------------
+[Network Analyzer (1d50:511c)] Address lookup for Sergey = 192.168.0.181
+[Network Analyzer (1d50:4b40)] Address lookup for Sergey = 192.168.0.181
+[Network Analyzer (1d50:4b40)] Request Connection: Remote Server @ 173.194.222.94:443   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer (1d50:4b40)] Address lookup for Sergey = 192.168.0.181
+[Network Analyzer (1d50:4b40)] Request Connection: Remote Server @ 64.233.161.84:443   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer (1d50:4b40)] Address lookup for Sergey = 192.168.0.181
+[Network Analyzer (1d50:4b40)] Request Connection: Remote Server @ 13.32.111.72:443   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer (1d50:1458)]   (Sid:  1) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (1d50:1458)]   (Sid:  1) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (1d50:1050)]   (Sid:  2) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[API Trapper      (5244:4ed0)] Recording in 64-bit mode: C:\WINDOWS\system32\cmd.exe
+[Network Analyzer (1d50:1df0)]   (Sid:  3) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (1d50:1df0)]   (Sid:  3) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[API Trapper      ( 6fc:15b8)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer (1d50:4b40)] Address lookup for Sergey = 192.168.0.181
+[Network Analyzer (1d50:4b40)] Request Connection: Remote Server @ 185.85.13.155:443   (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer (1d50:4b40)] Address lookup for Sergey = 192.168.0.181
+[Network Analyzer (1d50:4b40)] Request Connection: Remote Server @ 142.251.1.101:443   (Service=)  (Sid=  5)  PROXIED!
+[Network Analyzer (1d50:4b40)] Address lookup for Sergey = 192.168.0.181
+[Network Analyzer (1d50:4b40)] Request Connection: Remote Server @ 74.125.131.154:443   (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer (1d50:4b40)] Address lookup for Sergey = 192.168.0.181
+[Network Analyzer (1d50:4b40)] Request Connection: Remote Server @ 13.32.111.72:443   (Service=)  (Sid=  7)  PROXIED!
+[Network Analyzer (1d50:4b40)] Address lookup for Sergey = 192.168.0.181
+[Network Analyzer (1d50:4bd8)]   (Sid:  5) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (1d50:4bd8)]   (Sid:  5) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (1d50:2950)]   (Sid:  6) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (1d50:2950)]   (Sid:  6) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (1d50:4b40)] Request Connection: Remote Server @ 184.169.221.190:443   (Service=)  (Sid=  8)  PROXIED!
+[Network Analyzer (1d50:1050)]   (Sid:  2) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (1d50:511c)] "GET /chrome-variations/seed?osname=win&channel=stable&milestone=99"   
+[Network Analyzer (1d50:511c)]   (Sid:  1) Client -> Server @ : 458 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1d50:511c)]   (Sid:  2) Client -> Server @ : 1548 bytes (SSL)(Service=HTTP)
+[Web Request      (1d50:511c)] "GET /api/v1/adregex"   
+[Network Analyzer (1d50:511c)]   (Sid:  3) Client -> Server @ : 669 bytes (SSL)(Service=HTTP)
+[Web Request      (1d50:511c)] "GET /collect?v=1&_v=j96&a=1825355195&t=pageview&_s=1&dl=chrome-extension%3A%2F%2Fcmedhionkhpnakcndndgjdbohmhepckk%2F_generated_background_page.html&dp=background.html%3Fv%3D5.1.7&ul=ru-ru&de=UTF-8&sd=24-bit&sr=1920x1080&vp=&je=0&_u=QCCAgEAB~&jid=1068143629&gjid=1665268832&cid=1036189143.1632641083&tid=UA-55554816-6&_gid=1271469547.1647872441&z=35456099"   
+[Network Analyzer (1d50:511c)]   (Sid:  5) Client -> Server @ : 923 bytes (SSL)(Service=HTTP)
+[Web Request      (1d50:511c)] "POST /ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard"   
+[Network Analyzer (1d50:511c)]   (Sid:  2) Client -> Server @ : 1 bytes (SSL)(Service=HTTP)
+[Web Request      (1d50:511c)] "POST /j/collect?t=dc&aip=1&_r=3&v=1&_v=j96&tid=UA-55554816-6&cid=1036189143.1632641083&jid=1068143629&gjid=1665268832&_gid=1271469547.1647872441&_u=QCCAgEABAAAAAE~&z=1592375299"   
+[Network Analyzer (1d50:511c)]   (Sid:  6) Client -> Server @ : 952 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1d50:4b40)] Address lookup for Sergey = 192.168.0.181
+[Network Analyzer (1d50:511c)]   (Sid:  1) Server -> Client : 181 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1d50:511c)]   (Sid:  3) Server -> Client : 391 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1d50:511c)]   (Sid:  5) Server -> Client : 461 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1d50:511c)]   (Sid:  6) Server -> Client : 578 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1d50:4738)]   (Sid:  7) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (1d50:4b40)] Request Connection: Remote Server @ 173.194.222.188:5228   (Service=)  (Sid=  9)  PROXIED!
+[Network Analyzer (1d50:4b40)] Address lookup for Sergey = 192.168.0.181
+[Network Analyzer (1d50:511c)]   (Sid:  2) Server -> Client : 1425 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1d50:511c)]   (Sid:  2) Server -> Client : 355 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1d50:511c)]   (Sid:  2) Server -> Client : 43 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1d50:4738)]   (Sid:  7) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (1d50:511c)]   (Sid:  2) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1d50:4b40)] Request Connection: Remote Server @ 64.233.165.104:443   (Service=)  (Sid= 10)  PROXIED!
+[Network Analyzer (1d50:4b40)] Address lookup for Sergey = 192.168.0.181
+[Network Analyzer (1d50:4b40)] Request Connection: Remote Server @ 173.194.222.94:443   (Service=)  (Sid= 11)  PROXIED!
+[Network Analyzer (1d50:4b40)] Address lookup for Sergey = 192.168.0.181
+[Network Analyzer (1d50:4b40)] Request Connection: Remote Server @ 74.125.205.138:443   (Service=)  (Sid= 12)  PROXIED!
+[Web Request      (1d50:511c)] "GET /api/v1/update?v=5.1.7&xtid=cmedhionkhpnakcndndgjdbohmhepckk"   
+[Network Analyzer (1d50:511c)]   (Sid:  3) Client -> Server @ : 712 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1d50:4b40)] Address lookup for Sergey = 192.168.0.181
+[Network Analyzer (1d50:4b40)] Request Connection: Remote Server @ 64.233.165.104:443   (Service=)  (Sid= 13)  PROXIED!
+[Network Analyzer (1d50:4b40)] Address lookup for Sergey = 192.168.0.181
+[Network Analyzer (1d50:511c)]   (Sid:  3) Server -> Client : 389 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1d50:4b40)] Request Connection: Remote Server @ 64.233.165.104:443   (Service=)  (Sid= 14)  PROXIED!
+[Network Analyzer (1d50:4b40)] Address lookup for Sergey = 192.168.0.181
+[Network Analyzer (1d50:4b40)] Request Connection: Remote Server @ 64.233.165.104:443   (Service=)  (Sid= 15)  PROXIED!
+[Network Analyzer (1d50:4f94)]   (Sid:  8) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1d50:4f94)]   (Sid:  8) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (1d50:4df4)]   (Sid:  9) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (1d50:4df4)]   (Sid:  9) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (1d50: e04)]   (Sid: 10) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (1d50: e04)]   (Sid: 10) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (1d50:1ec8)]   (Sid: 11) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (1d50:1ec8)]   (Sid: 11) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (1d50:1258)]   (Sid: 12) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (1d50:1258)]   (Sid: 12) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (1d50:43f8)]   (Sid: 13) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (1d50:43f8)]   (Sid: 13) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (1d50:4b34)]   (Sid: 14) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (1d50:4b34)]   (Sid: 14) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (1d50:511c)] "POST /1/plain/status"   
+[Network Analyzer (1d50:511c)]   (Sid:  8) Client -> Server @ : 739 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1d50:511c)]   (Sid:  9) Client -> Server @ : 154 bytes (SSL)
+[Web Request      (1d50:511c)] "GET /async/newtab_ogb?hl=ru&async=fixed:0"   
+[Network Analyzer (1d50:511c)]   (Sid: 10) Client -> Server @ : 766 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1d50:511c)]   (Sid: 11) Client -> Server @ : 1259 bytes (SSL)(Service=HTTP)
+[Web Request      (1d50:511c)] "GET /service/update2/crx?os=win&arch=x64&os_arch=x86_64&nacl_arch=x86-64&prod=chromecrx&prodchannel=&prodversion=99.0.4844.82&lang=ru&acceptformat=crx3&x=id%3Dckcmdpmhiekiihmfjffdehhbhgllpapg%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26ping%3Dr%253D8%2526e%253D0%2526dr%253D1&x=id%3Dipjjmoaaiokdonnldckdhmhojapklmdi%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26ping%3Dr%253D8%2526e%253D1&x=id%3Dphcogmapnhgdbmilclanafaljonkjppa%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26ping%3Dr%253D8%2526e%253D0%2526dr%253D1"   
+[Network Analyzer (1d50:511c)]   (Sid: 12) Client -> Server @ : 1069 bytes (SSL)(Service=HTTP)
+[Web Request      (1d50:511c)] "GET /async/newtab_promos"   
+[Network Analyzer (1d50:511c)]   (Sid: 13) Client -> Server @ : 624 bytes (SSL)(Service=HTTP)
+[Web Request      (1d50:511c)] "POST /service/update2/json?cup2key=11:0WDmmKWpcrcZT6POVIt9x6RFiOyPvVWtyf5YPofnbJA&cup2hreq=0ec41cf399268cf89c1c823ea763d0c0b2623eacb176815e5784b21262b541bb"   
+[Network Analyzer (1d50:511c)]   (Sid: 11) Client -> Server @ : 5592 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1d50:511c)]   (Sid:  9) Server -> Client : 1 bytes (SSL)
+[Network Analyzer (1d50:511c)]   (Sid:  9) Server -> Client : 65 bytes (SSL)
+[Network Analyzer (1d50:511c)]   (Sid:  9) Server -> Client : 12 bytes (SSL)
+[Network Analyzer (1d50:511c)]   (Sid: 13) Server -> Client : 591 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1d50:511c)]   (Sid: 12) Server -> Client : 809 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1d50:511c)]   (Sid: 12) Server -> Client : 418 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1d50:511c)]   (Sid: 12) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1d50:165c)]   (Sid: 15) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (1d50:165c)]   (Sid: 15) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (1d50:511c)]   (Sid: 11) Server -> Client : 1871 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1d50:511c)]   (Sid: 10) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1d50:511c)]   (Sid: 10) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1d50:511c)]   (Sid: 10) Server -> Client : 8672 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1d50:511c)]   (Sid:  8) Server -> Client : 978 bytes (SSL) (Service=HTTP)
+[Web Request      (1d50:511c)] "POST /1/plain/config/payment_popup"   
+[Network Analyzer (1d50:511c)]   (Sid:  8) Client -> Server @ : 753 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1d50:511c)]   (Sid:  8) Server -> Client : 1275 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1d50:511c)]   (Sid: 14) Connection Terminated (by Server)
+[Network Analyzer (1d50:511c)]   (Sid: 15) Connection Terminated (by Server)
+[User action                 ] StartTransactionEvent 03_TicketRoundTrip [User action                 ] StartTransactionEvent HomePage [Network Analyzer (1d50:4b40)] Address lookup for Sergey = 192.168.0.181
+[Network Analyzer (1d50:4b40)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 16)  PROXIED!
+[Network Analyzer (1d50:4b40)] Address lookup for Sergey = 192.168.0.181
+[Network Analyzer (1d50:4b40)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 17)  PROXIED!
+[Web Request      (1d50:511c)] "GET /WebTours/"   
+[Network Analyzer (1d50:511c)]   (Sid: 16) Client -> Server @ : 965 bytes (Service=HTTP)
+[Network Analyzer (1d50:511c)]   (Sid: 16) Server -> Client : 194 bytes  (Service=HTTP)
+[Network Analyzer (1d50:4b40)] Address lookup for Sergey = 192.168.0.181
+[Network Analyzer (1d50:4b40)] Request Connection: Remote Server @ 185.85.13.155:80   (Service=)  (Sid= 18)  PROXIED!
+[Network Analyzer (1d50:4b40)] Address lookup for Sergey = 192.168.0.181
+[Network Analyzer (1d50:4b40)] Request Connection: Remote Server @ 185.85.13.155:80   (Service=)  (Sid= 19)  PROXIED!
+[Web Request      (1d50:511c)] "GET /WebTours/header.html"   
+[Network Analyzer (1d50:511c)]   (Sid: 16) Client -> Server @ : 1002 bytes (Service=HTTP)
+[Web Request      (1d50:511c)] "GET /cgi-bin/welcome.pl?signOff=true"   
+[Network Analyzer (1d50:511c)]   (Sid: 17) Client -> Server @ : 913 bytes (Service=HTTP)
+[Network Analyzer (1d50:511c)]   (Sid: 16) Server -> Client : 193 bytes  (Service=HTTP)
+[Network Analyzer (1d50:4b40)] Address lookup for Sergey = 192.168.0.181
+[Network Analyzer (1d50:4b40)] Request Connection: Remote Server @ 185.85.13.155:80   (Service=)  (Sid= 20)  PROXIED!
+[Network Analyzer (1d50:511c)]   (Sid: 17) Server -> Client : 1286 bytes  (Service=HTTP)
+[Network Analyzer (1d50:4b40)] Address lookup for Sergey = 192.168.0.181
+[Network Analyzer (1d50:4b40)] Request Connection: Remote Server @ 185.85.13.155:80   (Service=)  (Sid= 21)  PROXIED!
+[Network Analyzer (1d50:4b40)] Address lookup for Sergey = 192.168.0.181
+[Network Analyzer (1d50:4b40)] Request Connection: Remote Server @ 185.85.13.155:80   (Service=)  (Sid= 22)  PROXIED!
+[Network Analyzer (1d50:4b40)] Address lookup for Sergey = 192.168.0.181
+[Network Analyzer (1d50:4b40)] Request Connection: Remote Server @ 185.85.13.155:80   (Service=)  (Sid= 23)  PROXIED!
+[Web Request      (1d50:511c)] "GET /WebTours/home.html"   
+[Network Analyzer (1d50:511c)]   (Sid: 16) Client -> Server @ : 883 bytes (Service=HTTP)
+[Web Request      (1d50:511c)] "GET /cgi-bin/nav.pl?in=home"   
+[Network Analyzer (1d50:511c)]   (Sid: 17) Client -> Server @ : 787 bytes (Service=HTTP)
+[Network Analyzer (1d50:511c)]   (Sid: 16) Server -> Client : 193 bytes  (Service=HTTP)
+[Network Analyzer (1d50:4b40)] Address lookup for Sergey = 192.168.0.181
+[Network Analyzer (1d50:4b40)] Request Connection: Remote Server @ 185.85.13.155:80   (Service=)  (Sid= 24)  PROXIED!
+[Network Analyzer (1d50:4b40)] Address lookup for Sergey = 192.168.0.181
+[Network Analyzer (1d50:4b40)] Request Connection: Remote Server @ 185.85.13.155:80   (Service=)  (Sid= 25)  PROXIED!
+[Network Analyzer (1d50:511c)]   (Sid: 17) Server -> Client : 1995 bytes  (Service=HTTP)
+[Network Analyzer (1d50:4b40)] Address lookup for Sergey = 192.168.0.181
+[Network Analyzer (1d50:4b40)] Request Connection: Remote Server @ 185.85.13.155:80   (Service=)  (Sid= 26)  PROXIED!
+[Network Analyzer (1d50:4b40)] Address lookup for Sergey = 192.168.0.181
+[Network Analyzer (1d50:4b40)] Request Connection: Remote Server @ 185.85.13.155:80   (Service=)  (Sid= 27)  PROXIED!
+[Network Analyzer (1d50:4b40)] Address lookup for Sergey = 192.168.0.181
+[Network Analyzer (1d50:4b40)] Request Connection: Remote Server @ 185.85.13.155:80   (Service=)  (Sid= 28)  PROXIED!
+[Web Request      (1d50:511c)] "GET /favicon.ico"   
+[Network Analyzer (1d50:511c)]   (Sid: 17) Client -> Server @ : 652 bytes (Service=HTTP)
+[Network Analyzer (1d50:511c)]   (Sid: 17) Server -> Client : 424 bytes  (Service=HTTP)
+[User action                 ] EndTransactionEvent HomePage [Network Analyzer (1d50:511c)]   (Sid:  7) Connection Terminated (by Server)
+[Network Analyzer (1d50:511c)]   (Sid: 16) Connection Terminated (by Server)
+[Network Analyzer (1d50:511c)]   (Sid: 17) Connection Terminated (by Server)
+[User action                 ] StartTransactionEvent Login [Network Analyzer (1d50:4b40)] Address lookup for Sergey = 192.168.0.181
+[Network Analyzer (1d50:4b40)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 29)  PROXIED!
+[Web Request      (1d50:511c)] "POST /cgi-bin/login.pl"   
+[Network Analyzer (1d50:511c)]   (Sid: 29) Client -> Server @ : 1044 bytes (Service=HTTP)
+[Network Analyzer (1d50:511c)]   (Sid: 29) Server -> Client : 1120 bytes  (Service=HTTP)
+[Network Analyzer (1d50:511c)]   (Sid: 28) Connection Terminated (by Client)
+[Network Analyzer (1d50:511c)]   (Sid: 27) Connection Terminated (by Client)
+[Network Analyzer (1d50:511c)]   (Sid: 23) Connection Terminated (by Client)
+[Network Analyzer (1d50:511c)]   (Sid: 24) Connection Terminated (by Client)
+[Network Analyzer (1d50:4b40)] Address lookup for Sergey = 192.168.0.181
+[Network Analyzer (1d50:4b40)] Request Connection: Remote Server @ 185.85.13.155:80   (Service=)  (Sid= 30)  PROXIED!
+[Network Analyzer (1d50:4b40)] Address lookup for Sergey = 192.168.0.181
+[Network Analyzer (1d50:511c)]   (Sid: 25) Connection Terminated (by Client)
+[Network Analyzer (1d50:511c)]   (Sid: 26) Connection Terminated (by Client)
+[Network Analyzer (1d50:4b40)] Request Connection: Remote Server @ 185.85.13.155:80   (Service=)  (Sid= 31)  PROXIED!
+[Web Request      (1d50:511c)] "GET /cgi-bin/nav.pl?page=menu&in=home"   
+[Network Analyzer (1d50:511c)]   (Sid: 29) Client -> Server @ : 921 bytes (Service=HTTP)
+[Network Analyzer (1d50:4b40)] Address lookup for Sergey = 192.168.0.181
+[Network Analyzer (1d50:4b40)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 32)  PROXIED!
+[Network Analyzer (1d50:511c)]   (Sid: 29) Server -> Client : 2009 bytes  (Service=HTTP)
+[Web Request      (1d50:511c)] "GET /cgi-bin/login.pl?intro=true"   
+[Network Analyzer (1d50:511c)]   (Sid: 32) Client -> Server @ : 916 bytes (Service=HTTP)
+[Network Analyzer (1d50:4b40)] Address lookup for Sergey = 192.168.0.181
+[Network Analyzer (1d50:4b40)] Request Connection: Remote Server @ 185.85.13.155:80   (Service=)  (Sid= 33)  PROXIED!
+[Network Analyzer (1d50:511c)]   (Sid: 32) Server -> Client : 1421 bytes  (Service=HTTP)
+[Network Analyzer (1d50:4b40)] Address lookup for Sergey = 192.168.0.181
+[Network Analyzer (1d50:4b40)] Request Connection: Remote Server @ 185.85.13.155:80   (Service=)  (Sid= 34)  PROXIED!
+[Network Analyzer (1d50:4b40)] Address lookup for Sergey = 192.168.0.181
+[Network Analyzer (1d50:4b40)] Request Connection: Remote Server @ 185.85.13.155:80   (Service=)  (Sid= 35)  PROXIED!
+[Network Analyzer (1d50:4b40)] Address lookup for Sergey = 192.168.0.181
+[Network Analyzer (1d50:4b40)] Request Connection: Remote Server @ 185.85.13.155:80   (Service=)  (Sid= 36)  PROXIED!
+[User action                 ] EndTransactionEvent Login [Network Analyzer (1d50:511c)]   (Sid: 29) Connection Terminated (by Server)
+[Network Analyzer (1d50:511c)]   (Sid: 32) Connection Terminated (by Server)
+[User action                 ] StartTransactionEvent Flights [Network Analyzer (1d50:4b40)] Address lookup for Sergey = 192.168.0.181
+[Network Analyzer (1d50:4b40)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 37)  PROXIED!
+[Network Analyzer (1d50:4b40)] Address lookup for Sergey = 192.168.0.181
+[Web Request      (1d50:511c)] "GET /cgi-bin/welcome.pl?page=search"   
+[Network Analyzer (1d50:511c)]   (Sid: 37) Client -> Server @ : 955 bytes (Service=HTTP)
+[Network Analyzer (1d50:4b40)] Request Connection: Remote Server @ 74.125.205.138:443   (Service=)  (Sid= 38)  PROXIED!
+[Network Analyzer (1d50:511c)]   (Sid: 37) Server -> Client : 1104 bytes  (Service=HTTP)
+[Network Analyzer (1d50:49c0)]   (Sid: 38) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (1d50:511c)]   (Sid: 34) Connection Terminated (by Client)
+[Network Analyzer (1d50:511c)]   (Sid: 33) Connection Terminated (by Client)
+[Network Analyzer (1d50:511c)]   (Sid: 36) Connection Terminated (by Client)
+[Network Analyzer (1d50:511c)]   (Sid: 31) Connection Terminated (by Client)
+[Network Analyzer (1d50:511c)]   (Sid: 35) Connection Terminated (by Client)
+[Network Analyzer (1d50:511c)]   (Sid: 30) Connection Terminated (by Client)
+[Network Analyzer (1d50:49c0)]   (Sid: 38) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (1d50:4b40)] Address lookup for Sergey = 192.168.0.181
+[Network Analyzer (1d50:4b40)] Request Connection: Remote Server @ 185.85.13.155:80   (Service=)  (Sid= 39)  PROXIED!
+[Network Analyzer (1d50:4b40)] Address lookup for Sergey = 192.168.0.181
+[Network Analyzer (1d50:4b40)] Request Connection: Remote Server @ 185.85.13.155:80   (Service=)  (Sid= 40)  PROXIED!
+[Web Request      (1d50:511c)] "GET /cgi-bin/nav.pl?page=menu&in=flights"   
+[Network Analyzer (1d50:4b40)] Address lookup for Sergey = 192.168.0.181
+[Network Analyzer (1d50:511c)]   (Sid: 37) Client -> Server @ : 938 bytes (Service=HTTP)
+[Network Analyzer (1d50:4b40)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 41)  PROXIED!
+[Network Analyzer (1d50:511c)]   (Sid: 37) Server -> Client : 2009 bytes  (Service=HTTP)
+[Web Request      (1d50:511c)] "GET /cgi-bin/reservations.pl?page=welcome"   
+[Network Analyzer (1d50:511c)]   (Sid: 41) Client -> Server @ : 939 bytes (Service=HTTP)
+[Network Analyzer (1d50:4b40)] Address lookup for Sergey = 192.168.0.181
+[Network Analyzer (1d50:511c)]   (Sid: 38) Client -> Server @ : 570 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1d50:4b40)] Request Connection: Remote Server @ 185.85.13.155:80   (Service=)  (Sid= 42)  PROXIED!
+[Web Request      (1d50:511c)] "POST /ukm"   
+[Network Analyzer (1d50:511c)]   (Sid: 38) Client -> Server @ : 4701 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1d50:511c)]   (Sid: 41) Server -> Client : 4775 bytes  (Service=HTTP)
+[Network Analyzer (1d50:4b40)] Address lookup for Sergey = 192.168.0.181
+[Network Analyzer (1d50:4b40)] Request Connection: Remote Server @ 185.85.13.155:80   (Service=)  (Sid= 43)  PROXIED!
+[Network Analyzer (1d50:511c)]   (Sid: 38) Server -> Client : 555 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1d50:511c)]   (Sid: 38) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1d50:4b40)] Address lookup for Sergey = 192.168.0.181
+[Network Analyzer (1d50:4b40)] Request Connection: Remote Server @ 185.85.13.155:80   (Service=)  (Sid= 44)  PROXIED!
+[Network Analyzer (1d50:4b40)] Address lookup for Sergey = 192.168.0.181
+[Network Analyzer (1d50:4b40)] Request Connection: Remote Server @ 185.85.13.155:80   (Service=)  (Sid= 45)  PROXIED!
+[Network Analyzer (1d50:4b40)] Address lookup for Sergey = 192.168.0.181
+[Network Analyzer (1d50:4b40)] Request Connection: Remote Server @ 173.194.222.94:443   (Service=)  (Sid= 46)  PROXIED!
+[Network Analyzer (1d50:4928)]   (Sid: 46) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (1d50:4928)]   (Sid: 46) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[API Trapper      (5390: a74)] Recording in 64-bit mode: C:\WINDOWS\system32\cmd.exe
+[API Trapper      (47fc:51f0)] Recording in 64-bit mode: C:\WINDOWS\system32\cmd.exe
+[Web Request      (1d50:511c)] "POST /service/update2/json?cup2key=11:su14wfliC_vE6RE9HntY6o7sLFW8SKh9HK4KfUNIR4Q&cup2hreq=4f90fe5a6a536d2165ce621c4411cecee672842f67b64c2d5f192f7ee7713606"
+[Network Analyzer (1d50:511c)]   (Sid: 46) Client -> Server @ : 1433 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1d50:511c)]   (Sid: 46) Client -> Server @ : 9274 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1d50:511c)]   (Sid: 46) Server -> Client : 2183 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1d50:4b40)] Address lookup for Sergey = 192.168.0.181
+[Network Analyzer (1d50:4b40)] Request Connection: Remote Server @ 64.233.165.104:443   (Service=)  (Sid= 47)  PROXIED!
+[Network Analyzer (1d50:511c)]   (Sid: 37) Connection Terminated (by Server)
+[Network Analyzer (1d50:13d0)]   (Sid: 47) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (1d50:13d0)]   (Sid: 47) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (1d50:511c)]   (Sid: 41) Connection Terminated (by Server)
+[User action                 ] EndTransactionEvent Flights [Network Analyzer (1d50:511c)]   (Sid: 47) Connection Terminated (by Server)
+[Network Analyzer (1d50:511c)]   (Sid:  8) Connection Terminated (by Server)
+[User action                 ] StartTransactionEvent FlightTime [Network Analyzer (1d50:4b40)] Address lookup for Sergey = 192.168.0.181
+[Network Analyzer (1d50:4b40)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 48)  PROXIED!
+[Web Request      (1d50:511c)] "POST /cgi-bin/reservations.pl"   
+[Network Analyzer (1d50:511c)]   (Sid: 48) Client -> Server @ : 1330 bytes (Service=HTTP)
+[Network Analyzer (1d50:511c)]   (Sid: 48) Server -> Client : 4088 bytes  (Service=HTTP)
+[Network Analyzer (1d50:4b40)] Address lookup for Sergey = 192.168.0.181
+[Network Analyzer (1d50:4b40)] Request Connection: Remote Server @ 64.233.164.94:443   (Service=)  (Sid= 49)  PROXIED!
+[Network Analyzer (1d50:511c)]   (Sid: 44) Connection Terminated (by Client)
+[Network Analyzer (1d50:4b40)] Address lookup for Sergey = 192.168.0.181
+[Network Analyzer (1d50:225c)]   (Sid: 49) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (1d50:225c)]   (Sid: 49) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (1d50:511c)]   (Sid: 45) Connection Terminated (by Client)
+[Network Analyzer (1d50:4b40)] Request Connection: Remote Server @ 173.194.222.95:443   (Service=)  (Sid= 50)  PROXIED!
+[Network Analyzer (1d50:4b40)] Address lookup for Sergey = 192.168.0.181
+[Network Analyzer (1d50:4b40)] Request Connection: Remote Server @ 185.85.13.155:80   (Service=)  (Sid= 51)  PROXIED!
+[Network Analyzer (1d50:4b40)] Address lookup for Sergey = 192.168.0.181
+[Network Analyzer (1d50:4b40)] Request Connection: Remote Server @ 173.194.222.95:443   (Service=)  (Sid= 52)  PROXIED!
+[Network Analyzer (1d50:4ca4)]   (Sid: 50) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (1d50:4b40)] Address lookup for Sergey = 192.168.0.181
+[Web Request      (1d50:511c)] "POST /domainreliability/upload"   
+[Network Analyzer (1d50:511c)]   (Sid: 49) Client -> Server @ : 657 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1d50:4b40)] Request Connection: Remote Server @ 185.85.13.155:80   (Service=)  (Sid= 53)  PROXIED!
+[Network Analyzer (1d50:4ca4)]   (Sid: 50) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (1d50:511c)]   (Sid: 49) Server -> Client : 1129 bytes (SSL) (Service=HTTP)
+[Web Request      (1d50:511c)] "GET /v4/fullHashes:find?$req=ChwKDGdvb2dsZWNocm9tZRIMOTkuMC40ODQ0LjgyEhsKDQgFEAYYASIDMDAxMAEQndYNGgIYA9v7xPYSGwoNCAEQBhgBIgMwMDEwARC5wAoaAhgDoD0f8RIbCg0IBxAGGAEiAzAwMTABEIv4ChoCGAPPJABGEhkKDQgBEAYYASIDMDAxMAMQFBoCGANZvHR9EhoKDQgBEAgYASIDMDAxMAQQjCcaAhgDNWZMZBIaCg0IDxAGGAEiAzAwMTABEI9xGgIYAwvmddoSGQoNCAoQCBgBIgMwMDEwARAHGgIYA3dXNzgSGQoNCAkQBhgBIgMwMDEwARAgGgIYA0QGrjMSGgoNCAgQBhgBIgMwMDEwARCCDxoCGAPQtZy0EhsKDQgNEAYYASIDMDAxMAEQ-LQBGgIYA7u9EJkSGwoNCAMQBhgBIgMwMDEwARDYgwoaAhgDQ7VPAhIbCg0IDhAGGAEiAzAwMTABEJ-qBhoCGAP12UnAEhoKDQgQEAYYASIDMDAxMAEQ3RAaAhgDR4Q7QRosCAEIAwgFCAYIBwgICAkICggNCA4IDwgQCBEQARAIGgYKBKZ8nZcgASADIAQ=&$ct=application/x-protobuf&key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw"   
+[Network Analyzer (1d50:511c)]   (Sid: 50) Client -> Server @ : 1028 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1d50:1718)]   (Sid: 52) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (1d50:1718)]   (Sid: 52) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (1d50:511c)]   (Sid: 50) Server -> Client : 549 bytes (SSL) (Service=HTTP)
+[Web Request      (1d50:511c)] "GET /v4/fullHashes:find?$req=ChwKDGdvb2dsZWNocm9tZRIMOTkuMC40ODQ0LjgyEhsKDQgFEAYYASIDMDAxMAEQndYNGgIYA9v7xPYSGwoNCAEQBhgBIgMwMDEwARC5wAoaAhgDoD0f8RIbCg0IBxAGGAEiAzAwMTABEIv4ChoCGAPPJABGEhkKDQgBEAYYASIDMDAxMAMQFBoCGANZvHR9EhoKDQgBEAgYASIDMDAxMAQQjCcaAhgDNWZMZBIaCg0IDxAGGAEiAzAwMTABEI9xGgIYAwvmddoSGQoNCAoQCBgBIgMwMDEwARAHGgIYA3dXNzgSGQoNCAkQBhgBIgMwMDEwARAgGgIYA0QGrjMSGgoNCAgQBhgBIgMwMDEwARCCDxoCGAPQtZy0EhsKDQgNEAYYASIDMDAxMAEQ-LQBGgIYA7u9EJkSGwoNCAMQBhgBIgMwMDEwARDYgwoaAhgDQ7VPAhIbCg0IDhAGGAEiAzAwMTABEJ-qBhoCGAP12UnAEhoKDQgQEAYYASIDMDAxMAEQ3RAaAhgDR4Q7QRosCAEIAwgFCAYIBwgICAkICggNCA4IDwgQCBEQARAIGgYKBKZ8nZcgASADIAQ=&$ct=application/x-protobuf&key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw"   
+[Network Analyzer (1d50:511c)]   (Sid: 52) Client -> Server @ : 1028 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1d50:511c)]   (Sid: 52) Server -> Client : 537 bytes (SSL) (Service=HTTP)
+[User action                 ] EndTransactionEvent FlightTime [Network Analyzer (1d50:511c)]   (Sid: 48) Connection Terminated (by Server)
+[User action                 ] StartTransactionEvent PaymentDetails [Network Analyzer (1d50:4b40)] Address lookup for Sergey = 192.168.0.181
+[Network Analyzer (1d50:4b40)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 54)  PROXIED!
+[Web Request      (1d50:511c)] "POST /cgi-bin/reservations.pl"   
+[Network Analyzer (1d50:511c)]   (Sid: 54) Client -> Server @ : 1250 bytes (Service=HTTP)
+[API Trapper      (45c8:15c0)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer (1d50:511c)]   (Sid: 54) Server -> Client : 3267 bytes  (Service=HTTP)
+[Network Analyzer (1d50:511c)]   (Sid: 53) Connection Terminated (by Client)
+[Network Analyzer (1d50:511c)]   (Sid: 51) Connection Terminated (by Client)
+[Web Request      (1d50:511c)] "GET /v4/fullHashes:find?$req=ChwKDGdvb2dsZWNocm9tZRIMOTkuMC40ODQ0LjgyEhsKDQgFEAYYASIDMDAxMAEQndYNGgIYA9v7xPYSGwoNCAEQBhgBIgMwMDEwARC5wAoaAhgDoD0f8RIbCg0IBxAGGAEiAzAwMTABEIv4ChoCGAPPJABGEhkKDQgBEAYYASIDMDAxMAMQFBoCGANZvHR9EhoKDQgBEAgYASIDMDAxMAQQjCcaAhgDNWZMZBIaCg0IDxAGGAEiAzAwMTABEI9xGgIYAwvmddoSGQoNCAoQCBgBIgMwMDEwARAHGgIYA3dXNzgSGQoNCAkQBhgBIgMwMDEwARAgGgIYA0QGrjMSGgoNCAgQBhgBIgMwMDEwARCCDxoCGAPQtZy0EhsKDQgNEAYYASIDMDAxMAEQ-LQBGgIYA7u9EJkSGwoNCAMQBhgBIgMwMDEwARDYgwoaAhgDQ7VPAhIbCg0IDhAGGAEiAzAwMTABEJ-qBhoCGAP12UnAEhoKDQgQEAYYASIDMDAxMAEQ3RAaAhgDR4Q7QRosCAEIAwgFCAYIBwgICAkICggNCA4IDwgQCBEQARAIGgYKBC0bLQ0gASADIAQ=&$ct=application/x-protobuf&key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw"   
+[Network Analyzer (1d50:511c)]   (Sid: 52) Client -> Server @ : 1028 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1d50:4b40)] Address lookup for Sergey = 192.168.0.181
+[Network Analyzer (1d50:4b40)] Request Connection: Remote Server @ 185.85.13.155:80   (Service=)  (Sid= 55)  PROXIED!
+[Network Analyzer (1d50:511c)]   (Sid: 52) Server -> Client : 480 bytes (SSL) (Service=HTTP)
+[Web Request      (1d50:511c)] "GET /v4/fullHashes:find?$req=ChwKDGdvb2dsZWNocm9tZRIMOTkuMC40ODQ0LjgyEhsKDQgFEAYYASIDMDAxMAEQndYNGgIYA9v7xPYSGwoNCAEQBhgBIgMwMDEwARC5wAoaAhgDoD0f8RIbCg0IBxAGGAEiAzAwMTABEIv4ChoCGAPPJABGEhkKDQgBEAYYASIDMDAxMAMQFBoCGANZvHR9EhoKDQgBEAgYASIDMDAxMAQQjCcaAhgDNWZMZBIaCg0IDxAGGAEiAzAwMTABEI9xGgIYAwvmddoSGQoNCAoQCBgBIgMwMDEwARAHGgIYA3dXNzgSGQoNCAkQBhgBIgMwMDEwARAgGgIYA0QGrjMSGgoNCAgQBhgBIgMwMDEwARCCDxoCGAPQtZy0EhsKDQgNEAYYASIDMDAxMAEQ-LQBGgIYA7u9EJkSGwoNCAMQBhgBIgMwMDEwARDYgwoaAhgDQ7VPAhIbCg0IDhAGGAEiAzAwMTABEJ-qBhoCGAP12UnAEhoKDQgQEAYYASIDMDAxMAEQ3RAaAhgDR4Q7QRosCAEIAwgFCAYIBwgICAkICggNCA4IDwgQCBEQARAIGgYKBC0bLQ0gASADIAQ=&$ct=application/x-protobuf&key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw"   
+[Network Analyzer (1d50:511c)]   (Sid: 52) Client -> Server @ : 1028 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1d50:4b40)] Address lookup for Sergey = 192.168.0.181
+[Network Analyzer (1d50:4b40)] Request Connection: Remote Server @ 185.85.13.155:80   (Service=)  (Sid= 56)  PROXIED!
+[Network Analyzer (1d50:511c)]   (Sid: 52) Server -> Client : 498 bytes (SSL) (Service=HTTP)
+[User action                 ] EndTransactionEvent PaymentDetails [API Trapper      (2068:1638)] Recording in 64-bit mode: C:\WINDOWS\system32\cmd.exe
+[API Trapper      (3fd8:1f00)] Recording in 64-bit mode: C:\WINDOWS\system32\cmd.exe
+[Network Analyzer (1d50:4b40)] Address lookup for Sergey = 192.168.0.181
+[Network Analyzer (1d50:4b40)] Request Connection: Remote Server @ 64.233.165.104:443   (Service=)  (Sid= 57)  PROXIED!
+[Network Analyzer (1d50:511c)]   (Sid: 54) Connection Terminated (by Server)
+[Network Analyzer (1d50:1d48)]   (Sid: 57) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (1d50:1d48)]   (Sid: 57) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (1d50:511c)]   (Sid: 57) Connection Terminated (by Server)
+[User action                 ] StartTransactionEvent Confirmation [Network Analyzer (1d50:4b40)] Address lookup for Sergey = 192.168.0.181
+[Network Analyzer (1d50:4b40)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 58)  PROXIED!
+[Web Request      (1d50:511c)] "POST /cgi-bin/reservations.pl"   
+[Network Analyzer (1d50:511c)]   (Sid: 58) Client -> Server @ : 1424 bytes (Service=HTTP)
+[Network Analyzer (1d50:511c)]   (Sid: 58) Server -> Client : 3199 bytes  (Service=HTTP)
+[Network Analyzer (1d50:4b40)] Address lookup for Sergey = 192.168.0.181
+[Network Analyzer (1d50:4b40)] Request Connection: Remote Server @ 46.101.131.214:443   (Service=)  (Sid= 59)  PROXIED!
+[Network Analyzer (1d50:511c)]   (Sid: 56) Connection Terminated (by Client)
+[Network Analyzer (1d50:511c)]   (Sid: 55) Connection Terminated (by Client)
+[Network Analyzer (1d50:4c88)]   (Sid: 59) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (1d50:4c88)]   (Sid: 59) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (1d50:4b40)] Address lookup for Sergey = 192.168.0.181
+[Network Analyzer (1d50:4b40)] Request Connection: Remote Server @ 185.85.13.155:80   (Service=)  (Sid= 60)  PROXIED!
+[Web Request      (1d50:511c)] "POST /api/report/chrome_ext"   
+[Network Analyzer (1d50:511c)]   (Sid: 59) Client -> Server @ : 1134 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1d50:4b40)] Address lookup for Sergey = 192.168.0.181
+[Network Analyzer (1d50:4b40)] Request Connection: Remote Server @ 185.85.13.155:80   (Service=)  (Sid= 61)  PROXIED!
+[Network Analyzer (1d50:511c)]   (Sid: 59) Server -> Client : 282 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1d50:511c)]   (Sid: 58) Connection Terminated (by Server)
+[Network Analyzer (1d50:511c)]   (Sid: 59) Connection Terminated (by Server)
+[User action                 ] EndTransactionEvent Confirmation [User action                 ] StartTransactionEvent Logout [Network Analyzer (1d50:4b40)] Address lookup for Sergey = 192.168.0.181
+[Network Analyzer (1d50:4b40)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 62)  PROXIED!
+[Web Request      (1d50:511c)] "GET /cgi-bin/welcome.pl?signOff=1"   
+[Network Analyzer (1d50:511c)]   (Sid: 62) Client -> Server @ : 932 bytes (Service=HTTP)
+[Network Analyzer (1d50:511c)]   (Sid: 62) Server -> Client : 1286 bytes  (Service=HTTP)
+[Network Analyzer (1d50:511c)]   (Sid: 43) Connection Terminated (by Client)
+[Network Analyzer (1d50:511c)]   (Sid: 42) Connection Terminated (by Client)
+[Web Request      (1d50:511c)] "POST /domainreliability/upload"   
+[Network Analyzer (1d50:511c)]   (Sid: 49) Client -> Server @ : 716 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1d50:511c)]   (Sid: 61) Connection Terminated (by Client)
+[Network Analyzer (1d50:511c)]   (Sid: 40) Connection Terminated (by Client)
+[Network Analyzer (1d50:511c)]   (Sid: 39) Connection Terminated (by Client)
+[Network Analyzer (1d50:511c)]   (Sid: 49) Server -> Client : 1129 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1d50:4b40)] Address lookup for Sergey = 192.168.0.181
+[Network Analyzer (1d50:511c)]   (Sid: 60) Connection Terminated (by Client)
+[Network Analyzer (1d50:4b40)] Request Connection: Remote Server @ 185.85.13.155:80   (Service=)  (Sid= 63)  PROXIED!
+[Network Analyzer (1d50:4b40)] Address lookup for Sergey = 192.168.0.181
+[Network Analyzer (1d50:4b40)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 64)  PROXIED!
+[Web Request      (1d50:511c)] "GET /cgi-bin/nav.pl?in=home"   
+[Network Analyzer (1d50:511c)]   (Sid: 62) Client -> Server @ : 784 bytes (Service=HTTP)
+[Web Request      (1d50:511c)] "GET /WebTours/home.html"   
+[Network Analyzer (1d50:511c)]   (Sid: 64) Client -> Server @ : 880 bytes (Service=HTTP)
+[Network Analyzer (1d50:511c)]   (Sid: 64) Server -> Client : 194 bytes  (Service=HTTP)
+[Network Analyzer (1d50:4b40)] Address lookup for Sergey = 192.168.0.181
+[Network Analyzer (1d50:4b40)] Request Connection: Remote Server @ 185.85.13.155:80   (Service=)  (Sid= 65)  PROXIED!
+[Network Analyzer (1d50:511c)]   (Sid: 62) Server -> Client : 1983 bytes  (Service=HTTP)
+[Network Analyzer (1d50:4b40)] Address lookup for Sergey = 192.168.0.181
+[Network Analyzer (1d50:4b40)] Request Connection: Remote Server @ 185.85.13.155:80   (Service=)  (Sid= 66)  PROXIED!
+[Network Analyzer (1d50:4b40)] Address lookup for Sergey = 192.168.0.181
+[Network Analyzer (1d50:4b40)] Request Connection: Remote Server @ 185.85.13.155:80   (Service=)  (Sid= 67)  PROXIED!
+[Network Analyzer (1d50:4b40)] Address lookup for Sergey = 192.168.0.181
+[Network Analyzer (1d50:4b40)] Request Connection: Remote Server @ 185.85.13.155:80   (Service=)  (Sid= 68)  PROXIED!
+[Network Analyzer (1d50:4b40)] Address lookup for Sergey = 192.168.0.181
+[Network Analyzer (1d50:4b40)] Request Connection: Remote Server @ 185.85.13.155:80   (Service=)  (Sid= 69)  PROXIED!
+[User action                 ] EndTransactionEvent Logout [User action                 ] EndTransactionEvent 03_TicketRoundTrip [Network Analyzer (1d50:511c)]   (Sid: 64) Connection Terminated (by Server)
+[Network Analyzer (1d50:511c)]   (Sid: 62) Connection Terminated (by Server)

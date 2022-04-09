@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\ageef\Documents\VuGen\Scripts\06_ViewingTickets
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\ageef\documents\vugen\scripts\06_viewingtickets\\logfile.log
+c:\users\ageef\documents\vugen\scripts\06_viewingtickets\\combined_06_ViewingTickets.c
+c:\users\ageef\documents\vugen\scripts\06_viewingtickets\\pre_cci.c

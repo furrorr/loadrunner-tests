@@ -1,0 +1,11 @@
+[t14]
+FileName1=t14_plugins_win.json
+URL1=https://www.gstatic.com/chrome/config/plugins_3/plugins_win.json
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_14.xml
+RequestHeaderFile=t14_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t14_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

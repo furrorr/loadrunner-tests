@@ -1,0 +1,2 @@
+"userSession=133603.098015391ziHccAQpDftVzzzHtVcDDpcfzVcf&username=fraction&password=74941851&l"
+"ogin.x=66&login.y=9&JSFormSubmit=off"

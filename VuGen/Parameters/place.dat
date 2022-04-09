@@ -1,0 +1,4 @@
+SeatingPreference,TypeofSeat,Number
+Aisle,First,1
+Window,Business,2
+None,Coach,3

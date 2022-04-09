@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\ageef\Documents\VuGen\Scripts\03_TicketWithoutPurchase
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\ageef\documents\vugen\scripts\03_ticketwithoutpurchase\\logfile.log
+c:\users\ageef\documents\vugen\scripts\03_ticketwithoutpurchase\\combined_03_TicketWithoutPurchase.c
+c:\users\ageef\documents\vugen\scripts\03_ticketwithoutpurchase\\pre_cci.c

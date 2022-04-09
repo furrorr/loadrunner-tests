@@ -1,0 +1,36 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: welcome.pl",
+                "infFile": "t2.inf",
+                "time": 1649258748422
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "HomePage",
+                "rawStartTime": 1649258748133,
+                "rawEndTime": 1649258748422,
+                "thinkTime": 0.0,
+                "wastedTime": 0.1007845401763916
+            },
+            {
+                "transactionName": "Login",
+                "rawStartTime": 1649258748429,
+                "rawEndTime": 1649258752517,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0
+            },
+            {
+                "transactionName": "03_TicketWithoutPurchase",
+                "rawStartTime": 1649258748118,
+                "rawEndTime": 1649258752517,
+                "thinkTime": 0.0,
+                "wastedTime": 0.1007845401763916
+            }
+        ]
+    }
+]

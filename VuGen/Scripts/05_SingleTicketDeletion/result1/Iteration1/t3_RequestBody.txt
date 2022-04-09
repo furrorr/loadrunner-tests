@@ -1,0 +1,2 @@
+"userSession=133603.080599433ziHccAiptfiDDDDDtVcDDpcfAHf&username=metaphase&password=82425781&l"
+"ogin.x=66&login.y=9&JSFormSubmit=off"

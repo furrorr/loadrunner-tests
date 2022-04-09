@@ -1,0 +1,13 @@
+[t13]
+FileName1=t13.json
+URL1=https://mail.yandex.ru/web-api/models/liza1?_m=do-service-worker-log
+Total=2
+RequestHeaderFile=t13_RequestHeader.txt
+RequestBodyFile=t13_RequestBody.txt
+ResponseHeaderFile=t13_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_13.xml
+FileName2=t13_be7773bf38a2e8e86b59c886e4864a5e-logo.png
+URL2=https://yastatic.net/s3/liza/_/be7773bf38a2e8e86b59c886e4864a5e-logo.png
+[ProtocolInfo]
+ProtocolId=QTWeb

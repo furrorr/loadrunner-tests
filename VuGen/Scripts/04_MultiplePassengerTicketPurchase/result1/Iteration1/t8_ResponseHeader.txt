@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Thu, 07 Apr 2022 09:50:22 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: Wed, 06 Apr 2022 09:50:23 GMT
+Set-Cookie: MTUserInfo=firstName&Stephen&username&fairing&address2&Centerville&hash&39&address1&2584%20Perine%20Street&lastName&Anderson%0A; path=/
+Keep-Alive: timeout=5, max=89
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+

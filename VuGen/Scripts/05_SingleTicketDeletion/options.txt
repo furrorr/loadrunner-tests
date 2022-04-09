@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\ageef\Documents\VuGen\Scripts\05_SingleTicketDeletion
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\ageef\documents\vugen\scripts\05_singleticketdeletion\\logfile.log
+c:\users\ageef\documents\vugen\scripts\05_singleticketdeletion\\combined_05_SingleTicketDeletion.c
+c:\users\ageef\documents\vugen\scripts\05_singleticketdeletion\\pre_cci.c
